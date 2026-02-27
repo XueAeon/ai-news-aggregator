@@ -32,7 +32,7 @@ export function isAiRelated(record: ArchiveItem): boolean {
     }
   }
 
-  if (['aibase', 'aihot', 'aihubtoday'].includes(siteId)) {
+  if (['aibase', 'aibasedaily', 'aihot', 'aihubtoday'].includes(siteId)) {
     return true;
   }
 
