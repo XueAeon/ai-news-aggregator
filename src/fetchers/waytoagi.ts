@@ -1,5 +1,5 @@
 import { fetchText } from '../utils/http.js';
-import { toISOString } from '../utils/date.js';
+import { toISOString, toZonedISOString } from '../utils/date.js';
 import { cleanUpdateTitle } from '../utils/text.js';
 import { CONFIG } from '../config.js';
 import type { WaytoagiPayload, WaytoagiUpdate } from '../types.js';
@@ -243,6 +243,7 @@ export async function fetchWaytoagiRecent7d(now: Date): Promise<WaytoagiPayload>
 
     return {
       generated_at: toISOString(now)!,
+      generated_at_local: toZonedISOString(now, CONFIG.timezone)!,
       timezone: CONFIG.timezone,
       root_url: rootUrl,
       history_url: historyUrl,
@@ -259,6 +260,7 @@ export async function fetchWaytoagiRecent7d(now: Date): Promise<WaytoagiPayload>
   } catch (e) {
     return {
       generated_at: toISOString(now)!,
+      generated_at_local: toZonedISOString(now, CONFIG.timezone)!,
       timezone: CONFIG.timezone,
       root_url: rootUrl,
       history_url: null,

@@ -10,6 +10,11 @@ export function toISOString(date: Date | null): string | null {
   return date.toISOString().replace('.000Z', 'Z');
 }
 
+export function toZonedISOString(date: Date | null, tz: string): string | null {
+  if (!date) return null;
+  return dayjs(date).tz(tz).format('YYYY-MM-DDTHH:mm:ss.SSSZ');
+}
+
 export function parseISO(str: string | null | undefined): Date | null {
   if (!str) return null;
   try {

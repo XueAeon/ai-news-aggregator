@@ -66,6 +66,7 @@ export interface SiteStat {
 
 export interface LatestPayload {
   generated_at: string;
+  generated_at_local: string;
   window_hours: number;
   total_items: number;
   total_items_ai_raw: number;
@@ -84,12 +85,14 @@ export interface LatestPayload {
 
 export interface ArchivePayload {
   generated_at: string;
+  generated_at_local: string;
   total_items: number;
   items: ArchiveItem[];
 }
 
 export interface StatusPayload {
   generated_at: string;
+  generated_at_local: string;
   sites: FetchStatus[];
   successful_sites: number;
   failed_sites: string[];
@@ -119,6 +122,7 @@ export interface WaytoagiUpdate {
 
 export interface WaytoagiPayload {
   generated_at: string;
+  generated_at_local: string;
   timezone: string;
   root_url: string;
   history_url: string | null;

@@ -15,7 +15,7 @@ import type {
   ArchivePayload,
   StatusPayload,
 } from './types.js';
-import { utcNow, toISOString, parseISO } from './utils/date.js';
+import { utcNow, toISOString, toZonedISOString, parseISO } from './utils/date.js';
 import { normalizeUrl, getHost } from './utils/url.js';
 import { maybeFixMojibake } from './utils/text.js';
 import { makeItemId } from './utils/hash.js';
@@ -307,6 +307,7 @@ async function main(): Promise<number> {
 
     return {
       generated_at: toISOString(now)!,
+      generated_at_local: toZonedISOString(now, CONFIG.timezone)!,
       window_hours: hours,
       total_items: itemsAiDedup.length,
       total_items_ai_raw: itemsAi.length,
@@ -356,6 +357,7 @@ async function main(): Promise<number> {
 
   const archivePayload: ArchivePayload = {
     generated_at: toISOString(now)!,
+    generated_at_local: toZonedISOString(now, CONFIG.timezone)!,
     total_items: archive.size,
     items: Array.from(archive.values()).sort((a, b) => {
       const timeA = parseISO(a.last_seen_at)?.getTime() ?? 0;
@@ -366,6 +368,7 @@ async function main(): Promise<number> {
 
   const statusPayload: StatusPayload = {
     generated_at: toISOString(now)!,
+    generated_at_local: toZonedISOString(now, CONFIG.timezone)!,
     sites: statuses,
     successful_sites: statuses.filter((s) => s.ok).length,
     failed_sites: statuses.filter((s) => !s.ok).map((s) => s.site_id),
