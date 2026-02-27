@@ -260,8 +260,8 @@ async function main(): Promise<number> {
     itemsAi: ArchiveItem[],
     hours: number
   ): LatestPayload {
-    const itemsAiDedup = dedupeItemsByTitleUrl(itemsAi, false);
-    const itemsAllDedup = dedupeItemsByTitleUrl(itemsAll, true);
+    const itemsAiDedup = dedupeItemsByTitleUrl(itemsAi);
+    const itemsAllDedup = dedupeItemsByTitleUrl(itemsAll);
 
     const siteStat = new Map<string, SiteStat>();
     const rawCountBySite = new Map<string, number>();

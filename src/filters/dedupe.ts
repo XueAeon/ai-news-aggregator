@@ -9,15 +9,36 @@ function eventTime(record: ArchiveItem): Date | null {
   return parseISO(record.published_at) || parseISO(record.first_seen_at);
 }
 
+function normalizeTitleForDedupe(title: string): string {
+  return (title || '')
+    .normalize('NFKC')
+    .toLowerCase()
+    .replace(/\s+/g, ' ')
+    .replace(/[\u3002\uff01\uff1f\uff0c\uff1a\uff1b.!?,:;]+$/g, '')
+    .trim();
+}
+
+function compareItemsByRecency(a: ArchiveItem, b: ArchiveItem): number {
+  const timeA = eventTime(a)?.getTime() ?? 0;
+  const timeB = eventTime(b)?.getTime() ?? 0;
+  if (timeA !== timeB) return timeB - timeA;
+  return (b.id || '').localeCompare(a.id || '');
+}
+
+function pickBestItem(values: ArchiveItem[]): ArchiveItem {
+  return values.reduce((best, current) => {
+    return compareItemsByRecency(current, best) < 0 ? current : best;
+  });
+}
+
 export function dedupeItemsByTitleUrl(
-  items: ArchiveItem[],
-  randomPick: boolean = true
+  items: ArchiveItem[]
 ): ArchiveItem[] {
   const groups = new Map<string, ArchiveItem[]>();
 
   for (const item of items) {
     const siteId = (item.site_id || '').toLowerCase();
-    const title = (item.title_original || item.title || '').toLowerCase();
+    const title = normalizeTitleForDedupe(item.title_original || item.title || '');
     const url = normalizeUrl(item.url || '');
 
     const key = siteId === 'aihubtoday' ? `url::${url}` : `${title}||${url}`;
@@ -32,32 +53,10 @@ export function dedupeItemsByTitleUrl(
 
   for (const values of groups.values()) {
     if (values.length === 0) continue;
-
-    if (randomPick) {
-      const randomIndex = Math.floor(Math.random() * values.length);
-      result.push(values[randomIndex]);
-    } else {
-      const chosen = values.reduce((best, current) => {
-        const bestTime = eventTime(best);
-        const currentTime = eventTime(current);
-        if (!bestTime && !currentTime) {
-          return (best.id || '') > (current.id || '') ? best : current;
-        }
-        if (!bestTime) return current;
-        if (!currentTime) return best;
-        if (currentTime > bestTime) return current;
-        if (currentTime < bestTime) return best;
-        return (best.id || '') > (current.id || '') ? best : current;
-      });
-      result.push(chosen);
-    }
+    result.push(pickBestItem(values));
   }
 
-  result.sort((a, b) => {
-    const timeA = eventTime(a)?.getTime() ?? 0;
-    const timeB = eventTime(b)?.getTime() ?? 0;
-    return timeB - timeA;
-  });
+  result.sort(compareItemsByRecency);
 
   return result;
 }
