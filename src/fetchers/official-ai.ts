@@ -26,6 +26,18 @@ const META_AI_KEYWORDS = [
   'foundation model',
 ];
 
+const META_NOISE_KEYWORDS = [
+  'scam',
+  'fraud',
+  'election',
+  'safety',
+  'policy',
+  'content moderation',
+  'cybersecurity',
+  'privacy',
+  'integrity',
+];
+
 const NVIDIA_AI_KEYWORDS = [
   'ai',
   'nemo',
@@ -44,6 +56,13 @@ function includesAny(text: string, keywords: string[]): boolean {
   return keywords.some((k) => t.includes(k));
 }
 
+function isRecent(date: Date, now: Date, recentDays: number): boolean {
+  const maxFutureMs = 2 * 24 * 60 * 60 * 1000;
+  if (date.getTime() > now.getTime() + maxFutureMs) return false;
+  const threshold = now.getTime() - recentDays * 24 * 60 * 60 * 1000;
+  return date.getTime() >= threshold;
+}
+
 export class OfficialAiSourcesFetcher extends BaseFetcher {
   siteId = 'officialai';
   siteName = 'Official AI Sources';
@@ -51,6 +70,7 @@ export class OfficialAiSourcesFetcher extends BaseFetcher {
   async fetch(now: Date): Promise<RawItem[]> {
     const items: RawItem[] = [];
     const seen = new Set<string>();
+    const RECENT_DAYS = 45;
     const parser = new Parser({
       timeout: 30000,
       headers: {
@@ -62,6 +82,8 @@ export class OfficialAiSourcesFetcher extends BaseFetcher {
       const t = (title || '').trim();
       const u = (url || '').trim();
       if (!t || !u || !u.startsWith('http')) return;
+      if (!publishedAt) return;
+      if (!isRecent(publishedAt, now, RECENT_DAYS)) return;
       const key = `${source}||${t.toLowerCase()}||${u}`;
       if (seen.has(key)) return;
       seen.add(key);
@@ -111,7 +133,7 @@ export class OfficialAiSourcesFetcher extends BaseFetcher {
     await addRssFeed('https://about.fb.com/news/feed/', 'Meta AI', (entry) => {
       const categories = (entry.categories || []).join(' ').toLowerCase();
       const text = `${entry.title || ''} ${entry.contentSnippet || ''} ${categories}`;
-      return includesAny(text, META_AI_KEYWORDS);
+      return includesAny(text, META_AI_KEYWORDS) && !includesAny(text, META_NOISE_KEYWORDS);
     });
 
     // Anthropic newsroom page
@@ -170,6 +192,12 @@ export class OfficialAiSourcesFetcher extends BaseFetcher {
     } catch {
       // ignore
     }
+
+    items.sort((a, b) => {
+      const ta = a.publishedAt?.getTime() ?? 0;
+      const tb = b.publishedAt?.getTime() ?? 0;
+      return tb - ta;
+    });
 
     return items;
   }

@@ -32,8 +32,16 @@ export function isAiRelated(record: ArchiveItem): boolean {
     }
   }
 
-  if (['aibase', 'aibasedaily', 'aihot', 'aihubtoday', 'officialai'].includes(siteId)) {
+  if (['aibase', 'aibasedaily', 'aihot', 'aihubtoday'].includes(siteId)) {
     return true;
+  }
+
+  if (siteId === 'officialai') {
+    const officialText = `${title} ${url}`.toLowerCase();
+    return (
+      containsAnyKeyword(officialText, CONFIG.filter.aiKeywords) ||
+      CONFIG.filter.enSignalPattern.test(officialText)
+    );
   }
 
   const hasAi =

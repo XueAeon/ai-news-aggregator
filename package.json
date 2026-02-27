@@ -6,6 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "fetch": "tsx src/index.ts",
+    "build:analysis-input": "tsx src/build-analysis-input.ts",
     "fetch:dev": "tsx watch src/index.ts",
     "fetch:opml": "tsx src/test-opml.ts",
     "build": "tsc",
