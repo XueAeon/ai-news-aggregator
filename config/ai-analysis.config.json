@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "openai": {
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "model": "deepseek-v3.2",
+    "enable_thinking": true,
+    "stream": true,
+    "stream_include_usage": true,
+    "temperature": 0.2,
+    "max_events": 80,
+    "request_timeout_ms": 120000
+  },
+  "input_path": "data/analysis-input-24h.json",
+  "prompt_path": "prompts/analysis-24h.prompt.md",
+  "output_path": "data/ai-analysis-24h.md"
+}
