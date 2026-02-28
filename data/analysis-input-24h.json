@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-02-28T04:56:04.770Z",
-  "generated_at_local": "2026-02-28T12:56:04.770+08:00",
-  "source_generated_at": "2026-02-28T04:55:37.741Z",
-  "source_generated_at_local": "2026-02-28T12:55:37.741+08:00",
+  "generated_at": "2026-02-28T06:39:09.827Z",
+  "generated_at_local": "2026-02-28T14:39:09.827+08:00",
+  "source_generated_at": "2026-02-28T06:38:44.726Z",
+  "source_generated_at_local": "2026-02-28T14:38:44.726+08:00",
   "window_hours": 24,
   "compression": {
     "algorithm_version": "v1.0",
-    "input_items": 1351,
-    "clustered_events": 1298,
+    "input_items": 1361,
+    "clustered_events": 1304,
     "output_events": 80,
     "max_events": 80,
     "per_site_cap": 28
@@ -15,7 +15,7 @@
   "site_distribution": [
     {
       "site_id": "aibase",
-      "count": 19
+      "count": 21
     },
     {
       "site_id": "techurls",
@@ -23,37 +23,61 @@
     },
     {
       "site_id": "buzzing",
-      "count": 17
-    },
-    {
-      "site_id": "aihubtoday",
-      "count": 11
-    },
-    {
-      "site_id": "newsnow",
-      "count": 4
-    },
-    {
-      "site_id": "tophub",
-      "count": 4
-    },
-    {
-      "site_id": "zeli",
-      "count": 4
+      "count": 16
     },
     {
       "site_id": "iris",
+      "count": 8
+    },
+    {
+      "site_id": "tophub",
+      "count": 6
+    },
+    {
+      "site_id": "newsnow",
+      "count": 5
+    },
+    {
+      "site_id": "aihubtoday",
+      "count": 3
+    },
+    {
+      "site_id": "zeli",
       "count": 3
     }
   ],
   "top_events": [
+    {
+      "event_id": "deepseek v4下周发布:原生支持影音图文生成,适配国产算力",
+      "title": "DeepSeek V4下周发布:原生支持影音图文生成，适配国产算力",
+      "title_zh": "DeepSeek V4下周发布:原生支持影音图文生成，适配国产算力",
+      "title_bilingual": "DeepSeek V4下周发布:原生支持影音图文生成，适配国产算力",
+      "published_at": "2026-02-28T06:38:44.726Z",
+      "age_hours": 0.01,
+      "site_id": "aibase",
+      "site_name": "AIbase",
+      "source": "AIbase",
+      "url": "https://www.aibase.com/news/25790",
+      "related_count": 2,
+      "related_urls": [
+        "https://www.aibase.com/news/25790",
+        "https://www.aibase.com/zh/news/25790"
+      ],
+      "signals": {
+        "source_weight": 1.1,
+        "keyword_hits": 3,
+        "cross_source_count": 2,
+        "recency_score": 1,
+        "total_score": 4.73
+      }
+    },
     {
       "event_id": "马斯克出庭狠批openai:chatgpt或导致用户自杀,xai更注重安全",
       "title": "马斯克出庭狠批OpenAI：ChatGPT或导致用户自杀，xAI更注重安全！",
       "title_zh": "马斯克出庭狠批OpenAI：ChatGPT或导致用户自杀，xAI更注重安全！",
       "title_bilingual": "马斯克出庭狠批OpenAI：ChatGPT或导致用户自杀，xAI更注重安全！",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -67,8 +91,8 @@
         "source_weight": 1.1,
         "keyword_hits": 3,
         "cross_source_count": 2,
-        "recency_score": 0.872,
-        "total_score": 4.577
+        "recency_score": 0.801,
+        "total_score": 4.491
       }
     },
     {
@@ -77,7 +101,7 @@
       "title_zh": "​500 亿美元“超级联姻”！OpenAI与亚马逊达成战略合作，共建AI智能体新生态",
       "title_bilingual": "​500 亿美元“超级联姻”！OpenAI与亚马逊达成战略合作，共建AI智能体新生态",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -91,8 +115,8 @@
         "source_weight": 1.1,
         "keyword_hits": 3,
         "cross_source_count": 2,
-        "recency_score": 0.872,
-        "total_score": 4.577
+        "recency_score": 0.801,
+        "total_score": 4.491
       }
     },
     {
@@ -101,7 +125,7 @@
       "title_zh": "OpenAI达成协议，将在美国战争部机密网络上部署人工智能模型",
       "title_bilingual": "OpenAI达成协议，将在美国战争部机密网络上部署人工智能模型",
       "published_at": "2026-02-28T04:45:31.567Z",
-      "age_hours": 0.18,
+      "age_hours": 1.89,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "reut.rs",
@@ -115,8 +139,78 @@
         "source_weight": 0.85,
         "keyword_hits": 4,
         "cross_source_count": 2,
-        "recency_score": 0.993,
-        "total_score": 4.521
+        "recency_score": 0.921,
+        "total_score": 4.435
+      }
+    },
+    {
+      "event_id": "全球最大游戏博主“偷师”deepseek,爆改国产大模型干翻chatgpt",
+      "title": "全球最大游戏博主“偷师”DeepSeek，爆改国产大模型干翻ChatGPT",
+      "title_zh": "全球最大游戏博主“偷师”DeepSeek，爆改国产大模型干翻ChatGPT",
+      "title_bilingual": "全球最大游戏博主“偷师”DeepSeek，爆改国产大模型干翻ChatGPT",
+      "published_at": "2026-02-28T06:24:06Z",
+      "age_hours": 0.25,
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "source": "虎嗅 (Huxiu)",
+      "url": "https://www.huxiu.com/article/4837752.html?f=rss",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.huxiu.com/article/4837752.html?f=rss"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 5,
+        "cross_source_count": 1,
+        "recency_score": 0.99,
+        "total_score": 4.367
+      }
+    },
+    {
+      "event_id": "deepseek v4 发布在即!全新多模态模型让 ai 生成更智能",
+      "title": "DeepSeek V4 发布在即！全新多模态模型让 AI 生成更智能",
+      "title_zh": "DeepSeek V4 发布在即！全新多模态模型让 AI 生成更智能",
+      "title_bilingual": "DeepSeek V4 发布在即！全新多模态模型让 AI 生成更智能",
+      "published_at": "2026-02-28T06:38:44.726Z",
+      "age_hours": 0.01,
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "Readhub · AI",
+      "url": "https://www.aibase.com/zh/news/25789",
+      "related_count": 2,
+      "related_urls": [
+        "https://www.aibase.com/zh/news/25789",
+        "https://www.aibase.com/news/25789"
+      ],
+      "signals": {
+        "source_weight": 0.75,
+        "keyword_hits": 4,
+        "cross_source_count": 2,
+        "recency_score": 1,
+        "total_score": 4.35
+      }
+    },
+    {
+      "event_id": "算力版“联姻”!英伟达将发布groq技术定制芯片,openai成头号买家",
+      "title": "算力版“联姻”！英伟达将发布Groq技术定制芯片，OpenAI成头号买家",
+      "title_zh": "算力版“联姻”！英伟达将发布Groq技术定制芯片，OpenAI成头号买家",
+      "title_bilingual": "算力版“联姻”！英伟达将发布Groq技术定制芯片，OpenAI成头号买家",
+      "published_at": "2026-02-28T06:38:44.726Z",
+      "age_hours": 0.01,
+      "site_id": "aibase",
+      "site_name": "AIbase",
+      "source": "AIbase",
+      "url": "https://www.aibase.com/news/25792",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.aibase.com/news/25792"
+      ],
+      "signals": {
+        "source_weight": 1.1,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 1,
+        "total_score": 4.33
       }
     },
     {
@@ -125,7 +219,7 @@
       "title_zh": "特朗普总统禁止在政府系统中使用Anthropic",
       "title_bilingual": "特朗普总统禁止在政府系统中使用Anthropic / President Trump bans Anthropic from use in government systems",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Hacker News",
@@ -139,8 +233,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 2,
-        "recency_score": 0.958,
-        "total_score": 4.409
+        "recency_score": 0.886,
+        "total_score": 4.323
       }
     },
     {
@@ -149,7 +243,7 @@
       "title_zh": "英伟达计划推出全新芯片 OpenAI是大客户",
       "title_bilingual": "英伟达计划推出全新芯片 OpenAI是大客户",
       "published_at": "2026-02-28T04:14:21.229Z",
-      "age_hours": 0.7,
+      "age_hours": 2.41,
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "source": "36kr",
@@ -164,8 +258,8 @@
         "source_weight": 0.85,
         "keyword_hits": 2,
         "cross_source_count": 3,
-        "recency_score": 0.971,
-        "total_score": 4.395
+        "recency_score": 0.899,
+        "total_score": 4.309
       }
     },
     {
@@ -174,7 +268,7 @@
       "title_zh": "​强强联手！咨询巨头埃森哲签约Mistral AI，力推欧洲“主权AI”落地",
       "title_bilingual": "​强强联手！咨询巨头埃森哲签约Mistral AI，力推欧洲“主权AI”落地",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -188,8 +282,8 @@
         "source_weight": 1.1,
         "keyword_hits": 2,
         "cross_source_count": 2,
-        "recency_score": 0.872,
-        "total_score": 4.327
+        "recency_score": 0.801,
+        "total_score": 4.241
       }
     },
     {
@@ -198,7 +292,7 @@
       "title_zh": "硅谷“核弹级”融资！OpenAI 狂揽 1100 亿美元：联手亚马逊加注千亿算力，Trainium 4 芯片浮出水面",
       "title_bilingual": "硅谷“核弹级”融资！OpenAI 狂揽 1100 亿美元：联手亚马逊加注千亿算力，Trainium 4 芯片浮出水面",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -211,8 +305,8 @@
         "source_weight": 1.1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.958,
-        "total_score": 4.279
+        "recency_score": 0.886,
+        "total_score": 4.193
       }
     },
     {
@@ -221,7 +315,7 @@
       "title_zh": "尺度大开？ChatGPT 成人模式“Naughty Chat”曝光，OpenAI 拟引入年龄验证",
       "title_bilingual": "尺度大开？ChatGPT 成人模式“Naughty Chat”曝光，OpenAI 拟引入年龄验证",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -234,8 +328,8 @@
         "source_weight": 1.1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.958,
-        "total_score": 4.279
+        "recency_score": 0.886,
+        "total_score": 4.193
       }
     },
     {
@@ -244,7 +338,7 @@
       "title_zh": "阿里开源桌面Agent工具CoPaw，可二次开发自定义模型",
       "title_bilingual": "阿里开源桌面Agent工具CoPaw，可二次开发自定义模型",
       "published_at": "2026-02-28T04:21:21.229Z",
-      "age_hours": 0.58,
+      "age_hours": 2.3,
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "source": "36kr",
@@ -258,8 +352,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 2,
-        "recency_score": 0.976,
-        "total_score": 4.251
+        "recency_score": 0.904,
+        "total_score": 4.165
       }
     },
     {
@@ -268,7 +362,7 @@
       "title_zh": "OpenAI与亚马逊宣布建立战略合作伙伴关系",
       "title_bilingual": "OpenAI与亚马逊宣布建立战略合作伙伴关系",
       "published_at": "2026-02-28T04:55:37.741Z",
-      "age_hours": 0.01,
+      "age_hours": 1.73,
       "site_id": "tophub",
       "site_name": "TopHub",
       "source": "Readhub · AI",
@@ -283,8 +377,8 @@
         "source_weight": 0.75,
         "keyword_hits": 2,
         "cross_source_count": 3,
-        "recency_score": 1,
-        "total_score": 4.25
+        "recency_score": 0.928,
+        "total_score": 4.164
       }
     },
     {
@@ -293,7 +387,7 @@
       "title_zh": "DeepSeek-V4多模态模型正式发布。",
       "title_bilingual": "DeepSeek-V4多模态模型正式发布。",
       "published_at": "2026-02-28T00:00:00Z",
-      "age_hours": 4.93,
+      "age_hours": 6.65,
       "site_id": "aihubtoday",
       "site_name": "AI HubToday",
       "source": "Daily Digest",
@@ -306,8 +400,8 @@
         "source_weight": 1.05,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.794,
-        "total_score": 4.243
+        "recency_score": 0.723,
+        "total_score": 4.157
       }
     },
     {
@@ -316,7 +410,7 @@
       "title_zh": "OpenAI奥特曼：与美国国防部达成协议 在机密网络部署其模型",
       "title_bilingual": "OpenAI奥特曼：与美国国防部达成协议 在机密网络部署其模型",
       "published_at": "2026-02-28T04:01:21.229Z",
-      "age_hours": 0.91,
+      "age_hours": 2.63,
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "source": "36kr",
@@ -330,8 +424,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 2,
-        "recency_score": 0.962,
-        "total_score": 4.234
+        "recency_score": 0.89,
+        "total_score": 4.148
       }
     },
     {
@@ -340,7 +434,7 @@
       "title_zh": "面壁智能完成数亿元新一轮融资，中国电信领投深化端侧AI布局",
       "title_bilingual": "面壁智能完成数亿元新一轮融资，中国电信领投深化端侧AI布局",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -354,8 +448,8 @@
         "source_weight": 1.1,
         "keyword_hits": 1,
         "cross_source_count": 2,
-        "recency_score": 0.958,
-        "total_score": 4.179
+        "recency_score": 0.886,
+        "total_score": 4.093
       }
     },
     {
@@ -364,7 +458,7 @@
       "title_zh": "马斯克起诉OpenAI最新证词:抨击ChatGPT安全记录并修正捐赠金额",
       "title_bilingual": "马斯克起诉OpenAI最新证词:抨击ChatGPT安全记录并修正捐赠金额",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -377,8 +471,8 @@
         "source_weight": 1.1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.872,
-        "total_score": 4.177
+        "recency_score": 0.801,
+        "total_score": 4.091
       }
     },
     {
@@ -387,7 +481,7 @@
       "title_zh": "​马斯克出庭猛烈抨击 OpenAI：称“没人因为 Grok 自杀”",
       "title_bilingual": "​马斯克出庭猛烈抨击 OpenAI：称“没人因为 Grok 自杀”",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -400,8 +494,8 @@
         "source_weight": 1.1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.872,
-        "total_score": 4.177
+        "recency_score": 0.801,
+        "total_score": 4.091
       }
     },
     {
@@ -410,7 +504,7 @@
       "title_zh": "五角大楼抛弃Anthropic后 批准OpenAI的AI安全红线",
       "title_bilingual": "五角大楼抛弃Anthropic后 批准OpenAI的AI安全红线",
       "published_at": "2026-02-28T02:36:51.483Z",
-      "age_hours": 2.32,
+      "age_hours": 4.04,
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "source": "36kr",
@@ -424,8 +518,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 2,
-        "recency_score": 0.903,
-        "total_score": 4.164
+        "recency_score": 0.832,
+        "total_score": 4.078
       }
     },
     {
@@ -434,7 +528,7 @@
       "title_zh": "OpenAI达成协议，将在美国战争部机密网络上部署人工智能模型",
       "title_bilingual": "OpenAI达成协议，将在美国战争部机密网络上部署人工智能模型 / OpenAI reaches deal to deploy AI models on U.S. DoW classified network",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Hacker News",
@@ -448,8 +542,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 2,
-        "recency_score": 0.958,
-        "total_score": 4.159
+        "recency_score": 0.886,
+        "total_score": 4.073
       }
     },
     {
@@ -458,7 +552,7 @@
       "title_zh": "OpenAI与国防部达成协议，将在其机密网络中部署模型",
       "title_bilingual": "OpenAI与国防部达成协议，将在其机密网络中部署模型 / OpenAI agrees with Dept. of War to deploy models in their classified network",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Hacker News",
@@ -472,8 +566,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 2,
-        "recency_score": 0.958,
-        "total_score": 4.159
+        "recency_score": 0.886,
+        "total_score": 4.073
       }
     },
     {
@@ -482,7 +576,7 @@
       "title_zh": "OpenAI 因预测市场内幕交易而解雇一名员工",
       "title_bilingual": "OpenAI 因预测市场内幕交易而解雇一名员工 / OpenAI Fires an Employee For Prediction Market Insider Trading",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Slashdot",
@@ -496,8 +590,54 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 2,
-        "recency_score": 0.958,
-        "total_score": 4.159
+        "recency_score": 0.886,
+        "total_score": 4.073
+      }
+    },
+    {
+      "event_id": "消息称 deepseek 下周发布 v4 多模态模型,原生支持图片、视频和文本 ai 生成",
+      "title": "消息称 DeepSeek 下周发布 V4 多模态模型，原生支持图片、视频和文本 AI 生成",
+      "title_zh": "消息称 DeepSeek 下周发布 V4 多模态模型，原生支持图片、视频和文本 AI 生成",
+      "title_bilingual": "消息称 DeepSeek 下周发布 V4 多模态模型，原生支持图片、视频和文本 AI 生成",
+      "published_at": "2026-02-28T05:28:04Z",
+      "age_hours": 1.18,
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "source": "IT之家 (ITHome)",
+      "url": "https://www.ithome.com/0/924/511.htm",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.ithome.com/0/924/511.htm"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 4,
+        "cross_source_count": 1,
+        "recency_score": 0.951,
+        "total_score": 4.071
+      }
+    },
+    {
+      "event_id": "openai reaches a.i. agreement with defense dept. after anthropic clash",
+      "title": "OpenAI Reaches A.I. Agreement With Defense Dept. After Anthropic Clash",
+      "title_zh": "OpenAI 迈向人工智能人类冲突后与国防部达成协议",
+      "title_bilingual": "OpenAI 迈向人工智能人类冲突后与国防部达成协议 / OpenAI Reaches A.I. Agreement With Defense Dept. After Anthropic Clash",
+      "published_at": "2026-02-28T06:38:44.726Z",
+      "age_hours": 0.01,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/02/27/technology/openai-agreement-pentagon-ai.html",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.nytimes.com/2026/02/27/technology/openai-agreement-pentagon-ai.html"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 1,
+        "total_score": 4.06
       }
     },
     {
@@ -506,7 +646,7 @@
       "title_zh": "OpenAI在与Anthropic争议后向五角大楼开放AI模型访问权限",
       "title_bilingual": "OpenAI在与Anthropic争议后向五角大楼开放AI模型访问权限",
       "published_at": "2026-02-28T04:45:31.638Z",
-      "age_hours": 0.18,
+      "age_hours": 1.89,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "www.bloomberg.com",
@@ -519,8 +659,8 @@
         "source_weight": 0.85,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.993,
-        "total_score": 4.121
+        "recency_score": 0.921,
+        "total_score": 4.035
       }
     },
     {
@@ -529,7 +669,7 @@
       "title_zh": "埃森哲股价大涨，因该公司与Mistral合作推进欧洲人工智能业务",
       "title_bilingual": "埃森哲股价大涨，因该公司与Mistral合作推进欧洲人工智能业务",
       "published_at": "2026-02-28T04:45:31.556Z",
-      "age_hours": 0.18,
+      "age_hours": 1.89,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "www.wsj.com",
@@ -542,8 +682,8 @@
         "source_weight": 0.85,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.993,
-        "total_score": 4.121
+        "recency_score": 0.921,
+        "total_score": 4.035
       }
     },
     {
@@ -552,7 +692,7 @@
       "title_zh": "OpenAI与国防部达成人工智能协议，此前曾与Anthropic发生冲突",
       "title_bilingual": "OpenAI与国防部达成人工智能协议，此前曾与Anthropic发生冲突",
       "published_at": "2026-02-28T04:45:31.538Z",
-      "age_hours": 0.18,
+      "age_hours": 1.89,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "nyti.ms",
@@ -565,31 +705,8 @@
         "source_weight": 0.85,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.993,
-        "total_score": 4.121
-      }
-    },
-    {
-      "event_id": "openai reaches a.i. agreement with defense dept. after anthropic clash",
-      "title": "OpenAI Reaches A.I. Agreement With Defense Dept. After Anthropic Clash",
-      "title_zh": "OpenAI 迈向人工智能人类冲突后与国防部达成协议",
-      "title_bilingual": "OpenAI 迈向人工智能人类冲突后与国防部达成协议 / OpenAI Reaches A.I. Agreement With Defense Dept. After Anthropic Clash",
-      "published_at": "2026-02-28T04:55:37.741Z",
-      "age_hours": 0.01,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/02/27/technology/openai-reaches-ai-agreement-with-defense-dept-after-anthropic-clash.html",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.nytimes.com/2026/02/27/technology/openai-reaches-ai-agreement-with-defense-dept-after-anthropic-clash.html"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 1,
-        "total_score": 4.06
+        "recency_score": 0.921,
+        "total_score": 4.035
       }
     },
     {
@@ -598,7 +715,7 @@
       "title_zh": "特朗普命令联邦机构“立即”停止使用人类人工智能技术",
       "title_bilingual": "特朗普命令联邦机构“立即”停止使用人类人工智能技术 / Trump Orders Federal Agencies To Stop Using Anthropic AI Tech 'Immediately'",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Slashdot",
@@ -612,8 +729,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 2,
-        "recency_score": 0.872,
-        "total_score": 4.057
+        "recency_score": 0.801,
+        "total_score": 3.971
       }
     },
     {
@@ -622,7 +739,7 @@
       "title_zh": "我正在指示战争部将人类指定为供应链风险",
       "title_bilingual": "我正在指示战争部将人类指定为供应链风险 / I am directing the Department of War to designate Anthropic a Supply-Chain Risk",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Hacker News",
@@ -636,8 +753,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 2,
-        "recency_score": 0.872,
-        "total_score": 4.057
+        "recency_score": 0.801,
+        "total_score": 3.971
       }
     },
     {
@@ -646,7 +763,7 @@
       "title_zh": "OpenAI与五角大楼达成协议，将部署人工智能模型",
       "title_bilingual": "OpenAI与五角大楼达成协议，将部署人工智能模型",
       "published_at": "2026-02-28T03:25:32.120Z",
-      "age_hours": 1.51,
+      "age_hours": 3.23,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "www.bloomberg.com",
@@ -659,8 +776,32 @@
         "source_weight": 0.85,
         "keyword_hits": 4,
         "cross_source_count": 1,
+        "recency_score": 0.866,
+        "total_score": 3.969
+      }
+    },
+    {
+      "event_id": "外媒:openai获1100亿美元融资,英伟达投资300亿美元",
+      "title": "外媒：OpenAI获1100亿美元融资，英伟达投资300亿美元",
+      "title_zh": "外媒：OpenAI获1100亿美元融资，英伟达投资300亿美元",
+      "title_bilingual": "外媒：OpenAI获1100亿美元融资，英伟达投资300亿美元",
+      "published_at": "2026-02-28T05:09:05.324Z",
+      "age_hours": 1.5,
+      "site_id": "newsnow",
+      "site_name": "NewsNow",
+      "source": "36kr",
+      "url": "https://www.36kr.com/newsflashes/3702448565186945",
+      "related_count": 2,
+      "related_urls": [
+        "https://www.36kr.com/newsflashes/3702448565186945",
+        "https://36kr.com/newsflashes/3702448565186945?f=rss"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 2,
+        "cross_source_count": 2,
         "recency_score": 0.937,
-        "total_score": 4.055
+        "total_score": 3.955
       }
     },
     {
@@ -669,7 +810,7 @@
       "title_zh": "​谷歌发布更替公告：Gemini 3 Pro Preview 即将退役，开发者需限时迁移",
       "title_bilingual": "​谷歌发布更替公告：Gemini 3 Pro Preview 即将退役，开发者需限时迁移",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -682,8 +823,8 @@
         "source_weight": 1.1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.958,
-        "total_score": 4.029
+        "recency_score": 0.886,
+        "total_score": 3.943
       }
     },
     {
@@ -692,7 +833,7 @@
       "title_zh": "消息来源：Nvidia 计划在 3 月份的 GTC 大会上推出一款新的 AI 推理芯片；该系统将采用 Groq 设计的芯片，OpenAI 是其客户（华尔街日报）",
       "title_bilingual": "消息来源：Nvidia 计划在 3 月份的 GTC 大会上推出一款新的 AI 推理芯片；该系统将采用 Groq 设计的芯片，OpenAI 是其客户（华尔街日报） / Sources: Nvidia plans to unveil a new AI inference chip at its GTC conference in March; the system will have a Groq-designed chip and OpenAI is a customer (Wall Street Journal)",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -705,8 +846,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.958,
-        "total_score": 4.009
+        "recency_score": 0.886,
+        "total_score": 3.923
       }
     },
     {
@@ -715,7 +856,7 @@
       "title_zh": "Anthropic 表示，它将在法庭上对“任何供应链风险指定”提出质疑，并且该指定只会影响承包商在国防部工作中使用克劳德 (Anthropic)",
       "title_bilingual": "Anthropic 表示，它将在法庭上对“任何供应链风险指定”提出质疑，并且该指定只会影响承包商在国防部工作中使用克劳德 (Anthropic) / Anthropic says it'll challenge \"any supply chain risk designation in court\" and that the designation would only affect contractors' use of Claude on DOD work (Anthropic)",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -728,8 +869,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.958,
-        "total_score": 4.009
+        "recency_score": 0.886,
+        "total_score": 3.923
       }
     },
     {
@@ -738,7 +879,7 @@
       "title_zh": "消息来源：DeepSeek 计划下周发布其多模式模型 V4，并与华为和中国 AI 芯片制造商寒武纪合作，针对其产品优化 V4（金融时报）",
       "title_bilingual": "消息来源：DeepSeek 计划下周发布其多模式模型 V4，并与华为和中国 AI 芯片制造商寒武纪合作，针对其产品优化 V4（金融时报） / Sources: DeepSeek plans to release its multimodal model V4 next week and worked with Huawei and Chinese AI chipmaker Cambricon to optimize V4 for their products (Financial Times)",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -751,8 +892,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.958,
-        "total_score": 4.009
+        "recency_score": 0.886,
+        "total_score": 3.923
       }
     },
     {
@@ -761,7 +902,7 @@
       "title_zh": "Anthropic重磅投喂开源社区。",
       "title_bilingual": "Anthropic重磅投喂开源社区。",
       "published_at": "2026-02-28T00:00:00Z",
-      "age_hours": 4.93,
+      "age_hours": 6.65,
       "site_id": "aihubtoday",
       "site_name": "AI HubToday",
       "source": "Daily Digest",
@@ -774,8 +915,8 @@
         "source_weight": 1.05,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.794,
-        "total_score": 3.993
+        "recency_score": 0.723,
+        "total_score": 3.907
       }
     },
     {
@@ -784,7 +925,7 @@
       "title_zh": "LLM智能体曝隐式注入致命漏洞。",
       "title_bilingual": "LLM智能体曝隐式注入致命漏洞。",
       "published_at": "2026-02-28T00:00:00Z",
-      "age_hours": 4.93,
+      "age_hours": 6.65,
       "site_id": "aihubtoday",
       "site_name": "AI HubToday",
       "source": "Daily Digest",
@@ -797,8 +938,8 @@
         "source_weight": 1.05,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.794,
-        "total_score": 3.993
+        "recency_score": 0.723,
+        "total_score": 3.907
       }
     },
     {
@@ -807,7 +948,7 @@
       "title_zh": "OpenAI 正在与五角大楼就一项协议进行谈判",
       "title_bilingual": "OpenAI 正在与五角大楼就一项协议进行谈判 / OpenAI is negotiating a deal with The Pentagon",
       "published_at": "2026-02-28T01:20:11Z",
-      "age_hours": 3.6,
+      "age_hours": 5.32,
       "site_id": "zeli",
       "site_name": "Zeli",
       "source": "Hacker News · 24h最热",
@@ -820,8 +961,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.85,
-        "total_score": 3.97
+        "recency_score": 0.778,
+        "total_score": 3.884
       }
     },
     {
@@ -830,7 +971,7 @@
       "title_zh": "百度的AI革命：2025年将有43%收入来自人工智能！",
       "title_bilingual": "百度的AI革命：2025年将有43%收入来自人工智能！",
       "published_at": "2026-02-28T02:33:06.311Z",
-      "age_hours": 2.38,
+      "age_hours": 4.1,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -843,8 +984,8 @@
         "source_weight": 1.1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.901,
-        "total_score": 3.961
+        "recency_score": 0.829,
+        "total_score": 3.875
       }
     },
     {
@@ -853,7 +994,7 @@
       "title_zh": "Anthropic公司表示将就五角大楼对其供应链风险的认定提起诉讼",
       "title_bilingual": "Anthropic公司表示将就五角大楼对其供应链风险的认定提起诉讼",
       "published_at": "2026-02-28T03:25:32.038Z",
-      "age_hours": 1.51,
+      "age_hours": 3.23,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "reut.rs",
@@ -867,8 +1008,8 @@
         "source_weight": 0.85,
         "keyword_hits": 2,
         "cross_source_count": 2,
-        "recency_score": 0.937,
-        "total_score": 3.955
+        "recency_score": 0.866,
+        "total_score": 3.869
       }
     },
     {
@@ -877,7 +1018,7 @@
       "title_zh": "DeepSeek即将发布备受期待的人工智能模型，对美国竞争对手发起新一轮挑战",
       "title_bilingual": "DeepSeek即将发布备受期待的人工智能模型，对美国竞争对手发起新一轮挑战",
       "published_at": "2026-02-28T01:17:41.782Z",
-      "age_hours": 3.64,
+      "age_hours": 5.36,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "www.ft.com",
@@ -890,8 +1031,8 @@
         "source_weight": 0.85,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.848,
-        "total_score": 3.948
+        "recency_score": 0.777,
+        "total_score": 3.862
       }
     },
     {
@@ -900,7 +1041,7 @@
       "title_zh": "​告别“大内存”时代！Sakana AI推出超轻量插件，让大模型秒速内化海量文档",
       "title_bilingual": "​告别“大内存”时代！Sakana AI推出超轻量插件，让大模型秒速内化海量文档",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "tophub",
       "site_name": "TopHub",
       "source": "Readhub · AI",
@@ -914,8 +1055,31 @@
         "source_weight": 0.75,
         "keyword_hits": 3,
         "cross_source_count": 2,
-        "recency_score": 0.872,
-        "total_score": 3.947
+        "recency_score": 0.801,
+        "total_score": 3.861
+      }
+    },
+    {
+      "event_id": "how do i cancel my chatgpt subscription",
+      "title": "How do I cancel my ChatGPT subscription?",
+      "title_zh": "如何取消我的 ChatGPT 订阅？",
+      "title_bilingual": "如何取消我的 ChatGPT 订阅？ / How do I cancel my ChatGPT subscription?",
+      "published_at": "2026-02-28T05:55:01Z",
+      "age_hours": 0.74,
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "source": "Hacker News (黑客新闻)",
+      "url": "https://help.openai.com/en/articles/7232927-how-do-i-cancel-my-chatgpt-subscription",
+      "related_count": 1,
+      "related_urls": [
+        "https://help.openai.com/en/articles/7232927-how-do-i-cancel-my-chatgpt-subscription"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.969,
+        "total_score": 3.843
       }
     },
     {
@@ -924,7 +1088,7 @@
       "title_zh": "OpenAI获1100亿美元融资，估值飙升至 7300 亿美元！",
       "title_bilingual": "OpenAI获1100亿美元融资，估值飙升至 7300 亿美元！",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -937,8 +1101,8 @@
         "source_weight": 1.1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.872,
-        "total_score": 3.927
+        "recency_score": 0.801,
+        "total_score": 3.841
       }
     },
     {
@@ -947,7 +1111,7 @@
       "title_zh": "谷歌即将停用Gemini 3 Pro Preview，开发者需迁移至 3.1 版",
       "title_bilingual": "谷歌即将停用Gemini 3 Pro Preview，开发者需迁移至 3.1 版",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -960,8 +1124,8 @@
         "source_weight": 1.1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.872,
-        "total_score": 3.927
+        "recency_score": 0.801,
+        "total_score": 3.841
       }
     },
     {
@@ -970,7 +1134,7 @@
       "title_zh": "打破英伟达垄断！Meta签署数两百亿美元大单，改租谷歌TPU自研AI模型",
       "title_bilingual": "打破英伟达垄断！Meta签署数两百亿美元大单，改租谷歌TPU自研AI模型",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -983,8 +1147,8 @@
         "source_weight": 1.1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.872,
-        "total_score": 3.927
+        "recency_score": 0.801,
+        "total_score": 3.841
       }
     },
     {
@@ -993,7 +1157,7 @@
       "title_zh": "OpenAI周活跃用户突破9亿，获亚马逊及英伟达1100亿美元巨额融资",
       "title_bilingual": "OpenAI周活跃用户突破9亿，获亚马逊及英伟达1100亿美元巨额融资",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -1006,8 +1170,8 @@
         "source_weight": 1.1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.872,
-        "total_score": 3.927
+        "recency_score": 0.801,
+        "total_score": 3.841
       }
     },
     {
@@ -1016,7 +1180,7 @@
       "title_zh": "​特朗普下令禁用 Anthropic，五角大楼将其列为“供应链风险”",
       "title_bilingual": "​特朗普下令禁用 Anthropic，五角大楼将其列为“供应链风险”",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -1029,8 +1193,31 @@
         "source_weight": 1.1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.872,
-        "total_score": 3.927
+        "recency_score": 0.801,
+        "total_score": 3.841
+      }
+    },
+    {
+      "event_id": "阿里桌面 agent 工具 copaw 开源:自由接入本地模型,支持钉钉、飞书、qq 等",
+      "title": "阿里桌面 Agent 工具 CoPaw 开源：自由接入本地模型，支持钉钉、飞书、QQ 等",
+      "title_zh": "阿里桌面 Agent 工具 CoPaw 开源：自由接入本地模型，支持钉钉、飞书、QQ 等",
+      "title_bilingual": "阿里桌面 Agent 工具 CoPaw 开源：自由接入本地模型，支持钉钉、飞书、QQ 等",
+      "published_at": "2026-02-28T05:38:17Z",
+      "age_hours": 1.01,
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "source": "IT之家 (ITHome)",
+      "url": "https://www.ithome.com/0/924/517.htm",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.ithome.com/0/924/517.htm"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.958,
+        "total_score": 3.829
       }
     },
     {
@@ -1039,7 +1226,7 @@
       "title_zh": "资料来源：国防部似乎已接受 OpenAI 的安全红线（与 Anthropic 的安全红线类似），以便在机密环境中部署 OpenAI 的技术（Maria Curi/Axios）",
       "title_bilingual": "资料来源：国防部似乎已接受 OpenAI 的安全红线（与 Anthropic 的安全红线类似），以便在机密环境中部署 OpenAI 的技术（Maria Curi/Axios） / Source: the DOD appears to have accepted OpenAI's safety red lines, which were similar to Anthropic's, to deploy OpenAI's tech in classified settings (Maria Curi/Axios)",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -1052,8 +1239,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.872,
-        "total_score": 3.907
+        "recency_score": 0.801,
+        "total_score": 3.821
       }
     },
     {
@@ -1062,7 +1249,7 @@
       "title_zh": "OpenAI 表示将在大规模枪击事件发生后更改 ChatGPT 安全协议",
       "title_bilingual": "OpenAI 表示将在大规模枪击事件发生后更改 ChatGPT 安全协议 / OpenAI says it will change ChatGPT safety protocols in the wake of mass shooting",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Mashable",
@@ -1075,8 +1262,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.872,
-        "total_score": 3.907
+        "recency_score": 0.801,
+        "total_score": 3.821
       }
     },
     {
@@ -1085,7 +1272,7 @@
       "title_zh": "5个提示显示 Nano Banana 2 的强大",
       "title_bilingual": "5个提示显示 Nano Banana 2 的强大 / 5 prompts that show how powerful Nano Banana 2 is",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "TechRadar",
@@ -1098,8 +1285,31 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.872,
-        "total_score": 3.907
+        "recency_score": 0.801,
+        "total_score": 3.821
+      }
+    },
+    {
+      "event_id": "攻击中国ai模型的anthropic,为何特朗普要禁用",
+      "title": "攻击中国AI模型的Anthropic，为何特朗普要禁用",
+      "title_zh": "攻击中国AI模型的Anthropic，为何特朗普要禁用",
+      "title_bilingual": "攻击中国AI模型的Anthropic，为何特朗普要禁用",
+      "published_at": "2026-02-28T05:26:05Z",
+      "age_hours": 1.22,
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "source": "虎嗅 (Huxiu)",
+      "url": "https://www.huxiu.com/article/4837738.html?f=rss",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.huxiu.com/article/4837738.html?f=rss"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.949,
+        "total_score": 3.819
       }
     },
     {
@@ -1108,7 +1318,7 @@
       "title_zh": "Show HN: Claude-File-Recovery，从 ~/.claude 会话中恢复文件",
       "title_bilingual": "Show HN: Claude-File-Recovery，从 ~/.claude 会话中恢复文件 / Show HN: Claude-File-Recovery, recover files from your ~/.claude sessions",
       "published_at": "2026-02-27T22:23:26.364Z",
-      "age_hours": 6.54,
+      "age_hours": 8.26,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Hacker News",
@@ -1122,8 +1332,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 2,
-        "recency_score": 0.727,
-        "total_score": 3.883
+        "recency_score": 0.656,
+        "total_score": 3.797
       }
     },
     {
@@ -1132,7 +1342,7 @@
       "title_zh": "[AI Agent 智能体] 有了 AI agent, 中午我都不睡觉了",
       "title_bilingual": "[AI Agent 智能体] 有了 AI agent, 中午我都不睡觉了",
       "published_at": "2026-02-28T04:54:24Z",
-      "age_hours": 0.03,
+      "age_hours": 1.75,
       "site_id": "iris",
       "site_name": "Info Flow",
       "source": "V2EX (创意工作者社区)",
@@ -1145,8 +1355,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.999,
-        "total_score": 3.879
+        "recency_score": 0.927,
+        "total_score": 3.793
       }
     },
     {
@@ -1155,7 +1365,7 @@
       "title_zh": "Altman 表示 OpenAI 同意 Anthropic 在五角大楼争端中的红线",
       "title_bilingual": "Altman 表示 OpenAI 同意 Anthropic 在五角大楼争端中的红线 / Altman says OpenAI agrees with Anthropic's red lines in Pentagon dispute",
       "published_at": "2026-02-27T23:28:31Z",
-      "age_hours": 5.46,
+      "age_hours": 7.18,
       "site_id": "zeli",
       "site_name": "Zeli",
       "source": "Hacker News · 24h最热",
@@ -1168,8 +1378,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.773,
-        "total_score": 3.877
+        "recency_score": 0.701,
+        "total_score": 3.791
       }
     },
     {
@@ -1178,7 +1388,7 @@
       "title_zh": "五角大楼在放弃Anthropic后批准OpenAI安全红线 - Axios",
       "title_bilingual": "五角大楼在放弃Anthropic后批准OpenAI安全红线 - Axios",
       "published_at": "2026-02-28T04:13:24.192Z",
-      "age_hours": 0.71,
+      "age_hours": 2.43,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "news.google.com",
@@ -1191,8 +1401,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.97,
-        "total_score": 3.844
+        "recency_score": 0.899,
+        "total_score": 3.759
       }
     },
     {
@@ -1201,7 +1411,7 @@
       "title_zh": "OpenAI 官宣 ChatGPT 周活跃用户达 9 亿，个人付费订阅数突破 5000 万",
       "title_bilingual": "OpenAI 官宣 ChatGPT 周活跃用户达 9 亿，个人付费订阅数突破 5000 万",
       "published_at": "2026-02-28T04:09:16Z",
-      "age_hours": 0.78,
+      "age_hours": 2.5,
       "site_id": "iris",
       "site_name": "Info Flow",
       "source": "IT之家 (ITHome)",
@@ -1214,8 +1424,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.967,
-        "total_score": 3.841
+        "recency_score": 0.896,
+        "total_score": 3.755
       }
     },
     {
@@ -1224,7 +1434,7 @@
       "title_zh": "OpenAI与国防部达成协议，将在其机密网络中部署模型",
       "title_bilingual": "OpenAI与国防部达成协议，将在其机密网络中部署模型",
       "published_at": "2026-02-28T03:57:28.256Z",
-      "age_hours": 0.98,
+      "age_hours": 2.69,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "twitter.com",
@@ -1237,8 +1447,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.959,
-        "total_score": 3.831
+        "recency_score": 0.888,
+        "total_score": 3.745
       }
     },
     {
@@ -1247,7 +1457,7 @@
       "title_zh": "MIT 携手英伟达开发 TLT 技术，推理 AI 大模型训练效率最高提速 210%",
       "title_bilingual": "MIT 携手英伟达开发 TLT 技术，推理 AI 大模型训练效率最高提速 210%",
       "published_at": "2026-02-28T02:33:06.311Z",
-      "age_hours": 2.38,
+      "age_hours": 4.1,
       "site_id": "tophub",
       "site_name": "TopHub",
       "source": "Readhub · AI",
@@ -1260,8 +1470,8 @@
         "source_weight": 0.75,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.901,
-        "total_score": 3.831
+        "recency_score": 0.829,
+        "total_score": 3.745
       }
     },
     {
@@ -1270,7 +1480,7 @@
       "title_zh": "Show HN: 回溯——通过MCP挂钩实现Claude代码的持久化存储",
       "title_bilingual": "Show HN: 回溯——通过MCP挂钩实现Claude代码的持久化存储",
       "published_at": "2026-02-28T03:41:28.090Z",
-      "age_hours": 1.24,
+      "age_hours": 2.96,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "recallmcp.com",
@@ -1283,8 +1493,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.948,
-        "total_score": 3.818
+        "recency_score": 0.877,
+        "total_score": 3.732
       }
     },
     {
@@ -1293,7 +1503,7 @@
       "title_zh": "特朗普总统禁止在政府系统中使用Anthropic",
       "title_bilingual": "特朗普总统禁止在政府系统中使用Anthropic",
       "published_at": "2026-02-28T03:41:28.082Z",
-      "age_hours": 1.24,
+      "age_hours": 2.96,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "www.npr.org",
@@ -1306,8 +1516,32 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.948,
-        "total_score": 3.818
+        "recency_score": 0.877,
+        "total_score": 3.732
+      }
+    },
+    {
+      "event_id": "谁杀害了瑞典总理奥洛夫·帕尔梅?业余侦探向人工智能求助",
+      "title": "谁杀害了瑞典总理奥洛夫·帕尔梅？业余侦探向人工智能求助",
+      "title_zh": "谁杀害了瑞典总理奥洛夫·帕尔梅？业余侦探向人工智能求助",
+      "title_bilingual": "谁杀害了瑞典总理奥洛夫·帕尔梅？业余侦探向人工智能求助",
+      "published_at": "2026-02-28T05:33:26.655Z",
+      "age_hours": 1.1,
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "reut.rs",
+      "url": "https://reut.rs/3ONzImD",
+      "related_count": 2,
+      "related_urls": [
+        "https://reut.rs/3ONzImD",
+        "https://www.reuters.com/world/europe/who-killed-swedish-prime-minister-olof-palme-amateur-sleuths-ask-ai-help-2026-02-28"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 1,
+        "cross_source_count": 2,
+        "recency_score": 0.954,
+        "total_score": 3.725
       }
     },
     {
@@ -1316,7 +1550,7 @@
       "title_zh": "给Claude装上“眼睛”！Anthropic斥资收购Vercept：高精度 UI 识别碾压 OpenAI，智能体进入“视觉时代”",
       "title_bilingual": "给Claude装上“眼睛”！Anthropic斥资收购Vercept：高精度 UI 识别碾压 OpenAI，智能体进入“视觉时代”",
       "published_at": "2026-02-27T08:32:44.703Z",
-      "age_hours": 20.39,
+      "age_hours": 22.11,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -1329,8 +1563,8 @@
         "source_weight": 1.1,
         "keyword_hits": 5,
         "cross_source_count": 1,
-        "recency_score": 0.15,
-        "total_score": 3.811
+        "recency_score": 0.079,
+        "total_score": 3.725
       }
     },
     {
@@ -1339,7 +1573,7 @@
       "title_zh": "Perplexity 推出“计算机”，这是一种将工作分配给其他人工智能代理的人工智能代理",
       "title_bilingual": "Perplexity 推出“计算机”，这是一种将工作分配给其他人工智能代理的人工智能代理 / Perplexity Announces 'Computer,' an AI Agent That Assigns Work To Other AI Agents",
       "published_at": "2026-02-28T04:55:37.741Z",
-      "age_hours": 0.01,
+      "age_hours": 1.73,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Slashdot",
@@ -1352,8 +1586,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 1,
-        "total_score": 3.81
+        "recency_score": 0.928,
+        "total_score": 3.724
       }
     },
     {
@@ -1362,7 +1596,7 @@
       "title_zh": "[问与答] chatgpt 或者 grok 之类的可以语音交互,但是他自己播报出来又被他自己听回去作为输入导致没法完整的说完一句话,如何解决?",
       "title_bilingual": "[问与答] chatgpt 或者 grok 之类的可以语音交互,但是他自己播报出来又被他自己听回去作为输入导致没法完整的说完一句话,如何解决?",
       "published_at": "2026-02-28T03:29:12Z",
-      "age_hours": 1.45,
+      "age_hours": 3.17,
       "site_id": "iris",
       "site_name": "Info Flow",
       "source": "V2EX (创意工作者社区)",
@@ -1375,8 +1609,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.94,
-        "total_score": 3.808
+        "recency_score": 0.868,
+        "total_score": 3.722
       }
     },
     {
@@ -1385,7 +1619,7 @@
       "title_zh": "OpenClaw + Codex/Claude Code 智能体集群：一人开发团队的完整搭建方案",
       "title_bilingual": "OpenClaw + Codex/Claude Code 智能体集群：一人开发团队的完整搭建方案",
       "published_at": "2026-02-28T01:52:20.790Z",
-      "age_hours": 3.06,
+      "age_hours": 4.78,
       "site_id": "tophub",
       "site_name": "TopHub",
       "source": "掘金 · 人工智能本周最热",
@@ -1398,8 +1632,8 @@
         "source_weight": 0.75,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.872,
-        "total_score": 3.797
+        "recency_score": 0.801,
+        "total_score": 3.711
       }
     },
     {
@@ -1408,7 +1642,7 @@
       "title_zh": "五角大楼对Anthropic的人工智能业务提出质疑",
       "title_bilingual": "五角大楼对Anthropic的人工智能业务提出质疑",
       "published_at": "2026-02-28T03:09:41.326Z",
-      "age_hours": 1.77,
+      "age_hours": 3.49,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "www.bloomberg.com",
@@ -1421,8 +1655,31 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.926,
-        "total_score": 3.791
+        "recency_score": 0.855,
+        "total_score": 3.705
+      }
+    },
+    {
+      "event_id": "消息称 openai 将导入英伟达基于 groq 技术的 ai 推理芯片",
+      "title": "消息称 OpenAI 将导入英伟达基于 Groq 技术的 AI 推理芯片",
+      "title_zh": "消息称 OpenAI 将导入英伟达基于 Groq 技术的 AI 推理芯片",
+      "title_bilingual": "消息称 OpenAI 将导入英伟达基于 Groq 技术的 AI 推理芯片",
+      "published_at": "2026-02-28T06:38:44.726Z",
+      "age_hours": 0.01,
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "Readhub · AI",
+      "url": "https://www.ithome.com/0/924/532.htm",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.ithome.com/0/924/532.htm"
+      ],
+      "signals": {
+        "source_weight": 0.75,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 1,
+        "total_score": 3.7
       }
     },
     {
@@ -1431,7 +1688,7 @@
       "title_zh": "Anthropic公司表示将就五角大楼对其供应链风险的认定提起诉讼",
       "title_bilingual": "Anthropic公司表示将就五角大楼对其供应链风险的认定提起诉讼 / Anthropic says it will challenge Pentagon supply chain risk designation in court",
       "published_at": "2026-02-28T02:36:46Z",
-      "age_hours": 2.32,
+      "age_hours": 4.04,
       "site_id": "zeli",
       "site_name": "Zeli",
       "source": "Hacker News · 24h最热",
@@ -1444,8 +1701,8 @@
         "source_weight": 1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.903,
-        "total_score": 3.784
+        "recency_score": 0.832,
+        "total_score": 3.698
       }
     },
     {
@@ -1454,7 +1711,7 @@
       "title_zh": "00后导演携手腾讯，AI短剧开启影视新纪元！",
       "title_bilingual": "00后导演携手腾讯，AI短剧开启影视新纪元！",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -1467,8 +1724,8 @@
         "source_weight": 1.1,
         "keyword_hits": 1,
         "cross_source_count": 1,
-        "recency_score": 0.958,
-        "total_score": 3.779
+        "recency_score": 0.886,
+        "total_score": 3.693
       }
     },
     {
@@ -1477,7 +1734,7 @@
       "title_zh": "德国总理试戴浙江 AI 眼镜！众多德企高管现场下单",
       "title_bilingual": "德国总理试戴浙江 AI 眼镜！众多德企高管现场下单",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -1490,8 +1747,8 @@
         "source_weight": 1.1,
         "keyword_hits": 1,
         "cross_source_count": 1,
-        "recency_score": 0.958,
-        "total_score": 3.779
+        "recency_score": 0.886,
+        "total_score": 3.693
       }
     },
     {
@@ -1500,7 +1757,7 @@
       "title_zh": "中兴通讯拟于MWC2026发布多款AI原生终端，深化“AI for All”布局",
       "title_bilingual": "中兴通讯拟于MWC2026发布多款AI原生终端，深化“AI for All”布局",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -1513,8 +1770,8 @@
         "source_weight": 1.1,
         "keyword_hits": 1,
         "cross_source_count": 1,
-        "recency_score": 0.958,
-        "total_score": 3.779
+        "recency_score": 0.886,
+        "total_score": 3.693
       }
     },
     {
@@ -1523,7 +1780,7 @@
       "title_zh": "特朗普下令美国政府机构弃用Anthropic人工智能，五角大楼称该初创企业构成供应链风险",
       "title_bilingual": "特朗普下令美国政府机构弃用Anthropic人工智能，五角大楼称该初创企业构成供应链风险",
       "published_at": "2026-02-28T02:53:25.991Z",
-      "age_hours": 2.04,
+      "age_hours": 3.76,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "reut.rs",
@@ -1536,8 +1793,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.915,
-        "total_score": 3.778
+        "recency_score": 0.843,
+        "total_score": 3.692
       }
     },
     {
@@ -1546,7 +1803,7 @@
       "title_zh": "Show HN: Agoragentic——面向LangChain、CrewAI和MCP的智能体间市场",
       "title_bilingual": "Show HN: Agoragentic——面向LangChain、CrewAI和MCP的智能体间市场",
       "published_at": "2026-02-27T21:34:58.913Z",
-      "age_hours": 7.35,
+      "age_hours": 9.07,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "github.com",
@@ -1559,8 +1816,8 @@
         "source_weight": 0.85,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.694,
-        "total_score": 3.762
+        "recency_score": 0.622,
+        "total_score": 3.677
       }
     },
     {
@@ -1569,7 +1826,7 @@
       "title_zh": "特朗普命令五角大楼停止在火热的真相社交帖子中使用唤醒人类",
       "title_bilingual": "特朗普命令五角大楼停止在火热的真相社交帖子中使用唤醒人类 / Trump orders Pentagon to stop using woke Anthropic in fiery Truth social post",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Mashable",
@@ -1582,8 +1839,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.958,
-        "total_score": 3.759
+        "recency_score": 0.886,
+        "total_score": 3.673
       }
     },
     {
@@ -1592,7 +1849,7 @@
       "title_zh": "美国军方将其标记为“供应链风险”后，Anthropic 进行了反击",
       "title_bilingual": "美国军方将其标记为“供应链风险”后，Anthropic 进行了反击 / Anthropic Hits Back After US Military Labels It a 'Supply Chain Risk'",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Wired",
@@ -1605,8 +1862,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.958,
-        "total_score": 3.759
+        "recency_score": 0.886,
+        "total_score": 3.673
       }
     },
     {
@@ -1615,7 +1872,7 @@
       "title_zh": "Sam Altman 表示 OpenAI 与国防部达成协议，在国防部的机密网络中部署其模型，并要求国防部将这些条款扩展到所有人工智能公司（Sam Altman/@sama）",
       "title_bilingual": "Sam Altman 表示 OpenAI 与国防部达成协议，在国防部的机密网络中部署其模型，并要求国防部将这些条款扩展到所有人工智能公司（Sam Altman/@sama） / Sam Altman says OpenAI reached an agreement with the DOD to deploy its models in DOD's classified network and asks DOD to extend those terms to all AI companies (Sam Altman/@sama)",
       "published_at": "2026-02-28T03:55:03.876Z",
-      "age_hours": 1.02,
+      "age_hours": 2.73,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -1628,8 +1885,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.958,
-        "total_score": 3.759
+        "recency_score": 0.886,
+        "total_score": 3.673
       }
     },
     {
@@ -1638,7 +1895,7 @@
       "title_zh": "据《华尔街日报》报道，英伟达计划推出新型芯片以加速人工智能处理",
       "title_bilingual": "据《华尔街日报》报道，英伟达计划推出新型芯片以加速人工智能处理",
       "published_at": "2026-02-28T04:29:33.092Z",
-      "age_hours": 0.44,
+      "age_hours": 2.16,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "reut.rs",
@@ -1652,261 +1909,8 @@
         "source_weight": 0.85,
         "keyword_hits": 1,
         "cross_source_count": 2,
-        "recency_score": 0.982,
-        "total_score": 3.758
-      }
-    },
-    {
-      "event_id": "特朗普对人类中心主义的激烈回应,既关乎权力,也关乎人工智能安全",
-      "title": "特朗普对人类中心主义的激烈回应，既关乎权力，也关乎人工智能安全。",
-      "title_zh": "特朗普对人类中心主义的激烈回应，既关乎权力，也关乎人工智能安全。",
-      "title_bilingual": "特朗普对人类中心主义的激烈回应，既关乎权力，也关乎人工智能安全。",
-      "published_at": "2026-02-28T02:21:32.150Z",
-      "age_hours": 2.58,
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "news.sky.com",
-      "url": "https://news.sky.com/story/trumps-furious-response-to-anthropic-is-as-much-about-power-as-it-is-about-ai-safety-13513194",
-      "related_count": 1,
-      "related_urls": [
-        "https://news.sky.com/story/trumps-furious-response-to-anthropic-is-as-much-about-power-as-it-is-about-ai-safety-13513194"
-      ],
-      "signals": {
-        "source_weight": 0.85,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.893,
-        "total_score": 3.751
-      }
-    },
-    {
-      "event_id": "trump moves to blacklist anthropic over ai fight with pentagon",
-      "title": "Trump moves to blacklist Anthropic over AI fight with Pentagon",
-      "title_zh": "特朗普因与五角大楼的人工智能斗争而将 Anthropic 列入黑名单",
-      "title_bilingual": "特朗普因与五角大楼的人工智能斗争而将 Anthropic 列入黑名单 / Trump moves to blacklist Anthropic over AI fight with Pentagon",
-      "published_at": "2026-02-27T20:56:49Z",
-      "age_hours": 7.99,
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "source": "Hacker News · 24h最热",
-      "url": "https://www.axios.com/2026/02/27/anthropic-pentagon-supply-chain-risk-claude",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.axios.com/2026/02/27/anthropic-pentagon-supply-chain-risk-claude"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.667,
-        "total_score": 3.751
-      }
-    },
-    {
-      "event_id": "特朗普将终止政府使用anthropic的人工智能模型",
-      "title": "特朗普将终止政府使用Anthropic的人工智能模型",
-      "title_zh": "特朗普将终止政府使用Anthropic的人工智能模型",
-      "title_bilingual": "特朗普将终止政府使用Anthropic的人工智能模型",
-      "published_at": "2026-02-27T21:18:59.452Z",
-      "age_hours": 7.62,
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "on.wsj.com",
-      "url": "https://on.wsj.com/4011zCk",
-      "related_count": 1,
-      "related_urls": [
-        "https://on.wsj.com/4011zCk"
-      ],
-      "signals": {
-        "source_weight": 0.85,
-        "keyword_hits": 4,
-        "cross_source_count": 1,
-        "recency_score": 0.683,
-        "total_score": 3.749
-      }
-    },
-    {
-      "event_id": "gemini cli推出hooks钩子功能",
-      "title": "Gemini CLI推出Hooks钩子功能。",
-      "title_zh": "Gemini CLI推出Hooks钩子功能。",
-      "title_bilingual": "Gemini CLI推出Hooks钩子功能。",
-      "published_at": "2026-02-28T00:00:00Z",
-      "age_hours": 4.93,
-      "site_id": "aihubtoday",
-      "site_name": "AI HubToday",
-      "source": "Daily Digest",
-      "url": "https://x.com/googleaidevs/status/2027430077856641375",
-      "related_count": 1,
-      "related_urls": [
-        "https://x.com/googleaidevs/status/2027430077856641375"
-      ],
-      "signals": {
-        "source_weight": 1.05,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.794,
-        "total_score": 3.743
-      }
-    },
-    {
-      "event_id": "美国防部威胁anthropic拆安全墙",
-      "title": "美国防部威胁Anthropic拆安全墙。",
-      "title_zh": "美国防部威胁Anthropic拆安全墙。",
-      "title_bilingual": "美国防部威胁Anthropic拆安全墙。",
-      "published_at": "2026-02-28T00:00:00Z",
-      "age_hours": 4.93,
-      "site_id": "aihubtoday",
-      "site_name": "AI HubToday",
-      "source": "Daily Digest",
-      "url": "https://newshacker.me/story?id=47186677",
-      "related_count": 1,
-      "related_urls": [
-        "https://newshacker.me/story?id=47186677"
-      ],
-      "signals": {
-        "source_weight": 1.05,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.794,
-        "total_score": 3.743
-      }
-    },
-    {
-      "event_id": "claude code自动记忆功能上线",
-      "title": "Claude Code自动记忆功能上线。",
-      "title_zh": "Claude Code自动记忆功能上线。",
-      "title_bilingual": "Claude Code自动记忆功能上线。",
-      "published_at": "2026-02-28T00:00:00Z",
-      "age_hours": 4.93,
-      "site_id": "aihubtoday",
-      "site_name": "AI HubToday",
-      "source": "Daily Digest",
-      "url": "https://code.claude.com/docs/en/memory",
-      "related_count": 1,
-      "related_urls": [
-        "https://code.claude.com/docs/en/memory"
-      ],
-      "signals": {
-        "source_weight": 1.05,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.794,
-        "total_score": 3.743
-      }
-    },
-    {
-      "event_id": "openai 狂揽1100亿美金融资",
-      "title": "OpenAI 狂揽1100亿美金融资。",
-      "title_zh": "OpenAI 狂揽1100亿美金融资。",
-      "title_bilingual": "OpenAI 狂揽1100亿美金融资。",
-      "published_at": "2026-02-28T00:00:00Z",
-      "age_hours": 4.93,
-      "site_id": "aihubtoday",
-      "site_name": "AI HubToday",
-      "source": "Daily Digest",
-      "url": "https://newshacker.me/story?id=47181211",
-      "related_count": 1,
-      "related_urls": [
-        "https://newshacker.me/story?id=47181211"
-      ],
-      "signals": {
-        "source_weight": 1.05,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.794,
-        "total_score": 3.743
-      }
-    },
-    {
-      "event_id": "skyreels-v4登顶全球ai视频榜",
-      "title": "SkyReels-V4登顶全球AI视频榜。",
-      "title_zh": "SkyReels-V4登顶全球AI视频榜。",
-      "title_bilingual": "SkyReels-V4登顶全球AI视频榜。",
-      "published_at": "2026-02-28T00:00:00Z",
-      "age_hours": 4.93,
-      "site_id": "aihubtoday",
-      "site_name": "AI HubToday",
-      "source": "Daily Digest",
-      "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video?audio-output=true",
-      "related_count": 1,
-      "related_urls": [
-        "https://artificialanalysis.ai/video/leaderboard/text-to-video?audio-output=true"
-      ],
-      "signals": {
-        "source_weight": 1.05,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.794,
-        "total_score": 3.743
-      }
-    },
-    {
-      "event_id": "中国ai模型用量首超美国霸榜",
-      "title": "中国AI模型用量首超美国霸榜。",
-      "title_zh": "中国AI模型用量首超美国霸榜。",
-      "title_bilingual": "中国AI模型用量首超美国霸榜。",
-      "published_at": "2026-02-28T00:00:00Z",
-      "age_hours": 4.93,
-      "site_id": "aihubtoday",
-      "site_name": "AI HubToday",
-      "source": "Daily Digest",
-      "url": "https://www.aibase.com/zh/news/25731",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.aibase.com/zh/news/25731"
-      ],
-      "signals": {
-        "source_weight": 1.05,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.794,
-        "total_score": 3.743
-      }
-    },
-    {
-      "event_id": "一站式ai中转服务crs开源",
-      "title": "一站式AI中转服务CRS开源。",
-      "title_zh": "一站式AI中转服务CRS开源。",
-      "title_bilingual": "一站式AI中转服务CRS开源。",
-      "published_at": "2026-02-28T00:00:00Z",
-      "age_hours": 4.93,
-      "site_id": "aihubtoday",
-      "site_name": "AI HubToday",
-      "source": "Daily Digest",
-      "url": "https://github.com/Wei-Shaw/claude-relay-service",
-      "related_count": 1,
-      "related_urls": [
-        "https://github.com/Wei-Shaw/claude-relay-service"
-      ],
-      "signals": {
-        "source_weight": 1.05,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.794,
-        "total_score": 3.743
-      }
-    },
-    {
-      "event_id": "ai智能体正进化为协作团队",
-      "title": "AI智能体正进化为协作团队。",
-      "title_zh": "AI智能体正进化为协作团队。",
-      "title_bilingual": "AI智能体正进化为协作团队。",
-      "published_at": "2026-02-28T00:00:00Z",
-      "age_hours": 4.93,
-      "site_id": "aihubtoday",
-      "site_name": "AI HubToday",
-      "source": "Daily Digest",
-      "url": "http://x.com/i/article/2027359882756927489",
-      "related_count": 1,
-      "related_urls": [
-        "http://x.com/i/article/2027359882756927489"
-      ],
-      "signals": {
-        "source_weight": 1.05,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.794,
-        "total_score": 3.743
+        "recency_score": 0.91,
+        "total_score": 3.672
       }
     }
   ]
