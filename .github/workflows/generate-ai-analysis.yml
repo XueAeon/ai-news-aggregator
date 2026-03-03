@@ -3,8 +3,8 @@ name: Generate AI Analysis Only
 on:
   workflow_dispatch:
   schedule:
-    # 07:30 Asia/Shanghai = 23:30 UTC (previous day)
-    - cron: "30 23 * * *"
+    # 07:03 Asia/Shanghai = 23:03 UTC (previous day)
+    - cron: "3 23 * * *"
 
 permissions:
   contents: write

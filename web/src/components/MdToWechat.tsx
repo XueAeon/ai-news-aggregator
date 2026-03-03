@@ -80,6 +80,15 @@ function normalizeErrorMessage(error: unknown): string {
   return error instanceof Error ? error.message : String(error)
 }
 
+function normalizePlainTextForWechat(value: string): string {
+  return value
+    // keep paragraph breaks
+    .replace(/\r\n/g, '\n')
+    .replace(/\n{3,}/g, '\n\n')
+    // collapse single line breaks inside a paragraph
+    .replace(/(?<!\n)\n(?!\n)/g, ' ')
+}
+
 async function writeClipboardItems(items: ClipboardItem[]): Promise<void> {
   if (!navigator.clipboard?.write) {
     throw new Error('Clipboard API not available.')
@@ -283,7 +292,7 @@ export function MdToWechat() {
           if (typeof ClipboardItem === 'undefined') {
             throw new TypeError('ClipboardItem is not supported in this browser.')
           }
-          const plainText = clipboardDiv.textContent || ''
+          const plainText = normalizePlainTextForWechat(clipboardDiv.textContent || '')
           const clipboardItem = new ClipboardItem({
             'text/html': new Blob([temp], { type: 'text/html' }),
             'text/plain': new Blob([plainText], { type: 'text/plain' }),
