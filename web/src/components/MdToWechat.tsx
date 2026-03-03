@@ -89,6 +89,15 @@ function normalizePlainTextForWechat(value: string): string {
     .replace(/(?<!\n)\n(?!\n)/g, ' ')
 }
 
+function getClipboardPlainText(container: HTMLElement): string {
+  // Prefer rendered text layout to avoid artificial line breaks introduced by DOM serialization.
+  const renderedText = container.innerText
+  if (renderedText && renderedText.trim()) {
+    return normalizePlainTextForWechat(renderedText)
+  }
+  return normalizePlainTextForWechat(container.textContent || '')
+}
+
 async function writeClipboardItems(items: ClipboardItem[]): Promise<void> {
   if (!navigator.clipboard?.write) {
     throw new Error('Clipboard API not available.')
@@ -292,7 +301,7 @@ export function MdToWechat() {
           if (typeof ClipboardItem === 'undefined') {
             throw new TypeError('ClipboardItem is not supported in this browser.')
           }
-          const plainText = normalizePlainTextForWechat(clipboardDiv.textContent || '')
+          const plainText = getClipboardPlainText(clipboardDiv)
           const clipboardItem = new ClipboardItem({
             'text/html': new Blob([temp], { type: 'text/html' }),
             'text/plain': new Blob([plainText], { type: 'text/plain' }),
