@@ -7,6 +7,7 @@ import { SourceModal } from './components/SourceModal'
 import { MdToWechat } from './components/MdToWechat'
 import { useTheme } from './hooks/useTheme'
 import { useNewsData } from './hooks/useNewsData'
+import { Moon, Sun } from 'lucide-react'
 
 function App() {
   const { theme, toggleTheme } = useTheme()
@@ -39,6 +40,8 @@ function App() {
         <Header
           theme={theme}
           toggleTheme={toggleTheme}
+          view={view}
+          onViewChange={setView}
           onRefresh={refresh}
           loading={loading}
           generatedAt={data?.generated_at}
@@ -54,33 +57,38 @@ function App() {
               <h1 className="text-xl font-bold text-slate-900 dark:text-white">公众号排版工具</h1>
               <p className="text-xs text-slate-500 dark:text-slate-400">基于 md-main 转换链路</p>
             </div>
-            <button
-              onClick={toggleTheme}
-              className="btn btn-ghost p-2 rounded-lg"
-              title={theme === 'light' ? '切换深色模式' : '切换浅色模式'}
-            >
-              {theme === 'light' ? '深色' : '浅色'}
-            </button>
+            <div className="flex items-center gap-2">
+              <div className="flex items-center bg-slate-100 dark:bg-slate-800 rounded-full p-0.5">
+                <button
+                  onClick={() => setView('news')}
+                  className="px-2.5 py-0.5 text-xs font-medium rounded-full transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"
+                >
+                  资讯
+                </button>
+                <button
+                  onClick={() => setView('md')}
+                  className="px-2.5 py-0.5 text-xs font-medium rounded-full transition-all bg-gradient-to-r from-primary-500 to-primary-600 text-white shadow-sm"
+                >
+                  公众号
+                </button>
+              </div>
+              <button
+                onClick={toggleTheme}
+                className="btn btn-ghost p-2 rounded-lg"
+                title={theme === 'light' ? '切换深色模式' : '切换浅色模式'}
+              >
+                {theme === 'light' ? (
+                  <Moon className="w-5 h-5" />
+                ) : (
+                  <Sun className="w-5 h-5" />
+                )}
+              </button>
+            </div>
           </div>
         </header>
       )}
       
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
-        <div className="card p-2 inline-flex gap-1">
-          <button
-            className={`btn text-sm py-1.5 px-3 ${view === 'news' ? 'btn-primary' : 'btn-ghost'}`}
-            onClick={() => setView('news')}
-          >
-            资讯聚合
-          </button>
-          <button
-            className={`btn text-sm py-1.5 px-3 ${view === 'md' ? 'btn-primary' : 'btn-ghost'}`}
-            onClick={() => setView('md')}
-          >
-            MD 转公众号
-          </button>
-        </div>
-
         {view === 'news' ? (
           <>
             <StatsCards
