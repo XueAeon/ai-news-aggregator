@@ -11,6 +11,7 @@ export { AiBaseDailyFetcher } from './aibasedaily.js';
 export { OfficialAiSourcesFetcher } from './official-ai.js';
 export { AiHotFetcher } from './aihot.js';
 export { NewsNowFetcher } from './newsnow.js';
+export { HackerNewsFetcher } from './hackernews.js';
 export { fetchOpmlRss } from './opml-rss.js';
 export { fetchWaytoagiRecent7d } from './waytoagi.js';
 
@@ -27,6 +28,7 @@ import { AiBaseDailyFetcher } from './aibasedaily.js';
 import { OfficialAiSourcesFetcher } from './official-ai.js';
 import { AiHotFetcher } from './aihot.js';
 import { NewsNowFetcher } from './newsnow.js';
+import { HackerNewsFetcher } from './hackernews.js';
 
 export function createAllFetchers(): Fetcher[] {
   return [
@@ -42,5 +44,6 @@ export function createAllFetchers(): Fetcher[] {
     new OfficialAiSourcesFetcher(),
     new AiHotFetcher(),
     new NewsNowFetcher(),
+    new HackerNewsFetcher(),
   ];
 }

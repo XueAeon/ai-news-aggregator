@@ -54,6 +54,7 @@ const SOURCE_WEIGHTS: Record<string, number> = {
   aibase: 1.1,
   aihubtoday: 1.05,
   zeli: 1.0,
+  hackernews: 1.0,
   techurls: 0.95,
   newsnow: 0.85,
   buzzing: 0.85,
