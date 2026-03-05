@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-05T23:21:26.349Z",
-  "generated_at_local": "2026-03-06T07:21:26.349+08:00",
+  "generated_at": "2026-03-05T23:49:15.385Z",
+  "generated_at_local": "2026-03-06T07:49:15.385+08:00",
   "source_generated_at": "2026-03-05T22:32:12.615Z",
   "source_generated_at_local": "2026-03-06T06:32:12.615+08:00",
   "window_hours": 24,
@@ -57,7 +57,7 @@
       "title_zh": "黄仁勋表示 Nvidia 正在退出 OpenAI 和 Anthropic",
       "title_bilingual": "黄仁勋表示 Nvidia 正在退出 OpenAI 和 Anthropic / Jensen Huang Says Nvidia Is Pulling Back From OpenAI and Anthropic",
       "published_at": "2026-03-05T18:04:15.988Z",
-      "age_hours": 5.29,
+      "age_hours": 5.75,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Slashdot",
@@ -72,8 +72,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 3,
-        "recency_score": 0.78,
-        "total_score": 4.596
+        "recency_score": 0.76,
+        "total_score": 4.573
       }
     },
     {
@@ -82,7 +82,7 @@
       "title_zh": "人工智能用户在五角大楼的争端中支持克劳德",
       "title_bilingual": "人工智能用户在五角大楼的争端中支持克劳德",
       "published_at": "2026-03-05T18:54:09.314Z",
-      "age_hours": 4.45,
+      "age_hours": 4.92,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "www.bloomberg.com",
@@ -95,8 +95,8 @@
         "source_weight": 0.85,
         "keyword_hits": 6,
         "cross_source_count": 1,
-        "recency_score": 0.814,
-        "total_score": 4.407
+        "recency_score": 0.795,
+        "total_score": 4.384
       }
     },
     {
@@ -105,7 +105,7 @@
       "title_zh": "GPT-5.4 思维系统卡片",
       "title_bilingual": "GPT-5.4 思维系统卡片 / GPT-5.4 Thinking System Card",
       "published_at": "2026-03-05T20:37:12.401Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Hacker News",
@@ -119,8 +119,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 2,
-        "recency_score": 0.886,
-        "total_score": 4.323
+        "recency_score": 0.867,
+        "total_score": 4.3
       }
     },
     {
@@ -129,7 +129,7 @@
       "title_zh": "Show HN: Argmin AI，面向智能体与RAG的系统级大型语言模型成本优化方案",
       "title_bilingual": "Show HN: Argmin AI，面向智能体与RAG的系统级大型语言模型成本优化方案 / Show HN: Argmin AI, system level LLM cost optimization for agents and RAG",
       "published_at": "2026-03-05T19:54:20Z",
-      "age_hours": 3.45,
+      "age_hours": 3.92,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -142,8 +142,8 @@
         "source_weight": 1,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.856,
-        "total_score": 4.227
+        "recency_score": 0.837,
+        "total_score": 4.204
       }
     },
     {
@@ -152,7 +152,7 @@
       "title_zh": "GPT-5.4 是我们在 SRE 基准测试中看到的最佳 SRE OpenAI 模型",
       "title_bilingual": "GPT-5.4 是我们在 SRE 基准测试中看到的最佳 SRE OpenAI 模型 / GPT-5.4 Is the Best OpenAI Model for SRE That We've Seen on Our SRE Benchmark",
       "published_at": "2026-03-05T19:14:27Z",
-      "age_hours": 4.12,
+      "age_hours": 4.58,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -165,8 +165,8 @@
         "source_weight": 1,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.828,
-        "total_score": 4.194
+        "recency_score": 0.809,
+        "total_score": 4.171
       }
     },
     {
@@ -175,7 +175,7 @@
       "title_zh": "GPT-5.4 简介",
       "title_bilingual": "GPT-5.4 简介 / Introducing GPT-5.4",
       "published_at": "2026-03-05T10:00:00Z",
-      "age_hours": 13.36,
+      "age_hours": 13.82,
       "site_id": "officialai",
       "site_name": "Official AI Sources",
       "source": "OpenAI",
@@ -188,8 +188,8 @@
         "source_weight": 1.35,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.443,
-        "total_score": 4.112
+        "recency_score": 0.424,
+        "total_score": 4.089
       }
     },
     {
@@ -198,7 +198,7 @@
       "title_zh": "微软正在其自己的游戏部门对代理人工智能泡沫进行压力测试",
       "title_bilingual": "微软正在其自己的游戏部门对代理人工智能泡沫进行压力测试 / Microsoft Is Stress-Testing the Agentic AI Bubble in Its Own Gaming Division",
       "published_at": "2026-03-05T22:26:59Z",
-      "age_hours": 0.91,
+      "age_hours": 1.37,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -211,8 +211,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.962,
-        "total_score": 4.105
+        "recency_score": 0.943,
+        "total_score": 4.081
       }
     },
     {
@@ -221,7 +221,7 @@
       "title_zh": "Android 发布了新的官方 LLM 代码生成基准：Android Bench",
       "title_bilingual": "Android 发布了新的官方 LLM 代码生成基准：Android Bench / Android released a new official LLM code-generation benchmark: Android Bench",
       "published_at": "2026-03-05T22:26:42Z",
-      "age_hours": 0.91,
+      "age_hours": 1.38,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -234,8 +234,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.962,
-        "total_score": 4.104
+        "recency_score": 0.943,
+        "total_score": 4.081
       }
     },
     {
@@ -244,7 +244,7 @@
       "title_zh": "Memex(RL)：通过索引经验记忆扩展长期 LLM 代理",
       "title_bilingual": "Memex(RL)：通过索引经验记忆扩展长期 LLM 代理 / Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory",
       "published_at": "2026-03-05T22:07:33Z",
-      "age_hours": 1.23,
+      "age_hours": 1.7,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -257,8 +257,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.949,
-        "total_score": 4.088
+        "recency_score": 0.929,
+        "total_score": 4.065
       }
     },
     {
@@ -267,7 +267,7 @@
       "title_zh": "Anthropic 推出人工智能工作破坏探测器",
       "title_bilingual": "Anthropic 推出人工智能工作破坏探测器 / Anthropic launches AI job destruction detector",
       "published_at": "2026-03-05T21:24:37Z",
-      "age_hours": 1.95,
+      "age_hours": 2.41,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -280,8 +280,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.919,
-        "total_score": 4.053
+        "recency_score": 0.9,
+        "total_score": 4.029
       }
     },
     {
@@ -290,7 +290,7 @@
       "title_zh": "“彻头彻尾的谎言”：Anthropic 首席执行官在泄露的备忘录中攻击 OpenAI 的美国军事声明——新报告表明该公司已重新与五角大楼进行谈判",
       "title_bilingual": "“彻头彻尾的谎言”：Anthropic 首席执行官在泄露的备忘录中攻击 OpenAI 的美国军事声明——新报告表明该公司已重新与五角大楼进行谈判 / 'Straight up lies': Anthropic CEO attacks OpenAI's US military announcement in leaked memo — as new report suggests company is back in talks with Pentagon",
       "published_at": "2026-03-05T18:04:15.988Z",
-      "age_hours": 5.29,
+      "age_hours": 5.75,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "TechRadar",
@@ -303,8 +303,8 @@
         "source_weight": 0.95,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.78,
-        "total_score": 4.046
+        "recency_score": 0.76,
+        "total_score": 4.023
       }
     },
     {
@@ -313,7 +313,7 @@
       "title_zh": "OpenAI缩减ChatGPT购物计划 - The Information",
       "title_bilingual": "OpenAI缩减ChatGPT购物计划 - The Information",
       "published_at": "2026-03-05T21:37:44.073Z",
-      "age_hours": 1.73,
+      "age_hours": 2.19,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "news.google.com",
@@ -326,8 +326,8 @@
         "source_weight": 0.85,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.928,
-        "total_score": 4.044
+        "recency_score": 0.909,
+        "total_score": 4.02
       }
     },
     {
@@ -336,7 +336,7 @@
       "title_zh": "ChatGPT for Excel 和新的财务数据集成",
       "title_bilingual": "ChatGPT for Excel 和新的财务数据集成 / ChatGPT for Excel and new financial data integrations",
       "published_at": "2026-03-05T21:01:24Z",
-      "age_hours": 2.33,
+      "age_hours": 2.8,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -349,8 +349,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.903,
-        "total_score": 4.033
+        "recency_score": 0.883,
+        "total_score": 4.01
       }
     },
     {
@@ -359,7 +359,7 @@
       "title_zh": "Show HN：使用此 MCP/CLI 工具将 LLM 代币使用量减少约 30%（Claude 基准测试）",
       "title_bilingual": "Show HN：使用此 MCP/CLI 工具将 LLM 代币使用量减少约 30%（Claude 基准测试） / Show HN: Reduce LLM token use by ~30% with this MCP/CLI tool(Claude benchmarked)",
       "published_at": "2026-03-05T15:59:32Z",
-      "age_hours": 7.37,
+      "age_hours": 7.83,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -372,8 +372,8 @@
         "source_weight": 1,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.693,
-        "total_score": 4.032
+        "recency_score": 0.674,
+        "total_score": 4.009
       }
     },
     {
@@ -382,7 +382,7 @@
       "title_zh": "代理代码推理",
       "title_bilingual": "代理代码推理 / Agentic Code Reasoning",
       "published_at": "2026-03-05T15:56:31Z",
-      "age_hours": 7.42,
+      "age_hours": 7.88,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -395,8 +395,8 @@
         "source_weight": 1,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.691,
-        "total_score": 4.029
+        "recency_score": 0.672,
+        "total_score": 4.006
       }
     },
     {
@@ -405,7 +405,7 @@
       "title_zh": "Show HN：LLM 生成的代理工作流程的执行前验证",
       "title_bilingual": "Show HN：LLM 生成的代理工作流程的执行前验证 / Show HN: Pre-execution verification for LLM-generated agentic workflows",
       "published_at": "2026-03-05T15:55:06Z",
-      "age_hours": 7.44,
+      "age_hours": 7.9,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -418,8 +418,8 @@
         "source_weight": 1,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.69,
-        "total_score": 4.028
+        "recency_score": 0.671,
+        "total_score": 4.005
       }
     },
     {
@@ -428,7 +428,7 @@
       "title_zh": "OpenAI 的“令人震惊的承认”：也许人们不想在 ChatGPT 内预订东西",
       "title_bilingual": "OpenAI 的“令人震惊的承认”：也许人们不想在 ChatGPT 内预订东西 / OpenAI's 'stunning admission': Maybe people don't want to book stuff inside ChatGPT",
       "published_at": "2026-03-05T22:32:12.615Z",
-      "age_hours": 0.82,
+      "age_hours": 1.28,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Business Insider",
@@ -441,8 +441,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.966,
-        "total_score": 4.019
+        "recency_score": 0.946,
+        "total_score": 3.996
       }
     },
     {
@@ -451,7 +451,7 @@
       "title_zh": "Anthropic 表示，自今年年初以来，Claude 的免费活跃用户增长了 60% 以上，每日注册量增长了 4 倍，其中周一是有史以来最强劲的一天（Shirin Ghaffary/彭博社）",
       "title_bilingual": "Anthropic 表示，自今年年初以来，Claude 的免费活跃用户增长了 60% 以上，每日注册量增长了 4 倍，其中周一是有史以来最强劲的一天（Shirin Ghaffary/彭博社） / Anthropic says Claude's free active users grew 60%+ and daily signups grew 4x since the start of the year, with Monday being its strongest day ever (Shirin Ghaffary/Bloomberg)",
       "published_at": "2026-03-05T22:32:12.615Z",
-      "age_hours": 0.82,
+      "age_hours": 1.28,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -464,8 +464,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.966,
-        "total_score": 4.019
+        "recency_score": 0.946,
+        "total_score": 3.996
       }
     },
     {
@@ -474,7 +474,7 @@
       "title_zh": "OpenAI推出具有更多知识工作能力的GPT-5.4",
       "title_bilingual": "OpenAI推出具有更多知识工作能力的GPT-5.4 / OpenAI introduces GPT-5.4 with more knowledge work capability",
       "published_at": "2026-03-05T22:32:12.615Z",
-      "age_hours": 0.82,
+      "age_hours": 1.28,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Ars Technica",
@@ -487,8 +487,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.966,
-        "total_score": 4.019
+        "recency_score": 0.946,
+        "total_score": 3.996
       }
     },
     {
@@ -497,7 +497,7 @@
       "title_zh": "Show HN: Argmin AI，面向智能体与RAG的系统级大型语言模型成本优化方案",
       "title_bilingual": "Show HN: Argmin AI，面向智能体与RAG的系统级大型语言模型成本优化方案",
       "published_at": "2026-03-05T20:02:51.047Z",
-      "age_hours": 3.31,
+      "age_hours": 3.77,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "argminai.com",
@@ -510,8 +510,8 @@
         "source_weight": 0.85,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.862,
-        "total_score": 3.965
+        "recency_score": 0.843,
+        "total_score": 3.941
       }
     },
     {
@@ -520,7 +520,7 @@
       "title_zh": "Show HN: 代理式编码的Git差异比较",
       "title_bilingual": "Show HN: 代理式编码的Git差异比较 / Show HN: Git Diff for Agentic Coding",
       "published_at": "2026-03-05T19:31:44Z",
-      "age_hours": 3.83,
+      "age_hours": 4.29,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -533,8 +533,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.84,
-        "total_score": 3.959
+        "recency_score": 0.821,
+        "total_score": 3.935
       }
     },
     {
@@ -543,7 +543,7 @@
       "title_zh": "Show HN: Jido 2.0，灵药代理框架",
       "title_bilingual": "Show HN: Jido 2.0，灵药代理框架 / Show HN: Jido 2.0, Elixir Agent Framework",
       "published_at": "2026-03-05T18:04:15.988Z",
-      "age_hours": 5.29,
+      "age_hours": 5.75,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Hacker News",
@@ -557,8 +557,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 2,
-        "recency_score": 0.78,
-        "total_score": 3.946
+        "recency_score": 0.76,
+        "total_score": 3.923
       }
     },
     {
@@ -567,7 +567,7 @@
       "title_zh": "OpenAI 表示，用户现在可以直接在 Microsoft Excel 和 Google Sheets 中使用 ChatGPT，并推出了一套金融服务工具来更好地处理办公室工作（Rachel Metz/Bloomberg）",
       "title_bilingual": "OpenAI 表示，用户现在可以直接在 Microsoft Excel 和 Google Sheets 中使用 ChatGPT，并推出了一套金融服务工具来更好地处理办公室工作（Rachel Metz/Bloomberg） / OpenAI says users can now use ChatGPT directly in Microsoft Excel and Google Sheets and debuts a suite of financial-services tools to better tackle office work (Rachel Metz/Bloomberg)",
       "published_at": "2026-03-05T20:37:12.401Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -580,8 +580,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.886,
-        "total_score": 3.923
+        "recency_score": 0.867,
+        "total_score": 3.9
       }
     },
     {
@@ -590,7 +590,7 @@
       "title_zh": "OpenAI 推出 GPT-5.4，称其是“专业工作中最有能力、最高效的前沿模型”，也是第一个具有本机计算机使用功能的模型（Emma Roth/The Verge）",
       "title_bilingual": "OpenAI 推出 GPT-5.4，称其是“专业工作中最有能力、最高效的前沿模型”，也是第一个具有本机计算机使用功能的模型（Emma Roth/The Verge） / OpenAI launches GPT-5.4, saying it is its \"most capable and efficient frontier model for professional work\" and its first with native computer use capabilities (Emma Roth/The Verge)",
       "published_at": "2026-03-05T20:37:12.401Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -603,8 +603,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.886,
-        "total_score": 3.923
+        "recency_score": 0.867,
+        "total_score": 3.9
       }
     },
     {
@@ -613,7 +613,7 @@
       "title_zh": "OpenAI 发布新的 ChatGPT 模型，用于在 Excel 和 Google Sheets 中工作",
       "title_bilingual": "OpenAI 发布新的 ChatGPT 模型，用于在 Excel 和 Google Sheets 中工作 / OpenAI Releases New ChatGPT Model For Working In Excel and Google Sheets",
       "published_at": "2026-03-05T20:37:12.401Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Slashdot",
@@ -626,8 +626,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.886,
-        "total_score": 3.923
+        "recency_score": 0.867,
+        "total_score": 3.9
       }
     },
     {
@@ -636,7 +636,7 @@
       "title_zh": "没那么快：人类和美国军方毕竟可能会做生意",
       "title_bilingual": "没那么快：人类和美国军方毕竟可能会做生意 / Not so fast: Anthropic and US military might do business after all",
       "published_at": "2026-03-05T20:37:12.401Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Mashable",
@@ -649,8 +649,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.886,
-        "total_score": 3.923
+        "recency_score": 0.867,
+        "total_score": 3.9
       }
     },
     {
@@ -659,7 +659,7 @@
       "title_zh": "GPT 5.4 思考与专业",
       "title_bilingual": "GPT 5.4 思考与专业 / GPT 5.4 Thinking and Pro",
       "published_at": "2026-03-05T20:37:12.401Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Hacker News",
@@ -672,8 +672,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.886,
-        "total_score": 3.923
+        "recency_score": 0.867,
+        "total_score": 3.9
       }
     },
     {
@@ -682,7 +682,7 @@
       "title_zh": "OpenAI 表示，与 GPT-5.2 相比，GPT-5.4 的“个人声明错误的可能性降低了 33%，完整响应包含任何错误的可能性降低了 18%”（David Gewirtz/ZDNET）",
       "title_bilingual": "OpenAI 表示，与 GPT-5.2 相比，GPT-5.4 的“个人声明错误的可能性降低了 33%，完整响应包含任何错误的可能性降低了 18%”（David Gewirtz/ZDNET） / OpenAI says GPT-5.4's \"individual claims are 33% less likely to be false and its full responses are 18% less likely to contain any errors, relative to GPT-5.2\" (David Gewirtz/ZDNET)",
       "published_at": "2026-03-05T20:37:12.401Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -695,8 +695,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.886,
-        "total_score": 3.923
+        "recency_score": 0.867,
+        "total_score": 3.9
       }
     },
     {
@@ -705,7 +705,7 @@
       "title_zh": "OpenAI 推出 GPT-5.4 Pro 和 Thinking 版本",
       "title_bilingual": "OpenAI 推出 GPT-5.4 Pro 和 Thinking 版本 / OpenAI launches GPT-5.4 with Pro and Thinking versions",
       "published_at": "2026-03-05T20:37:12.401Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "TechCrunch",
@@ -718,8 +718,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.886,
-        "total_score": 3.923
+        "recency_score": 0.867,
+        "total_score": 3.9
       }
     },
     {
@@ -728,7 +728,7 @@
       "title_zh": "OpenAI 表示，GPT-5.4 生成的演示文稿具有更强、更多样化的美感，并更有效地利用其图像生成工具（Igor Bonifacic/Engadget）",
       "title_bilingual": "OpenAI 表示，GPT-5.4 生成的演示文稿具有更强、更多样化的美感，并更有效地利用其图像生成工具（Igor Bonifacic/Engadget） / OpenAI says GPT-5.4 produces presentations with stronger, more varied aesthetics and makes more effective use of its image generation tools (Igor Bonifacic/Engadget)",
       "published_at": "2026-03-05T20:37:12.401Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -741,8 +741,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.886,
-        "total_score": 3.923
+        "recency_score": 0.867,
+        "total_score": 3.9
       }
     },
     {
@@ -751,7 +751,7 @@
       "title_zh": "OpenAI发布GPT-5.4模型",
       "title_bilingual": "OpenAI发布GPT-5.4模型",
       "published_at": "2026-03-05T22:32:12.615Z",
-      "age_hours": 0.82,
+      "age_hours": 1.28,
       "site_id": "tophub",
       "site_name": "TopHub",
       "source": "Readhub · AI",
@@ -764,8 +764,8 @@
         "source_weight": 0.75,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.966,
-        "total_score": 3.909
+        "recency_score": 0.946,
+        "total_score": 3.886
       }
     },
     {
@@ -774,7 +774,7 @@
       "title_zh": "Show HN：PageAgent，一个驻留在 Web 应用程序中的 GUI 代理",
       "title_bilingual": "Show HN：PageAgent，一个驻留在 Web 应用程序中的 GUI 代理 / Show HN: PageAgent, A GUI agent that lives inside your web app",
       "published_at": "2026-03-05T20:37:15.822Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "source": "hackernews",
@@ -788,8 +788,8 @@
         "source_weight": 0.85,
         "keyword_hits": 2,
         "cross_source_count": 2,
-        "recency_score": 0.886,
-        "total_score": 3.893
+        "recency_score": 0.867,
+        "total_score": 3.87
       }
     },
     {
@@ -798,7 +798,7 @@
       "title_zh": "五角大楼正式标记人为供应链风险",
       "title_bilingual": "五角大楼正式标记人为供应链风险 / Pentagon Formally Labels Anthropic Supply-Chain Risk",
       "published_at": "2026-03-05T20:37:15.822Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "source": "hackernews",
@@ -812,8 +812,8 @@
         "source_weight": 0.85,
         "keyword_hits": 2,
         "cross_source_count": 2,
-        "recency_score": 0.886,
-        "total_score": 3.893
+        "recency_score": 0.867,
+        "total_score": 3.87
       }
     },
     {
@@ -822,7 +822,7 @@
       "title_zh": null,
       "title_bilingual": "GPT-5.4",
       "published_at": "2026-03-05T20:37:15.822Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "source": "hackernews",
@@ -836,8 +836,8 @@
         "source_weight": 0.85,
         "keyword_hits": 2,
         "cross_source_count": 2,
-        "recency_score": 0.886,
-        "total_score": 3.893
+        "recency_score": 0.867,
+        "total_score": 3.87
       }
     },
     {
@@ -846,7 +846,7 @@
       "title_zh": "显示 HN：Claude Code 的认知架构 – 触发器、内存、文档",
       "title_bilingual": "显示 HN：Claude Code 的认知架构 – 触发器、内存、文档 / Show HN: Cognitive architecture for Claude Code – triggers, memory, docs",
       "published_at": "2026-03-05T18:05:42Z",
-      "age_hours": 5.26,
+      "age_hours": 5.73,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -859,8 +859,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.781,
-        "total_score": 3.887
+        "recency_score": 0.761,
+        "total_score": 3.864
       }
     },
     {
@@ -869,7 +869,7 @@
       "title_zh": "推理模型很难控制自己的思维链，这很好",
       "title_bilingual": "推理模型很难控制自己的思维链，这很好 / Reasoning models struggle to control their chains of thought, and that’s good",
       "published_at": "2026-03-05T18:01:09Z",
-      "age_hours": 5.34,
+      "age_hours": 5.8,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -882,8 +882,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.778,
-        "total_score": 3.883
+        "recency_score": 0.758,
+        "total_score": 3.86
       }
     },
     {
@@ -892,7 +892,7 @@
       "title_zh": "Lio 使用 AI 代理实现企业采购自动化，包括文档阅读和供应商评估，筹集了由 a16z 领投的 3000 万美元 A 轮融资（Dominic-Madori Davis/TechCrunch）",
       "title_bilingual": "Lio 使用 AI 代理实现企业采购自动化，包括文档阅读和供应商评估，筹集了由 a16z 领投的 3000 万美元 A 轮融资（Dominic-Madori Davis/TechCrunch） / Lio, which uses AI agents to automate enterprise procurement, including document reading and supplier evaluation, raised a $30M Series A led by a16z (Dominic-Madori Davis/TechCrunch)",
       "published_at": "2026-03-05T14:43:52.997Z",
-      "age_hours": 8.63,
+      "age_hours": 9.09,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -905,8 +905,8 @@
         "source_weight": 0.95,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.641,
-        "total_score": 3.879
+        "recency_score": 0.621,
+        "total_score": 3.856
       }
     },
     {
@@ -915,7 +915,7 @@
       "title_zh": "自由放养的代理人养育：如果你爱你的代理人，就让他们自由",
       "title_bilingual": "自由放养的代理人养育：如果你爱你的代理人，就让他们自由 / Free-range agentic parenting: If you love your agents, set them free",
       "published_at": "2026-03-05T17:55:33Z",
-      "age_hours": 5.43,
+      "age_hours": 5.9,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -928,8 +928,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.774,
-        "total_score": 3.878
+        "recency_score": 0.754,
+        "total_score": 3.855
       }
     },
     {
@@ -938,7 +938,7 @@
       "title_zh": "ChatGOAT – 在 GPT/Claude/Gemini/Grok 和图像/视频生成之间切换",
       "title_bilingual": "ChatGOAT – 在 GPT/Claude/Gemini/Grok 和图像/视频生成之间切换 / ChatGOAT – switch between GPT/Claude/Gemini/Grok and image/video Generation",
       "published_at": "2026-03-05T07:55:29Z",
-      "age_hours": 15.43,
+      "age_hours": 15.9,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -951,8 +951,8 @@
         "source_weight": 1,
         "keyword_hits": 5,
         "cross_source_count": 1,
-        "recency_score": 0.357,
-        "total_score": 3.878
+        "recency_score": 0.338,
+        "total_score": 3.855
       }
     },
     {
@@ -961,7 +961,7 @@
       "title_zh": "Show HN：我将 9 个代理的 LLM 管道安装到 iOS 上的 1.5GB RAM 中",
       "title_bilingual": "Show HN：我将 9 个代理的 LLM 管道安装到 iOS 上的 1.5GB RAM 中 / Show HN: I fit a 9-agent LLM pipeline into 1.5GB of RAM on iOS",
       "published_at": "2026-03-05T17:54:11Z",
-      "age_hours": 5.45,
+      "age_hours": 5.92,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -974,8 +974,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.773,
-        "total_score": 3.877
+        "recency_score": 0.753,
+        "total_score": 3.854
       }
     },
     {
@@ -984,7 +984,7 @@
       "title_zh": "Show HN：RedDragon，LLM 辅助的跨语言代码 IR 分析",
       "title_bilingual": "Show HN：RedDragon，LLM 辅助的跨语言代码 IR 分析 / Show HN: RedDragon, LLM-assisted IR analysis of code across languages",
       "published_at": "2026-03-05T17:45:12Z",
-      "age_hours": 5.6,
+      "age_hours": 6.07,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -997,8 +997,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.767,
-        "total_score": 3.87
+        "recency_score": 0.747,
+        "total_score": 3.847
       }
     },
     {
@@ -1007,7 +1007,7 @@
       "title_zh": "BullshitBench v2：法学硕士回答无意义的问题",
       "title_bilingual": "BullshitBench v2：法学硕士回答无意义的问题 / BullshitBench v2: LLMs answering nonsense questions",
       "published_at": "2026-03-05T12:23:27Z",
-      "age_hours": 10.97,
+      "age_hours": 11.43,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -1020,8 +1020,8 @@
         "source_weight": 1,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.543,
-        "total_score": 3.852
+        "recency_score": 0.524,
+        "total_score": 3.828
       }
     },
     {
@@ -1030,7 +1030,7 @@
       "title_zh": "迈向可靠的代理系统（第 1 部分）——理解错误",
       "title_bilingual": "迈向可靠的代理系统（第 1 部分）——理解错误 / Towards Reliable Agentic Systems (Part 1) – Understanding Error",
       "published_at": "2026-03-05T17:19:10Z",
-      "age_hours": 6.04,
+      "age_hours": 6.5,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -1043,8 +1043,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.748,
-        "total_score": 3.848
+        "recency_score": 0.729,
+        "total_score": 3.825
       }
     },
     {
@@ -1053,7 +1053,7 @@
       "title_zh": "人类和五角大楼回到谈判桌",
       "title_bilingual": "人类和五角大楼回到谈判桌 / Anthropic and The Pentagon are back at the negotiating table",
       "published_at": "2026-03-05T17:17:42Z",
-      "age_hours": 6.06,
+      "age_hours": 6.53,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -1066,8 +1066,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.747,
-        "total_score": 3.847
+        "recency_score": 0.728,
+        "total_score": 3.824
       }
     },
     {
@@ -1076,7 +1076,7 @@
       "title_zh": "Show HN：一项 Claude Code 技能，可将决策呈现为交互式 HTML 页面",
       "title_bilingual": "Show HN：一项 Claude Code 技能，可将决策呈现为交互式 HTML 页面 / Show HN: A Claude Code skill that renders decisions as interactive HTML pages",
       "published_at": "2026-03-05T22:11:43Z",
-      "age_hours": 1.16,
+      "age_hours": 1.63,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -1089,8 +1089,8 @@
         "source_weight": 1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.952,
-        "total_score": 3.842
+        "recency_score": 0.932,
+        "total_score": 3.819
       }
     },
     {
@@ -1099,7 +1099,7 @@
       "title_zh": "Foreman：安全的自托管代理协调器",
       "title_bilingual": "Foreman：安全的自托管代理协调器 / Foreman: A secure self-hosted agent orchestrator",
       "published_at": "2026-03-05T22:07:52Z",
-      "age_hours": 1.23,
+      "age_hours": 1.69,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -1112,8 +1112,8 @@
         "source_weight": 1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.949,
-        "total_score": 3.839
+        "recency_score": 0.93,
+        "total_score": 3.816
       }
     },
     {
@@ -1122,7 +1122,7 @@
       "title_zh": "推动业务重塑的五种人工智能价值模型",
       "title_bilingual": "推动业务重塑的五种人工智能价值模型 / The five AI value models driving business reinvention",
       "published_at": "2026-03-05T21:55:21Z",
-      "age_hours": 1.43,
+      "age_hours": 1.9,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -1135,8 +1135,8 @@
         "source_weight": 1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.94,
-        "total_score": 3.828
+        "recency_score": 0.921,
+        "total_score": 3.805
       }
     },
     {
@@ -1145,7 +1145,7 @@
       "title_zh": "我们如何与事件代理一起处理最近在港口发生的事件",
       "title_bilingual": "我们如何与事件代理一起处理最近在港口发生的事件 / How we would have managed a recent incident at Port with an incident agent",
       "published_at": "2026-03-05T21:49:22Z",
-      "age_hours": 1.53,
+      "age_hours": 2,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -1158,8 +1158,8 @@
         "source_weight": 1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.936,
-        "total_score": 3.823
+        "recency_score": 0.917,
+        "total_score": 3.8
       }
     },
     {
@@ -1168,7 +1168,7 @@
       "title_zh": "GitHub Copilot 现在在 VS Code 安装中排名第三，落后于 Claude/OpenAI",
       "title_bilingual": "GitHub Copilot 现在在 VS Code 安装中排名第三，落后于 Claude/OpenAI / GitHub Copilot is now #3 in VS Code installs behind Claude/OpenAI",
       "published_at": "2026-03-05T16:48:27Z",
-      "age_hours": 6.55,
+      "age_hours": 7.01,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -1181,8 +1181,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.727,
-        "total_score": 3.823
+        "recency_score": 0.708,
+        "total_score": 3.799
       }
     },
     {
@@ -1191,7 +1191,7 @@
       "title_zh": "莫·萨缪尔斯写了这篇博文",
       "title_bilingual": "莫·萨缪尔斯写了这篇博文 / Mo Samuels wrote this blog post",
       "published_at": "2026-03-05T21:46:48Z",
-      "age_hours": 1.58,
+      "age_hours": 2.04,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -1204,8 +1204,8 @@
         "source_weight": 1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.934,
-        "total_score": 3.821
+        "recency_score": 0.915,
+        "total_score": 3.798
       }
     },
     {
@@ -1214,7 +1214,7 @@
       "title_zh": "最大限度地减少代理人工智能时代的用户研究欺诈",
       "title_bilingual": "最大限度地减少代理人工智能时代的用户研究欺诈 / Minimizing user research fraud in the age of agentic AI",
       "published_at": "2026-03-05T16:45:18Z",
-      "age_hours": 6.6,
+      "age_hours": 7.07,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -1227,8 +1227,8 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.725,
-        "total_score": 3.82
+        "recency_score": 0.706,
+        "total_score": 3.797
       }
     },
     {
@@ -1237,7 +1237,7 @@
       "title_zh": "Show HN: 运行真实用户访谈的人工智能代理",
       "title_bilingual": "Show HN: 运行真实用户访谈的人工智能代理 / Show HN: AI agents that run real user interviews",
       "published_at": "2026-03-05T21:36:45Z",
-      "age_hours": 1.74,
+      "age_hours": 2.21,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -1250,8 +1250,8 @@
         "source_weight": 1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.927,
-        "total_score": 3.813
+        "recency_score": 0.908,
+        "total_score": 3.79
       }
     },
     {
@@ -1260,7 +1260,7 @@
       "title_zh": "OpenAI发布旗舰模型GPT-5.4 助力专业金融工作流程",
       "title_bilingual": "OpenAI发布旗舰模型GPT-5.4 助力专业金融工作流程",
       "published_at": "2026-03-05T20:37:12.401Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "tophub",
       "site_name": "TopHub",
       "source": "Readhub · AI",
@@ -1273,8 +1273,8 @@
         "source_weight": 0.75,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.886,
-        "total_score": 3.813
+        "recency_score": 0.867,
+        "total_score": 3.79
       }
     },
     {
@@ -1283,7 +1283,7 @@
       "title_zh": "OpenAI迈出“AI代理”重要一步：发布首个具备原生计算机操作能力的模型GPT-5.4",
       "title_bilingual": "OpenAI迈出“AI代理”重要一步：发布首个具备原生计算机操作能力的模型GPT-5.4",
       "published_at": "2026-03-05T20:37:12.401Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "tophub",
       "site_name": "TopHub",
       "source": "Readhub · AI",
@@ -1296,8 +1296,8 @@
         "source_weight": 0.75,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.886,
-        "total_score": 3.813
+        "recency_score": 0.867,
+        "total_score": 3.79
       }
     },
     {
@@ -1306,7 +1306,7 @@
       "title_zh": "总部位于斯德哥尔摩的 Validio 的代理平台能够自动检测和解决数据质量问题，筹集了 3000 万美元的 A 轮融资，使其融资总额达到 4700 万美元（Chris Metinko/Axios）",
       "title_bilingual": "总部位于斯德哥尔摩的 Validio 的代理平台能够自动检测和解决数据质量问题，筹集了 3000 万美元的 A 轮融资，使其融资总额达到 4700 万美元（Chris Metinko/Axios） / Stockholm-based Validio, whose agentic platform autonomously detects and resolves data quality issues, raised a $30M Series A, bringing its total raised to $47M (Chris Metinko/Axios)",
       "published_at": "2026-03-05T18:04:15.988Z",
-      "age_hours": 5.29,
+      "age_hours": 5.75,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -1319,8 +1319,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.78,
-        "total_score": 3.796
+        "recency_score": 0.76,
+        "total_score": 3.773
       }
     },
     {
@@ -1329,7 +1329,7 @@
       "title_zh": "Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 称 OpenAI 围绕军事协议的信息是“彻头彻尾的谎言”",
       "title_bilingual": "Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 称 OpenAI 围绕军事协议的信息是“彻头彻尾的谎言” / Anthropic CEO Dario Amodei Calls OpenAI's Messaging Around Military Deal 'Straight Up Lies'",
       "published_at": "2026-03-05T18:04:15.988Z",
-      "age_hours": 5.29,
+      "age_hours": 5.75,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Slashdot",
@@ -1342,8 +1342,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.78,
-        "total_score": 3.796
+        "recency_score": 0.76,
+        "total_score": 3.773
       }
     },
     {
@@ -1352,7 +1352,7 @@
       "title_zh": "Cursor 正在推出一种新型代理编码工具",
       "title_bilingual": "Cursor 正在推出一种新型代理编码工具 / Cursor is rolling out a new kind of agentic coding tool",
       "published_at": "2026-03-05T18:04:15.988Z",
-      "age_hours": 5.29,
+      "age_hours": 5.75,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "TechCrunch",
@@ -1365,8 +1365,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.78,
-        "total_score": 3.796
+        "recency_score": 0.76,
+        "total_score": 3.773
       }
     },
     {
@@ -1375,7 +1375,7 @@
       "title_zh": "加拿大表示 Sam Altman 同意立即采取措施，加强 OpenAI 的安全协议，以就可能可疑的 ChatGPT 使用情况通知警方（Paul Vieira/华尔街日报）",
       "title_bilingual": "加拿大表示 Sam Altman 同意立即采取措施，加强 OpenAI 的安全协议，以就可能可疑的 ChatGPT 使用情况通知警方（Paul Vieira/华尔街日报） / Canada says Sam Altman agreed to take immediate steps to strengthen OpenAI's safety protocols about notifying police over potentially suspicious ChatGPT use (Paul Vieira/Wall Street Journal)",
       "published_at": "2026-03-05T18:04:15.988Z",
-      "age_hours": 5.29,
+      "age_hours": 5.75,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -1388,8 +1388,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.78,
-        "total_score": 3.796
+        "recency_score": 0.76,
+        "total_score": 3.773
       }
     },
     {
@@ -1398,7 +1398,7 @@
       "title_zh": "Anthropic 推出了一个预警系统，以应对人工智能驱动的白领工作岗位可能受到的破坏，并表示，迄今为止，该系统显示了人工智能导致的失业的“有限证据”（Courtenay Brown/Axios）",
       "title_bilingual": "Anthropic 推出了一个预警系统，以应对人工智能驱动的白领工作岗位可能受到的破坏，并表示，迄今为止，该系统显示了人工智能导致的失业的“有限证据”（Courtenay Brown/Axios） / Anthropic launches an early-warning system for potential AI-driven destruction of white-collar jobs, says it shows \"limited evidence\" of AI-led job loss so far (Courtenay Brown/Axios)",
       "published_at": "2026-03-05T22:32:12.615Z",
-      "age_hours": 0.82,
+      "age_hours": 1.28,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -1411,8 +1411,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.966,
-        "total_score": 3.769
+        "recency_score": 0.946,
+        "total_score": 3.746
       }
     },
     {
@@ -1421,7 +1421,7 @@
       "title_zh": "AWS推出专门针对医疗保健的新AI代理平台",
       "title_bilingual": "AWS推出专门针对医疗保健的新AI代理平台 / AWS launches a new AI agent platform specifically for health care",
       "published_at": "2026-03-05T22:32:12.615Z",
-      "age_hours": 0.82,
+      "age_hours": 1.28,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "TechCrunch",
@@ -1434,8 +1434,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.966,
-        "total_score": 3.769
+        "recency_score": 0.946,
+        "total_score": 3.746
       }
     },
     {
@@ -1444,7 +1444,7 @@
       "title_zh": "Anthropic 被五角大楼标记为供应链风险",
       "title_bilingual": "Anthropic 被五角大楼标记为供应链风险 / Anthropic labelled a supply chain risk by Pentagon",
       "published_at": "2026-03-05T22:32:12.615Z",
-      "age_hours": 0.82,
+      "age_hours": 1.28,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "BBC News",
@@ -1457,8 +1457,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.966,
-        "total_score": 3.769
+        "recency_score": 0.946,
+        "total_score": 3.746
       }
     },
     {
@@ -1467,7 +1467,7 @@
       "title_zh": "官方消息：五角大楼已将 Anthropic 标记为供应链风险",
       "title_bilingual": "官方消息：五角大楼已将 Anthropic 标记为供应链风险 / It’s official: The Pentagon has labeled Anthropic a supply chain risk",
       "published_at": "2026-03-05T22:32:12.615Z",
-      "age_hours": 0.82,
+      "age_hours": 1.28,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "TechCrunch",
@@ -1480,8 +1480,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.966,
-        "total_score": 3.769
+        "recency_score": 0.946,
+        "total_score": 3.746
       }
     },
     {
@@ -1490,7 +1490,7 @@
       "title_zh": "为训练人工智能模型创建的聚合物化学数据集",
       "title_bilingual": "为训练人工智能模型创建的聚合物化学数据集",
       "published_at": "2026-03-05T21:05:48.575Z",
-      "age_hours": 2.26,
+      "age_hours": 2.72,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "phys.org",
@@ -1503,8 +1503,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.906,
-        "total_score": 3.767
+        "recency_score": 0.886,
+        "total_score": 3.744
       }
     },
     {
@@ -1513,7 +1513,7 @@
       "title_zh": "消息称 OpenAI 正开发双向语音模型：对话被打断照样跟你继续聊，体验“更像人”",
       "title_bilingual": "消息称 OpenAI 正开发双向语音模型：对话被打断照样跟你继续聊，体验“更像人”",
       "published_at": "2026-03-05T15:45:33Z",
-      "age_hours": 7.6,
+      "age_hours": 8.06,
       "site_id": "iris",
       "site_name": "Info Flow",
       "source": "IT之家 (ITHome)",
@@ -1526,8 +1526,8 @@
         "source_weight": 0.85,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.683,
-        "total_score": 3.75
+        "recency_score": 0.664,
+        "total_score": 3.727
       }
     },
     {
@@ -1536,7 +1536,7 @@
       "title_zh": "\"令人痛心的讽刺\"：游说者和前政府官员称，特朗普正因与Anthropic的争执而破坏其人工智能议程",
       "title_bilingual": "\"令人痛心的讽刺\"：游说者和前政府官员称，特朗普正因与Anthropic的争执而破坏其人工智能议程",
       "published_at": "2026-03-05T20:33:49.846Z",
-      "age_hours": 2.79,
+      "age_hours": 3.26,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "www.politico.com",
@@ -1549,8 +1549,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.884,
-        "total_score": 3.74
+        "recency_score": 0.864,
+        "total_score": 3.717
       }
     },
     {
@@ -1559,7 +1559,7 @@
       "title_zh": "山姆·奥尔特曼主张由民选官员而非OpenAI决定军方如何使用人工智能",
       "title_bilingual": "山姆·奥尔特曼主张由民选官员而非OpenAI决定军方如何使用人工智能",
       "published_at": "2026-03-05T20:33:49.054Z",
-      "age_hours": 2.79,
+      "age_hours": 3.26,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "on.wsj.com",
@@ -1572,8 +1572,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.884,
-        "total_score": 3.74
+        "recency_score": 0.864,
+        "total_score": 3.717
       }
     },
     {
@@ -1582,7 +1582,7 @@
       "title_zh": "结构化人工智能（YC F25）正在招聘",
       "title_bilingual": "结构化人工智能（YC F25）正在招聘 / Structured AI (YC F25) Is Hiring",
       "published_at": "2026-03-05T22:32:15.271Z",
-      "age_hours": 0.82,
+      "age_hours": 1.28,
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "source": "hackernews",
@@ -1596,31 +1596,8 @@
         "source_weight": 0.85,
         "keyword_hits": 1,
         "cross_source_count": 2,
-        "recency_score": 0.966,
-        "total_score": 3.739
-      }
-    },
-    {
-      "event_id": "[openai] gpt 5.4 发布",
-      "title": "[OpenAI] GPT 5.4 发布",
-      "title_zh": "[OpenAI] GPT 5.4 发布",
-      "title_bilingual": "[OpenAI] GPT 5.4 发布",
-      "published_at": "2026-03-05T19:50:00Z",
-      "age_hours": 3.52,
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "source": "V2EX (创意工作者社区)",
-      "url": "https://www.v2ex.com/t/1196187",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.v2ex.com/t/1196187"
-      ],
-      "signals": {
-        "source_weight": 0.85,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.853,
-        "total_score": 3.704
+        "recency_score": 0.947,
+        "total_score": 3.716
       }
     },
     {
@@ -1647,12 +1624,35 @@
       }
     },
     {
+      "event_id": "[openai] gpt 5.4 发布",
+      "title": "[OpenAI] GPT 5.4 发布",
+      "title_zh": "[OpenAI] GPT 5.4 发布",
+      "title_bilingual": "[OpenAI] GPT 5.4 发布",
+      "published_at": "2026-03-05T19:50:00Z",
+      "age_hours": 3.99,
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "source": "V2EX (创意工作者社区)",
+      "url": "https://www.v2ex.com/t/1196187",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.v2ex.com/t/1196187"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.834,
+        "total_score": 3.681
+      }
+    },
+    {
       "event_id": "a github issue title compromised 4k developer machines",
       "title": "A GitHub Issue Title Compromised 4k Developer Machines",
       "title_zh": "GitHub问题标题导致4000台开发者机器遭入侵",
       "title_bilingual": "GitHub问题标题导致4000台开发者机器遭入侵 / A GitHub Issue Title Compromised 4k Developer Machines",
       "published_at": "2026-03-05T18:04:15.988Z",
-      "age_hours": 5.29,
+      "age_hours": 5.75,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Hacker News",
@@ -1666,8 +1666,8 @@
         "source_weight": 0.95,
         "keyword_hits": 1,
         "cross_source_count": 2,
-        "recency_score": 0.78,
-        "total_score": 3.696
+        "recency_score": 0.76,
+        "total_score": 3.673
       }
     },
     {
@@ -1676,7 +1676,7 @@
       "title_zh": "人工智能能帮我报税吗？了解提示语、风险及人工智能的三大助力方式。",
       "title_bilingual": "人工智能能帮我报税吗？了解提示语、风险及人工智能的三大助力方式。",
       "published_at": "2026-03-05T19:35:52.695Z",
-      "age_hours": 3.76,
+      "age_hours": 4.22,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "finance.yahoo.com",
@@ -1689,8 +1689,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.843,
-        "total_score": 3.692
+        "recency_score": 0.824,
+        "total_score": 3.669
       }
     },
     {
@@ -1699,7 +1699,7 @@
       "title_zh": "AI日报：OpenAI测试ChatGPT写作模板功能；番茄、拼多多密测AI互动剧；Canvas 正式全美公测",
       "title_bilingual": "AI日报：OpenAI测试ChatGPT写作模板功能；番茄、拼多多密测AI互动剧；Canvas 正式全美公测",
       "published_at": "2026-03-05T08:41:49.945Z",
-      "age_hours": 14.66,
+      "age_hours": 15.12,
       "site_id": "aibasedaily",
       "site_name": "AIbase Daily",
       "source": "AI日报",
@@ -1712,8 +1712,8 @@
         "source_weight": 1.15,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.389,
-        "total_score": 3.687
+        "recency_score": 0.37,
+        "total_score": 3.664
       }
     },
     {
@@ -1722,7 +1722,7 @@
       "title_zh": "消息称 OpenAI 正开发双向语音模型：被打断也不会影响对话持续，体验“更像人”",
       "title_bilingual": "消息称 OpenAI 正开发双向语音模型：被打断也不会影响对话持续，体验“更像人”",
       "published_at": "2026-03-05T18:04:15.988Z",
-      "age_hours": 5.29,
+      "age_hours": 5.75,
       "site_id": "tophub",
       "site_name": "TopHub",
       "source": "Readhub · AI",
@@ -1735,8 +1735,8 @@
         "source_weight": 0.75,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.78,
-        "total_score": 3.686
+        "recency_score": 0.76,
+        "total_score": 3.663
       }
     },
     {
@@ -1745,7 +1745,7 @@
       "title_zh": "ChatGPT 刚刚通过 GPT-5.4 Thinking 获得了另一次大脑提升 - 它专为更大、更复杂的任务而构建",
       "title_bilingual": "ChatGPT 刚刚通过 GPT-5.4 Thinking 获得了另一次大脑提升 - 它专为更大、更复杂的任务而构建 / ChatGPT just got another brain boost with GPT-5.4 Thinking — and it’s built for bigger, more complex tasks",
       "published_at": "2026-03-05T20:37:12.401Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "TechRadar",
@@ -1758,8 +1758,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.886,
-        "total_score": 3.673
+        "recency_score": 0.867,
+        "total_score": 3.65
       }
     },
     {
@@ -1768,7 +1768,7 @@
       "title_zh": "GPT-5.4思维和GPT-5.4专业版",
       "title_bilingual": "GPT-5.4思维和GPT-5.4专业版 / GPT-5.4 Thinking and GPT-5.4 Pro",
       "published_at": "2026-03-05T20:37:12.401Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Hacker News",
@@ -1781,8 +1781,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.886,
-        "total_score": 3.673
+        "recency_score": 0.867,
+        "total_score": 3.65
       }
     },
     {
@@ -1791,7 +1791,7 @@
       "title_zh": "一位高级国防官员表示，五角大楼已正式通知 Anthropic，该公司及其产品被视为供应链风险（Katrina Manson/Bloomberg）",
       "title_bilingual": "一位高级国防官员表示，五角大楼已正式通知 Anthropic，该公司及其产品被视为供应链风险（Katrina Manson/Bloomberg） / A senior defense official says Pentagon has formally notified Anthropic that the company and its products are deemed a supply chain risk (Katrina Manson/Bloomberg)",
       "published_at": "2026-03-05T20:37:12.401Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Techmeme",
@@ -1804,8 +1804,8 @@
         "source_weight": 0.95,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.886,
-        "total_score": 3.673
+        "recency_score": 0.867,
+        "total_score": 3.65
       }
     },
     {
@@ -1814,7 +1814,7 @@
       "title_zh": "GPT-5.4 思维系统卡片",
       "title_bilingual": "GPT-5.4 思维系统卡片",
       "published_at": "2026-03-05T19:09:55.170Z",
-      "age_hours": 4.19,
+      "age_hours": 4.66,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "openai.com",
@@ -1827,8 +1827,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.825,
-        "total_score": 3.67
+        "recency_score": 0.806,
+        "total_score": 3.647
       }
     },
     {
@@ -1837,7 +1837,7 @@
       "title_zh": "Cloudflare 重写 Next.js 就像 AI 重写商业开源一样",
       "title_bilingual": "Cloudflare 重写 Next.js 就像 AI 重写商业开源一样 / Cloudflare rewrites Next.js as AI rewrites commercial open source",
       "published_at": "2026-03-05T18:21:29Z",
-      "age_hours": 5,
+      "age_hours": 5.46,
       "site_id": "zeli",
       "site_name": "Zeli",
       "source": "Hacker News · 24h最热",
@@ -1850,8 +1850,8 @@
         "source_weight": 1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.792,
-        "total_score": 3.65
+        "recency_score": 0.772,
+        "total_score": 3.627
       }
     },
     {
@@ -1860,7 +1860,7 @@
       "title_zh": "我们设计了一款人工智能辅导工具，旨在帮助大学生进行推理思考，而非直接提供答案。",
       "title_bilingual": "我们设计了一款人工智能辅导工具，旨在帮助大学生进行推理思考，而非直接提供答案。",
       "published_at": "2026-03-05T18:42:45.179Z",
-      "age_hours": 4.64,
+      "age_hours": 5.11,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "phys.org",
@@ -1873,8 +1873,8 @@
         "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.806,
-        "total_score": 3.648
+        "recency_score": 0.787,
+        "total_score": 3.625
       }
     },
     {
@@ -1883,7 +1883,7 @@
       "title_zh": "人工智能和忒修斯之船",
       "title_bilingual": "人工智能和忒修斯之船 / AI and the Ship of Theseus",
       "published_at": "2026-03-05T20:37:15.822Z",
-      "age_hours": 2.74,
+      "age_hours": 3.2,
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "source": "hackernews",
@@ -1897,8 +1897,8 @@
         "source_weight": 0.85,
         "keyword_hits": 1,
         "cross_source_count": 2,
-        "recency_score": 0.886,
-        "total_score": 3.643
+        "recency_score": 0.867,
+        "total_score": 3.62
       }
     }
   ]
