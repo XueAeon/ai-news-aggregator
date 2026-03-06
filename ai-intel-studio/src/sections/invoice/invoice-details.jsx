@@ -14,6 +14,7 @@ import Typography from '@mui/material/Typography';
 import { fDate } from 'src/utils/format-time';
 import { fCurrency } from 'src/utils/format-number';
 
+import { CONFIG } from 'src/global-config';
 import { INVOICE_STATUS_OPTIONS } from 'src/_mock';
 
 import { Label } from 'src/components/label';
@@ -118,7 +119,7 @@ export function InvoiceDetails({ invoice }) {
           <Box
             component="img"
             alt="Invoice logo"
-            src="/logo/logo-alice.svg"
+            src={`${CONFIG.assetsDir}/logo/logo-alice.svg`}
             sx={{ width: 48, height: 48 }}
           />
 

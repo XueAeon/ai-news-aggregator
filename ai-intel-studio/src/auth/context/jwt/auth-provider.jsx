@@ -14,6 +14,10 @@ function resolveAvatarUrl(value) {
   if (/^https?:\/\//.test(value) || value.startsWith('data:')) return value;
   if (!value.startsWith('/')) return value;
 
+  if (value.startsWith('/assets/') || value.startsWith('/logo/')) {
+    return `${CONFIG.assetsDir}${value}`;
+  }
+
   return `${CONFIG.serverUrl}${value}`;
 }
 
@@ -40,7 +44,9 @@ export function AuthProvider({ children }) {
         const decoded = jwtDecode(accessToken) || {};
         const fallbackDisplayName = decoded.name || decoded.email || 'User';
         const fallbackAvatar =
-          decoded.photoURL || decoded.avatarUrl || '/assets/images/mock/avatar/avatar-25.webp';
+          decoded.photoURL ||
+          decoded.avatarUrl ||
+          `${CONFIG.assetsDir}/assets/images/mock/avatar/avatar-25.webp`;
 
         const normalizedUser = {
           id: localUser?.id || decoded.sub || decoded.email || fallbackDisplayName,

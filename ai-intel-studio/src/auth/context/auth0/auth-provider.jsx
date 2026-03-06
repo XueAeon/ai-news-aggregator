@@ -1,6 +1,8 @@
 import { useAuth0, Auth0Provider } from '@auth0/auth0-react';
 import { useMemo, useState, useEffect, useCallback } from 'react';
 
+import { resolveAppPath } from 'src/utils/app-url';
+
 import axios from 'src/lib/axios';
 import { CONFIG } from 'src/global-config';
 
@@ -12,7 +14,9 @@ export function AuthProvider({ children }) {
   const { domain, clientId, callbackUrl } = CONFIG.auth0;
 
   const onRedirectCallback = useCallback((appState) => {
-    window.location.replace(appState?.returnTo || window.location.pathname);
+    const returnTo = appState?.returnTo || CONFIG.auth.redirectPath;
+
+    window.location.replace(resolveAppPath(returnTo));
   }, []);
 
   if (!(domain && clientId && callbackUrl)) {

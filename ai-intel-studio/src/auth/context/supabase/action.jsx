@@ -1,5 +1,7 @@
 import { paths } from 'src/routes/paths';
 
+import { toAbsoluteAppUrl } from 'src/utils/app-url';
+
 import { supabase } from 'src/lib/supabase';
 
 /** **************************************
@@ -30,7 +32,7 @@ export const signUp = async ({ email, password, firstName, lastName }) => {
     email,
     password,
     options: {
-      emailRedirectTo: `${window.location.origin}${paths.dashboard.root}`,
+      emailRedirectTo: toAbsoluteAppUrl(paths.dashboard.root),
       data: { display_name: `${firstName} ${lastName}` },
     },
   });
@@ -72,7 +74,7 @@ export const signOut = async () => {
 
 export const resetPassword = async ({ email }) => {
   const { data, error } = await supabase.auth.resetPasswordForEmail(email, {
-    redirectTo: `${window.location.origin}${paths.auth.supabase.updatePassword}`,
+    redirectTo: toAbsoluteAppUrl(paths.auth.supabase.updatePassword),
   });
 
   if (error) {

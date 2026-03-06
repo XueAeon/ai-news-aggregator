@@ -18,6 +18,8 @@ import CircularProgress from '@mui/material/CircularProgress';
 import { fDate } from 'src/utils/format-time';
 import { fCurrency } from 'src/utils/format-number';
 
+import { CONFIG } from 'src/global-config';
+
 import { Iconify } from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
@@ -61,7 +63,10 @@ export function InvoicePDFViewer({ invoice, currentStatus }) {
 Font.register({
   family: 'Roboto',
   // fonts from public folder
-  fonts: [{ src: '/fonts/Roboto-Regular.ttf' }, { src: '/fonts/Roboto-Bold.ttf' }],
+  fonts: [
+    { src: `${CONFIG.assetsDir}/fonts/Roboto-Regular.ttf` },
+    { src: `${CONFIG.assetsDir}/fonts/Roboto-Bold.ttf` },
+  ],
 });
 
 const useStyles = () =>
@@ -134,10 +139,11 @@ function InvoicePdfDocument({ invoice, currentStatus }) {
   } = invoice ?? {};
 
   const styles = useStyles();
+  const logoPath = `${CONFIG.assetsDir}/logo/logo-alice.svg`;
 
   const renderHeader = () => (
     <View style={[styles.container, styles.mb40]}>
-      <Image source="/logo/logo-alice.svg" style={{ width: 48, height: 48 }} />
+      <Image source={logoPath} style={{ width: 48, height: 48 }} />
 
       <View style={{ alignItems: 'flex-end', flexDirection: 'column' }}>
         <Text style={[styles.h3, styles.mb8, { textTransform: 'capitalize' }]}>

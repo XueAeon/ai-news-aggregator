@@ -1,3 +1,5 @@
+import { CONFIG } from 'src/global-config';
+
 import { setSession } from './utils';
 import { JWT_USER_STORAGE_KEY } from './constant';
 
@@ -7,8 +9,8 @@ const STATIC_USER = {
   name: 'AI Intel Admin',
   displayName: 'AI Intel Admin',
   role: 'admin',
-  avatarUrl: '/assets/images/mock/avatar/avatar-25.webp',
-  photoURL: '/assets/images/mock/avatar/avatar-25.webp',
+  avatarUrl: `${CONFIG.assetsDir}/assets/images/mock/avatar/avatar-25.webp`,
+  photoURL: `${CONFIG.assetsDir}/assets/images/mock/avatar/avatar-25.webp`,
 };
 const STATIC_PASSWORD = 'admin123@';
 

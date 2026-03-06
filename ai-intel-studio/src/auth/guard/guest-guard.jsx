@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import { useSearchParams } from 'src/routes/hooks';
+import { useRouter, useSearchParams } from 'src/routes/hooks';
 
 import { CONFIG } from 'src/global-config';
 
@@ -12,6 +12,7 @@ import { useAuthContext } from '../hooks';
 
 export function GuestGuard({ children }) {
   const { loading, authenticated } = useAuthContext();
+  const router = useRouter();
 
   const searchParams = useSearchParams();
   const returnTo = searchParams.get('returnTo') || CONFIG.auth.redirectPath;
@@ -24,10 +25,7 @@ export function GuestGuard({ children }) {
     }
 
     if (authenticated) {
-      // Redirect authenticated users to the returnTo path
-      // Using `window.location.href` instead of `router.replace` to avoid unnecessary re-rendering
-      // that might be caused by the AuthGuard component
-      window.location.href = returnTo;
+      router.replace(returnTo);
       return;
     }
 
@@ -37,7 +35,7 @@ export function GuestGuard({ children }) {
   useEffect(() => {
     checkPermissions();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [authenticated, loading]);
+  }, [authenticated, loading, router, returnTo]);
 
   if (isChecking) {
     return <SplashScreen />;

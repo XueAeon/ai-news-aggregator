@@ -4,11 +4,13 @@ import packageJson from '../package.json';
 
 // ----------------------------------------------------------------------
 
+const basePath = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
+
 export const CONFIG = {
   appName: 'AI Intel Studio',
   appVersion: packageJson.version,
   serverUrl: import.meta.env.VITE_SERVER_URL ?? '',
-  assetsDir: import.meta.env.VITE_ASSETS_DIR ?? '',
+  assetsDir: import.meta.env.VITE_ASSETS_DIR ?? basePath,
   /**
    * Auth
    * @method jwt | amplify | firebase | supabase | auth0
