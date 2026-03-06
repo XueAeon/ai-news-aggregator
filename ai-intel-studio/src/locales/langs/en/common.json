@@ -1,0 +1,52 @@
+{
+  "demo": {
+    "lang": "English",
+    "description": "The starting point for your next project is based on MUI. Easy customization helps you build apps faster and better."
+  },
+  "settings": {
+    "buttonAria": "Settings button",
+    "title": "Settings",
+    "resetAll": "Reset all",
+    "close": "Close",
+    "options": {
+      "darkMode": "Dark mode",
+      "contrast": "Contrast",
+      "rtl": "Right to left",
+      "compact": "Compact",
+      "compactTip": "Dashboard only and available at large resolutions > 1600px (xl)"
+    },
+    "blocks": {
+      "presets": "Presets",
+      "nav": "Nav",
+      "dashboardOnly": "Dashboard only",
+      "layout": "Layout",
+      "color": "Color",
+      "font": "Font",
+      "family": "Family",
+      "size": "Size"
+    },
+    "navColor": {
+      "integrate": "Integrate",
+      "apparent": "Apparent"
+    }
+  },
+  "notifications": {
+    "buttonAria": "Notifications button",
+    "title": "Notifications",
+    "markAllAsRead": "Mark all as read",
+    "viewAll": "View all",
+    "tabs": {
+      "all": "All",
+      "unread": "Unread",
+      "archived": "Archived"
+    },
+    "actions": {
+      "accept": "Accept",
+      "decline": "Decline",
+      "reply": "Reply",
+      "download": "Download",
+      "pay": "Pay",
+      "feedbackText": "feedback by asking questions or just leave a note of appreciation."
+    }
+  }
+}

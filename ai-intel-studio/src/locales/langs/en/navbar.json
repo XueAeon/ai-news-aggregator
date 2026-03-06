@@ -1,0 +1,16 @@
+{
+  "home": "Home",
+  "subheader": {
+    "main": "Main",
+    "management": "Management"
+  },
+  "md2wechat": {
+    "title": "WeChat Layout"
+  },
+  "newsFeed": {
+    "title": "News Feed"
+  },
+  "collectorSummary": {
+    "title": "Collection Summary"
+  }
+}

@@ -103,8 +103,8 @@ async function main(): Promise<number> {
   const program = new Command();
 
   program
-    .name('ai-news-aggregator')
-    .description('Aggregate AI news updates from multiple sources')
+    .name('ai-intel-studio')
+    .description('Aggregate AI intelligence updates from multiple sources')
     .option('--output-dir <dir>', 'Directory for output JSON files', 'data/collected')
     .option('--window-hours <hours>', '24h window size', '24')
     .option('--archive-days <days>', 'Keep archive for N days', '45')

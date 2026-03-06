@@ -1,0 +1,501 @@
+{
+  "common": {
+    "dashboard": "Dashboard",
+    "user": "Customers",
+    "account": "Account",
+    "saveChanges": "Save changes",
+    "delete": "Delete",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "create": "Create",
+    "update": "Update",
+    "new": "New",
+    "loading": "Loading...",
+    "createSuccess": "Create success!",
+    "updateSuccess": "Update success!",
+    "updateError": "Update error!",
+    "deleteSuccess": "Delete success!"
+  },
+  "list": {
+    "heading": "Accounts",
+    "newUser": "New account",
+    "confirmDeleteTitle": "Delete",
+    "confirmDeleteContent": "Are you sure want to delete {{count}} items?",
+    "table": {
+      "name": "Name",
+      "phone": "Phone number",
+      "company": "Company",
+      "customer": "Customer",
+      "role": "Role",
+      "customerRole": "Customer role",
+      "status": "Status"
+    },
+    "status": {
+      "all": "All",
+      "active": "Active",
+      "pending": "Pending",
+      "banned": "Banned",
+      "rejected": "Rejected"
+    },
+    "tooltipDelete": "Delete"
+  },
+  "toolbar": {
+    "role": "Role",
+    "search": "Search...",
+    "menu": {
+      "print": "Print",
+      "import": "Import",
+      "export": "Export"
+    }
+  },
+  "filters": {
+    "status": "Status:",
+    "role": "Role:",
+    "keyword": "Keyword:"
+  },
+  "row": {
+    "quickEdit": "Quick Edit",
+    "confirmDeleteContent": "Are you sure want to delete?"
+  },
+  "form": {
+    "allowedFiles": "Allowed *.jpeg, *.jpg, *.png, *.gif",
+    "maxSizePrefix": "max size of",
+    "banned": "Banned",
+    "disableAccount": "Apply disable account",
+    "emailVerified": "Email verified",
+    "emailVerifiedHint": "Disabling this will automatically send the user a verification email",
+    "deleteUser": "Delete user",
+    "fullName": "Full name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "country": "Country",
+    "chooseCountry": "Choose a country",
+    "state": "State/region",
+    "city": "City",
+    "address": "Address",
+    "zipCode": "Zip/code",
+    "company": "Company",
+    "customer": "Customer",
+    "chooseCustomer": "Choose a customer",
+    "role": "Role",
+    "customerRole": "Customer role",
+    "employee": "Employee",
+    "admin": "Admin",
+    "createUser": "Create user",
+    "saveChanges": "Save changes"
+  },
+  "quickEdit": {
+    "title": "Quick update",
+    "waitingConfirm": "Account is waiting for confirmation",
+    "status": "Status",
+    "update": "Update"
+  },
+  "cards": {
+    "heading": "User cards",
+    "cards": "Cards",
+    "newUser": "New user"
+  },
+  "createView": {
+    "heading": "Create a new account",
+    "newUser": "New account"
+  },
+  "editView": {
+    "heading": "Edit account"
+  },
+  "profile": {
+    "heading": "Profile",
+    "tabs": {
+      "profile": "Profile",
+      "followers": "Followers",
+      "friends": "Friends",
+      "gallery": "Gallery"
+    },
+    "followers": {
+      "heading": "Followers",
+      "follow": "Follow",
+      "followed": "Followed"
+    },
+    "friends": {
+      "heading": "Friends",
+      "search": "Search friends..."
+    },
+    "gallery": {
+      "heading": "Gallery"
+    },
+    "home": {
+      "follower": "Follower",
+      "following": "Following",
+      "about": "About",
+      "liveAt": "Live at",
+      "studiedAt": "Studied at",
+      "social": "Social",
+      "sharePlaceholder": "Share what you are thinking here...",
+      "imageVideo": "Image/Video",
+      "streaming": "Streaming",
+      "post": "Post"
+    },
+    "post": {
+      "commentPlaceholder": "Write a comment..."
+    }
+  },
+  "accountLayout": {
+    "heading": "Account",
+    "tabs": {
+      "general": "General",
+      "billing": "Billing",
+      "notifications": "Notifications",
+      "socialLinks": "Social links",
+      "security": "Security",
+      "chatHistory": "Chat history"
+    }
+  },
+  "accountGeneral": {
+    "publicProfile": "Public profile",
+    "name": "Name",
+    "about": "About"
+  },
+  "accountNotifications": {
+    "sections": {
+      "activity": "Activity",
+      "application": "Application"
+    },
+    "caption": "Donec mi odio, faucibus at, scelerisque quis",
+    "items": {
+      "activity_comments": "Email me when someone comments on my article",
+      "activity_answers": "Email me when someone answers on my form",
+      "activity_follows": "Email me when someone follows me",
+      "application_news": "News and announcements",
+      "application_product": "Weekly product updates",
+      "application_blog": "Weekly blog digest"
+    }
+  },
+  "accountBilling": {
+    "planTitle": "Plan",
+    "current": "Current",
+    "free": "Free",
+    "month": "/mo",
+    "plan": "Plan",
+    "billingName": "Billing name",
+    "billingAddress": "Billing address",
+    "billingPhone": "Billing phone number",
+    "paymentMethod": "Payment method",
+    "cancelPlan": "Cancel plan",
+    "upgradePlan": "Upgrade plan",
+    "newAddress": "New",
+    "paymentTitle": "Payment method",
+    "newCard": "New card",
+    "addNewCard": "Add new card",
+    "add": "Add",
+    "addressBook": "Address book",
+    "address": "Address",
+    "setPrimary": "Set as primary",
+    "invoiceHistory": "Invoice history",
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "accountSecurity": {
+    "oldPassword": "Old password",
+    "newPassword": "New password",
+    "confirmNewPassword": "Confirm new password",
+    "passwordHint": "Password must be minimum 6+"
+  },
+  "customerManage": {
+    "heading": "Company management",
+    "newCustomer": "New company",
+    "name": "Company name",
+    "code": "Company code",
+    "status": "Status",
+    "active": "Active",
+    "disabled": "Disabled",
+    "actions": "Actions",
+    "edit": "Edit company",
+    "create": "Create company",
+    "update": "Save changes",
+    "authorize": "Authorize",
+    "authorizeAgentTitle": "Company Agent authorization",
+    "saveAuthorization": "Save authorization",
+    "searchAgent": "Search Agent...",
+    "noAgents": "No available Agent",
+    "deleteConfirm": "Delete this company? (will fail if users are bound)",
+    "pending": "Pending",
+    "banned": "Banned",
+    "rejected": "Rejected",
+    "uploadAvatar": "Upload avatar",
+    "nameRequired": "Company name is required",
+    "industry": "Industry",
+    "contactName": "Contact name",
+    "contactPhone": "Contact phone",
+    "contactEmail": "Contact email",
+    "website": "Website",
+    "taxNumber": "Tax number",
+    "creditCode": "Credit code",
+    "address": "Address",
+    "remark": "Remark",
+    "agentAccess": "Authorized agents",
+    "validFrom": "Valid from",
+    "validTo": "Valid to",
+    "notFound": "Company not found"
+  },
+  "customerAccount": {
+    "voice": "Voice",
+    "domain": "Domain",
+    "voiceTitle": "VoiceLife phone settings",
+    "voiceDesc": "Store VoiceLife parameters for this company. No connectivity check is performed.",
+    "voiceEnabled": "Enable VoiceLife",
+    "voiceConfigJson": "VoiceLife config (JSON)",
+    "domainTitle": "AI access domain",
+    "domainDesc": "Store which domain this company uses to access the AI system.",
+    "primaryDomain": "Primary domain",
+    "backupDomain": "Backup domain"
+  },
+  "monitorManage": {
+    "heading": "AI Usage Monitor",
+    "companyUsage": "Company Usage",
+    "companyUsageList": "Company Usage List",
+    "companyUsageDetail": "Company Usage Detail",
+    "employeeUsageDetail": "Employee AI Usage Detail",
+    "companyEmployeeUsage": "Company Employee Usage",
+    "recentSessions": "Recent Sessions",
+    "chatRecords": "Chat Records (Raw Detail)",
+    "returnList": "Back to list",
+    "returnCompanyList": "Back to companies",
+    "generateMockData": "Generate mock data",
+    "generating": "Generating...",
+    "generateSuccess": "Mock data generated: sessions={{sessions}}, messages={{messages}}, events={{events}}",
+    "generateFailed": "Failed to generate mock data",
+    "range": "Range",
+    "companySearch": "Company Search",
+    "companySearchPlaceholder": "Enter company name",
+    "downloadSelected": "Download selected",
+    "detail": "Detail",
+    "chatHistory": "Chat history",
+    "loadingOverview": "Loading monitor data...",
+    "loadingCompany": "Loading company monitor data...",
+    "loadingUser": "Loading employee monitor data...",
+    "stats": {
+      "eventCount": "Requests",
+      "activeCustomers": "Active Companies",
+      "activeUsers": "Active Employees",
+      "activeAgents": "Active Agents",
+      "sessionCount": "Sessions",
+      "session": "Session",
+      "totalTokens": "Token Usage",
+      "tokens": "Tokens",
+      "totalCost": "Total Cost",
+      "cost": "Cost",
+      "avgLatency": "Avg Latency (ms)",
+      "errorCount": "Errors"
+    },
+    "table": {
+      "company": "Company",
+      "employee": "Employee",
+      "status": "Status",
+      "events": "Requests",
+      "activeUsers": "Active Employees",
+      "sessions": "Sessions",
+      "tokens": "Tokens",
+      "cost": "Cost",
+      "avgLatency": "Avg Latency",
+      "avgLatencyMs": "Avg Latency (ms)",
+      "errors": "Errors",
+      "role": "Role",
+      "agent": "Agent",
+      "messageCount": "Messages",
+      "lastMessageAt": "Last Update",
+      "lastActiveAt": "Last Active",
+      "time": "Time",
+      "session": "Session",
+      "content": "Content",
+      "durationMs": "Latency (ms)",
+      "inputTokens": "Input Tokens",
+      "outputTokens": "Output Tokens",
+      "inputOutputTokens": "Input/Output Tokens"
+    },
+    "status": {
+      "active": "Active",
+      "pending": "Pending",
+      "banned": "Banned",
+      "rejected": "Rejected",
+      "success": "Success",
+      "failed": "Failed"
+    }
+  },
+  "homeDashboard": {
+    "heading": "Business Cockpit",
+    "home": "Home",
+    "dayUnit": "days",
+    "range7": "Last 7 days",
+    "range30": "Last 30 days",
+    "range90": "Last 90 days",
+    "refreshing": "Refreshing...",
+    "refreshMockData": "Refresh mock data",
+    "enterMonitorCenter": "Open monitor center",
+    "refreshSuccess": "Business data refreshed",
+    "refreshFailed": "Failed to generate mock data",
+    "widgets": {
+      "requests": "Total AI Requests",
+      "tokens": "Token Usage",
+      "errors": "Error Requests"
+    },
+    "trend": {
+      "requestAxis": "Requests",
+      "tokenAxis": "Tokens",
+      "requestUnit": "times",
+      "tokenUnit": "tokens",
+      "activeUsersUnit": "users"
+    },
+    "cards": {
+      "requestTokenTrend": "Requests & Tokens Trend",
+      "coreTraffic": "Core traffic",
+      "activeUserTrend": "Active User Trend",
+      "companyActivity": "Company activity",
+      "keyKpi": "Key Business KPIs",
+      "totalCost": "Total Cost",
+      "avgLatency": "Avg Latency",
+      "activeCompanyUser": "Active Companies / Users",
+      "companyUsageDetail": "Company Usage Detail",
+      "companyUsageSubheader": "Drill down to companies and users",
+      "viewAllCompanyMonitor": "View all company monitoring",
+      "activeUserTop": "Top Active Users",
+      "highFreqUsers": "High-frequency AI users",
+      "alerts": "Alerts & Reminders",
+      "alertSubheader": "Prioritize high-risk items",
+      "handleNow": "Handle now",
+      "systemStatus": "System Status",
+      "systemStatusSubheader": "Realtime overview",
+      "updatedAt": "Updated at",
+      "dataWindow": "Data window",
+      "serviceStatus": "Service status",
+      "today": "Today"
+    },
+    "table": {
+      "company": "Company",
+      "requests": "Requests",
+      "activeUsers": "Active Users",
+      "tokens": "Tokens",
+      "cost": "Cost",
+      "errors": "Errors",
+      "lastActive": "Last active"
+    },
+    "alerts": {
+      "highErrorTitle": "{{name}} has high error requests",
+      "highErrorDesc": "{{count}} error requests. Check Agent config and quota.",
+      "expiringTitle": "{{name}} authorization is expiring",
+      "expiringDesc": "{{days}} days left, expires on {{date}}.",
+      "noRiskTitle": "No high-priority risks currently",
+      "noRiskDesc": "System is stable. Focus on growth and activity.",
+      "level": {
+        "high": "HIGH",
+        "medium": "MEDIUM",
+        "low": "LOW"
+      }
+    },
+    "incident": {
+      "title": "Incident & Ticket Overview",
+      "subheader": "AI handling lifecycle",
+      "total": "Total incidents",
+      "aiResolved": "Resolved by AI",
+      "escalated": "Escalated to ticket",
+      "ticketCreated": "Tickets created",
+      "ticketResolved": "Tickets resolved",
+      "typeDist": "Incident type distribution",
+      "handlingDist": "Handling status distribution",
+      "ticketDist": "Ticket status distribution",
+      "type": {
+        "network": "Network",
+        "account": "Account & Access",
+        "endpoint": "Endpoint Device",
+        "application": "Application",
+        "security": "Security",
+        "other": "Other"
+      },
+      "handling": {
+        "resolved_by_ai": "Resolved by AI",
+        "escalated_to_ticket": "Escalated",
+        "awaiting_user": "Awaiting user",
+        "closed_no_response": "Closed no response",
+        "failed": "Failed"
+      },
+      "ticket": {
+        "open": "Open",
+        "in_progress": "In progress",
+        "pending": "Pending",
+        "resolved": "Resolved",
+        "closed": "Closed"
+      }
+    },
+    "report": {
+      "successAndLatency": "Success Rate & P95 Latency Trend",
+      "successAndLatencySubheader": "Daily service quality",
+      "successRate": "Success Rate",
+      "p95Latency": "P95 Latency",
+      "tokenBreakdown": "Input/Output Token Ratio",
+      "tokenBreakdownSubheader": "With top error-code distribution",
+      "inputTokens": "Input Tokens",
+      "outputTokens": "Output Tokens",
+      "agentEfficiency": "Agent Efficiency Ranking",
+      "agentEfficiencySubheader": "Requests, success rate, cost per request",
+      "customerUtilization": "Company Agent Utilization",
+      "customerUtilizationSubheader": "Authorized vs actually used agents",
+      "successRateShort": "Success",
+      "avgCostShort": "Avg Cost",
+      "requestsShort": "Req"
+    },
+    "sd": {
+      "title": "SD KPI",
+      "subheader": "Service desk efficiency and quality metrics",
+      "avgResponse": "Avg Response Time",
+      "targetResponse": "Target < 5s",
+      "avgResolution": "Avg Resolution Time",
+      "manual": "Manual",
+      "robotGain": "Robot vs Manual Gain",
+      "targetGain": "Target > 50%",
+      "deflection": "Deflection Rate",
+      "targetDeflection": "Target 30% -> 50% -> 60-70%",
+      "escalation": "Escalation Rate",
+      "targetEscalation": "Target < 50% -> < 30%",
+      "abandon": "Abandon Rate",
+      "targetAbandon": "Lower is better",
+      "concurrent": "Concurrent Sessions",
+      "capacity": "Capacity indicator",
+      "csat": "CSAT",
+      "targetCsat": "Target >= 85%",
+      "csatVotes": "CSAT Votes",
+      "feedback": "Based on user feedback",
+      "consultationVolume": "Consultation Volume by Time",
+      "consultationVolumeSub": "Hourly / weekly / monthly / quarterly analysis",
+      "hourly": "Hourly",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "issueCategoryTitle": "Issue Category Analysis",
+      "issueCategorySub": "Resolved / unresolved / chitchat / attack / exploration",
+      "issueCategory": {
+        "resolved": "Resolved",
+        "unresolved": "Unresolved",
+        "chitchat": "Chitchat",
+        "attack": "Attack",
+        "exploration": "Exploration"
+      }
+    },
+    "qa": {
+      "title": "QA Sampling KPI",
+      "subheader": "Weekly sampling 5-10% quality metrics",
+      "sampleRate": "Sample Rate",
+      "records": "records",
+      "intentAccuracy": "Intent Recognition Accuracy",
+      "targetIntent": "Target >= 90%",
+      "knowledgeHit": "Knowledge Hit Rate",
+      "targetKnowledge": "Target >= 80%",
+      "repeatConsult": "Repeat Consult Rate",
+      "repeatDesc": "Same question >= 3 times",
+      "ticketStandard": "Ticket Standard Rate",
+      "ticketDesc": "Required fields and user info are valid",
+      "incorrectAnswer": "Incorrect Answer Rate",
+      "targetIncorrect": "Target < 3%",
+      "compliance": "Compliance Pass Rate",
+      "complianceDesc": "Responses comply with policy"
+    },
+    "loading": "Loading business dashboard data..."
+  }
+}

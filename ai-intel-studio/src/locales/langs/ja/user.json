@@ -1,0 +1,501 @@
+{
+  "common": {
+    "dashboard": "ダッシュボード",
+    "user": "顧客",
+    "account": "アカウント",
+    "saveChanges": "変更を保存",
+    "delete": "削除",
+    "edit": "編集",
+    "cancel": "キャンセル",
+    "create": "作成",
+    "update": "更新",
+    "new": "新規",
+    "loading": "読み込み中...",
+    "createSuccess": "作成に成功しました！",
+    "updateSuccess": "更新に成功しました！",
+    "updateError": "更新に失敗しました！",
+    "deleteSuccess": "削除に成功しました！"
+  },
+  "list": {
+    "heading": "アカウント",
+    "newUser": "新規アカウント",
+    "confirmDeleteTitle": "削除",
+    "confirmDeleteContent": "{{count}} 件を削除してよろしいですか？",
+    "table": {
+      "name": "名前",
+      "phone": "電話番号",
+      "company": "会社",
+      "customer": "顧客",
+      "role": "ロール",
+      "customerRole": "顧客ロール",
+      "status": "ステータス"
+    },
+    "status": {
+      "all": "すべて",
+      "active": "有効",
+      "pending": "承認待ち",
+      "banned": "停止",
+      "rejected": "拒否済み"
+    },
+    "tooltipDelete": "削除"
+  },
+  "toolbar": {
+    "role": "ロール",
+    "search": "検索...",
+    "menu": {
+      "print": "印刷",
+      "import": "インポート",
+      "export": "エクスポート"
+    }
+  },
+  "filters": {
+    "status": "ステータス：",
+    "role": "ロール：",
+    "keyword": "キーワード："
+  },
+  "row": {
+    "quickEdit": "クイック編集",
+    "confirmDeleteContent": "削除してよろしいですか？"
+  },
+  "form": {
+    "allowedFiles": "許可形式 *.jpeg, *.jpg, *.png, *.gif",
+    "maxSizePrefix": "最大サイズ",
+    "banned": "停止",
+    "disableAccount": "アカウントを無効化",
+    "emailVerified": "メール認証済み",
+    "emailVerifiedHint": "無効化すると確認メールが自動送信されます",
+    "deleteUser": "ユーザー削除",
+    "fullName": "氏名",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "country": "国",
+    "chooseCountry": "国を選択",
+    "state": "都道府県",
+    "city": "市区町村",
+    "address": "住所",
+    "zipCode": "郵便番号",
+    "company": "会社",
+    "customer": "顧客",
+    "chooseCustomer": "顧客を選択",
+    "role": "ロール",
+    "customerRole": "顧客ロール",
+    "employee": "従業員",
+    "admin": "管理者",
+    "createUser": "ユーザー作成",
+    "saveChanges": "変更を保存"
+  },
+  "quickEdit": {
+    "title": "クイック更新",
+    "waitingConfirm": "アカウントは確認待ちです",
+    "status": "ステータス",
+    "update": "更新"
+  },
+  "cards": {
+    "heading": "ユーザーカード",
+    "cards": "カード",
+    "newUser": "新規ユーザー"
+  },
+  "createView": {
+    "heading": "新規アカウントを作成",
+    "newUser": "新規アカウント"
+  },
+  "editView": {
+    "heading": "アカウント編集"
+  },
+  "profile": {
+    "heading": "プロフィール",
+    "tabs": {
+      "profile": "プロフィール",
+      "followers": "フォロワー",
+      "friends": "友達",
+      "gallery": "ギャラリー"
+    },
+    "followers": {
+      "heading": "フォロワー",
+      "follow": "フォロー",
+      "followed": "フォロー中"
+    },
+    "friends": {
+      "heading": "友達",
+      "search": "友達を検索..."
+    },
+    "gallery": {
+      "heading": "ギャラリー"
+    },
+    "home": {
+      "follower": "フォロワー",
+      "following": "フォロー中",
+      "about": "概要",
+      "liveAt": "居住地",
+      "studiedAt": "学歴",
+      "social": "ソーシャル",
+      "sharePlaceholder": "いま考えていることを共有...",
+      "imageVideo": "画像/動画",
+      "streaming": "配信",
+      "post": "投稿"
+    },
+    "post": {
+      "commentPlaceholder": "コメントを書く..."
+    }
+  },
+  "accountLayout": {
+    "heading": "アカウント",
+    "tabs": {
+      "general": "基本情報",
+      "billing": "請求",
+      "notifications": "通知",
+      "socialLinks": "SNSリンク",
+      "security": "セキュリティ",
+      "chatHistory": "チャット履歴"
+    }
+  },
+  "accountGeneral": {
+    "publicProfile": "公開プロフィール",
+    "name": "名前",
+    "about": "自己紹介"
+  },
+  "accountNotifications": {
+    "sections": {
+      "activity": "アクティビティ",
+      "application": "アプリケーション"
+    },
+    "caption": "通知設定",
+    "items": {
+      "activity_comments": "記事にコメントが付いたらメール通知",
+      "activity_answers": "フォームに回答があったらメール通知",
+      "activity_follows": "フォローされたらメール通知",
+      "application_news": "ニュースとお知らせ",
+      "application_product": "毎週のプロダクト更新",
+      "application_blog": "毎週のブログダイジェスト"
+    }
+  },
+  "accountBilling": {
+    "planTitle": "プラン",
+    "current": "現在",
+    "free": "無料",
+    "month": "/月",
+    "plan": "プラン",
+    "billingName": "請求先名",
+    "billingAddress": "請求先住所",
+    "billingPhone": "請求先電話番号",
+    "paymentMethod": "支払い方法",
+    "cancelPlan": "プランを解約",
+    "upgradePlan": "プランをアップグレード",
+    "newAddress": "新規",
+    "paymentTitle": "支払い方法",
+    "newCard": "新しいカード",
+    "addNewCard": "カードを追加",
+    "add": "追加",
+    "addressBook": "住所録",
+    "address": "住所",
+    "setPrimary": "既定に設定",
+    "invoiceHistory": "請求履歴",
+    "showMore": "もっと見る",
+    "showLess": "閉じる"
+  },
+  "accountSecurity": {
+    "oldPassword": "現在のパスワード",
+    "newPassword": "新しいパスワード",
+    "confirmNewPassword": "新しいパスワード（確認）",
+    "passwordHint": "パスワードは 6 文字以上必要です"
+  },
+  "customerManage": {
+    "heading": "企業管理",
+    "newCustomer": "新規企業",
+    "name": "企業名",
+    "code": "企業コード",
+    "status": "ステータス",
+    "active": "有効",
+    "disabled": "無効",
+    "actions": "操作",
+    "edit": "企業編集",
+    "create": "企業作成",
+    "update": "変更を保存",
+    "authorize": "権限付与",
+    "authorizeAgentTitle": "企業 Agent 権限設定",
+    "saveAuthorization": "権限を保存",
+    "searchAgent": "Agent を検索...",
+    "noAgents": "利用可能な Agent がありません",
+    "deleteConfirm": "この企業を削除しますか？（ユーザー紐づきがある場合は失敗します）",
+    "pending": "保留中",
+    "banned": "停止",
+    "rejected": "却下",
+    "uploadAvatar": "アバターをアップロード",
+    "nameRequired": "企業名は必須です",
+    "industry": "業界",
+    "contactName": "担当者",
+    "contactPhone": "連絡先電話",
+    "contactEmail": "連絡先メール",
+    "website": "Webサイト",
+    "taxNumber": "税番号",
+    "creditCode": "信用コード",
+    "address": "住所",
+    "remark": "備考",
+    "agentAccess": "利用可能 Agent",
+    "validFrom": "開始日",
+    "validTo": "終了日",
+    "notFound": "対象の企業が見つかりません"
+  },
+  "customerAccount": {
+    "voice": "音声電話",
+    "domain": "ドメイン設定",
+    "voiceTitle": "VoiceLife 音声電話パラメータ",
+    "voiceDesc": "企業の VoiceLife パラメータを保存します。外部接続チェックは行いません。",
+    "voiceEnabled": "VoiceLife を有効化",
+    "voiceConfigJson": "VoiceLife 設定(JSON)",
+    "domainTitle": "企業 AI アクセスドメイン",
+    "domainDesc": "この企業が AI システムへアクセスするドメインを保存します。",
+    "primaryDomain": "主ドメイン",
+    "backupDomain": "予備ドメイン"
+  },
+  "monitorManage": {
+    "heading": "AI 利用モニター",
+    "companyUsage": "企業利用",
+    "companyUsageList": "企業利用一覧",
+    "companyUsageDetail": "企業利用詳細",
+    "employeeUsageDetail": "社員 AI 利用詳細",
+    "companyEmployeeUsage": "企業社員利用",
+    "recentSessions": "最近のセッション",
+    "chatRecords": "チャット履歴（詳細）",
+    "returnList": "一覧へ戻る",
+    "returnCompanyList": "企業一覧へ戻る",
+    "generateMockData": "モックデータ生成",
+    "generating": "生成中...",
+    "generateSuccess": "モックデータを生成しました: sessions={{sessions}}, messages={{messages}}, events={{events}}",
+    "generateFailed": "モックデータの生成に失敗しました",
+    "range": "期間",
+    "companySearch": "企業検索",
+    "companySearchPlaceholder": "企業名を入力",
+    "downloadSelected": "選択をダウンロード",
+    "detail": "詳細",
+    "chatHistory": "チャット履歴",
+    "loadingOverview": "モニターデータを読み込み中...",
+    "loadingCompany": "企業モニターデータを読み込み中...",
+    "loadingUser": "社員モニターデータを読み込み中...",
+    "stats": {
+      "eventCount": "リクエスト数",
+      "activeCustomers": "稼働企業",
+      "activeUsers": "稼働社員",
+      "activeAgents": "稼働 Agent",
+      "sessionCount": "セッション数",
+      "session": "セッション",
+      "totalTokens": "Token 使用量",
+      "tokens": "Tokens",
+      "totalCost": "総コスト",
+      "cost": "コスト",
+      "avgLatency": "平均遅延(ms)",
+      "errorCount": "エラー数"
+    },
+    "table": {
+      "company": "企業",
+      "employee": "社員",
+      "status": "ステータス",
+      "events": "リクエスト",
+      "activeUsers": "稼働社員",
+      "sessions": "セッション",
+      "tokens": "Tokens",
+      "cost": "コスト",
+      "avgLatency": "平均遅延",
+      "avgLatencyMs": "平均遅延(ms)",
+      "errors": "エラー",
+      "role": "ロール",
+      "agent": "Agent",
+      "messageCount": "メッセージ数",
+      "lastMessageAt": "最終更新",
+      "lastActiveAt": "最終アクティブ",
+      "time": "時刻",
+      "session": "セッション",
+      "content": "内容",
+      "durationMs": "遅延(ms)",
+      "inputTokens": "入力Tokens",
+      "outputTokens": "出力Tokens",
+      "inputOutputTokens": "入力/出力 Tokens"
+    },
+    "status": {
+      "active": "有効",
+      "pending": "保留中",
+      "banned": "停止",
+      "rejected": "却下",
+      "success": "成功",
+      "failed": "失敗"
+    }
+  },
+  "homeDashboard": {
+    "heading": "業務ダッシュボード",
+    "home": "ホーム",
+    "dayUnit": "日",
+    "range7": "直近 7 日",
+    "range30": "直近 30 日",
+    "range90": "直近 90 日",
+    "refreshing": "更新中...",
+    "refreshMockData": "モックデータ更新",
+    "enterMonitorCenter": "モニターセンターへ",
+    "refreshSuccess": "業務データを更新しました",
+    "refreshFailed": "モックデータの生成に失敗しました",
+    "widgets": {
+      "requests": "AI リクエスト総数",
+      "tokens": "Token 使用量",
+      "errors": "異常リクエスト"
+    },
+    "trend": {
+      "requestAxis": "リクエスト数",
+      "tokenAxis": "Tokens",
+      "requestUnit": "回",
+      "tokenUnit": "tokens",
+      "activeUsersUnit": "人"
+    },
+    "cards": {
+      "requestTokenTrend": "リクエスト・Tokens 推移",
+      "coreTraffic": "主要トラフィック",
+      "activeUserTrend": "アクティブ社員推移",
+      "companyActivity": "企業アクティブ度",
+      "keyKpi": "主要経営指標",
+      "totalCost": "総コスト",
+      "avgLatency": "平均遅延",
+      "activeCompanyUser": "アクティブ企業 / 社員",
+      "companyUsageDetail": "企業利用詳細",
+      "companyUsageSubheader": "企業・社員へドリルダウン可能",
+      "viewAllCompanyMonitor": "企業モニタリングをすべて表示",
+      "activeUserTop": "アクティブ社員 Top",
+      "highFreqUsers": "高頻度 AI 利用者",
+      "alerts": "アラートと通知",
+      "alertSubheader": "高リスク項目を優先対応",
+      "handleNow": "対応する",
+      "systemStatus": "システム状態",
+      "systemStatusSubheader": "リアルタイム概要",
+      "updatedAt": "更新時刻",
+      "dataWindow": "データ期間",
+      "serviceStatus": "サービス状態",
+      "today": "本日"
+    },
+    "table": {
+      "company": "企業",
+      "requests": "リクエスト",
+      "activeUsers": "アクティブ社員",
+      "tokens": "Tokens",
+      "cost": "コスト",
+      "errors": "エラー",
+      "lastActive": "最終アクティブ"
+    },
+    "alerts": {
+      "highErrorTitle": "{{name}} の異常リクエストが高止まり",
+      "highErrorDesc": "異常リクエスト {{count}} 件。Agent 設定とクォータを確認してください。",
+      "expiringTitle": "{{name}} の権限期限が近づいています",
+      "expiringDesc": "残り {{days}} 日、期限は {{date}} です。",
+      "noRiskTitle": "現在、高優先度リスクはありません",
+      "noRiskDesc": "システムは安定しています。成長と活性化に注力できます。",
+      "level": {
+        "high": "高",
+        "medium": "中",
+        "low": "低"
+      }
+    },
+    "incident": {
+      "title": "イベント・チケット概要",
+      "subheader": "AI 対応のクローズドループ状況",
+      "total": "総イベント数",
+      "aiResolved": "AI で解決",
+      "escalated": "チケットへエスカレーション",
+      "ticketCreated": "作成チケット数",
+      "ticketResolved": "解決チケット数",
+      "typeDist": "イベント種別分布",
+      "handlingDist": "対応状況分布",
+      "ticketDist": "チケット状態分布",
+      "type": {
+        "network": "ネットワーク障害",
+        "account": "アカウント権限",
+        "endpoint": "端末デバイス",
+        "application": "業務アプリ",
+        "security": "セキュリティ警告",
+        "other": "その他"
+      },
+      "handling": {
+        "resolved_by_ai": "AI で解決",
+        "escalated_to_ticket": "チケットへ移行",
+        "awaiting_user": "ユーザー待ち",
+        "closed_no_response": "無応答でクローズ",
+        "failed": "対応失敗"
+      },
+      "ticket": {
+        "open": "未対応",
+        "in_progress": "対応中",
+        "pending": "保留",
+        "resolved": "解決済み",
+        "closed": "クローズ"
+      }
+    },
+    "report": {
+      "successAndLatency": "成功率・P95遅延トレンド",
+      "successAndLatencySubheader": "日次のサービス品質",
+      "successRate": "成功率",
+      "p95Latency": "P95遅延",
+      "tokenBreakdown": "Token 入出力比率",
+      "tokenBreakdownSubheader": "エラーコード Top 分布付き",
+      "inputTokens": "入力Tokens",
+      "outputTokens": "出力Tokens",
+      "agentEfficiency": "Agent 効率ランキング",
+      "agentEfficiencySubheader": "リクエスト数・成功率・単価",
+      "customerUtilization": "企業Agent利用率",
+      "customerUtilizationSubheader": "付与数と実利用数の比較",
+      "successRateShort": "成功率",
+      "avgCostShort": "平均コスト",
+      "requestsShort": "件"
+    },
+    "sd": {
+      "title": "SD KPI",
+      "subheader": "サービスデスクの効率・品質指標",
+      "avgResponse": "平均応答時間",
+      "targetResponse": "目標 < 5秒",
+      "avgResolution": "平均解決時間",
+      "manual": "有人対応",
+      "robotGain": "ロボットの有人比改善率",
+      "targetGain": "目標 > 50%",
+      "deflection": "自己解決率",
+      "targetDeflection": "目標 30% -> 50% -> 60-70%",
+      "escalation": "有人エスカレーション率",
+      "targetEscalation": "目標 < 50% -> < 30%",
+      "abandon": "途中離脱率",
+      "targetAbandon": "低いほど良い",
+      "concurrent": "同時セッション数",
+      "capacity": "処理能力指標",
+      "csat": "ユーザー満足度（CSAT）",
+      "targetCsat": "目標 >= 85%",
+      "csatVotes": "CSAT 投票数",
+      "feedback": "ユーザーフィードバック基準",
+      "consultationVolume": "時間帯別相談量",
+      "consultationVolumeSub": "時間/週/月/四半期で分析",
+      "hourly": "時間別",
+      "weekly": "週別",
+      "monthly": "月別",
+      "quarterly": "四半期別",
+      "issueCategoryTitle": "問題カテゴリ分析",
+      "issueCategorySub": "解決済み / 未解決 / 雑談 / 攻撃 / 探索",
+      "issueCategory": {
+        "resolved": "問題は解決済み",
+        "unresolved": "問題は未解決",
+        "chitchat": "雑談のみ",
+        "attack": "攻撃的内容",
+        "exploration": "積極的な探索"
+      }
+    },
+    "qa": {
+      "title": "QA サンプリング KPI",
+      "subheader": "週次 5-10% 抽出の品質指標",
+      "sampleRate": "抽出率",
+      "records": "件",
+      "intentAccuracy": "意図認識精度",
+      "targetIntent": "目標 >= 90%",
+      "knowledgeHit": "ナレッジヒット率",
+      "targetKnowledge": "目標 >= 80%",
+      "repeatConsult": "再問い合わせ率",
+      "repeatDesc": "同一質問が3回以上",
+      "ticketStandard": "チケット作成標準率",
+      "ticketDesc": "必須項目とユーザー情報が正確",
+      "incorrectAnswer": "誤回答率",
+      "targetIncorrect": "目標 < 3%",
+      "compliance": "回答コンプライアンス率",
+      "complianceDesc": "回答がポリシー準拠"
+    },
+    "loading": "業務ダッシュボードを読み込み中..."
+  }
+}

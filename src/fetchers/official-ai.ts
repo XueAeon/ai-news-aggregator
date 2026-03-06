@@ -74,7 +74,7 @@ export class OfficialAiSourcesFetcher extends BaseFetcher {
     const parser = new Parser({
       timeout: 30000,
       headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; ai-news-aggregator/1.0)',
+        'User-Agent': 'Mozilla/5.0 (compatible; ai-intel-studio/1.0)',
       },
     });
 

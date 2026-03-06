@@ -1,0 +1,501 @@
+{
+  "common": {
+    "dashboard": "仪表盘",
+    "user": "客户",
+    "account": "账户",
+    "saveChanges": "保存更改",
+    "delete": "删除",
+    "edit": "编辑",
+    "cancel": "取消",
+    "create": "创建",
+    "update": "更新",
+    "new": "新建",
+    "loading": "加载中...",
+    "createSuccess": "创建成功！",
+    "updateSuccess": "更新成功！",
+    "updateError": "更新失败！",
+    "deleteSuccess": "删除成功！"
+  },
+  "list": {
+    "heading": "账户",
+    "newUser": "新建账户",
+    "confirmDeleteTitle": "删除",
+    "confirmDeleteContent": "确认删除 {{count}} 条数据吗？",
+    "table": {
+      "name": "姓名",
+      "phone": "手机号",
+      "company": "公司",
+      "customer": "客户",
+      "role": "角色",
+      "customerRole": "客户角色",
+      "status": "状态"
+    },
+    "status": {
+      "all": "全部",
+      "active": "启用",
+      "pending": "待审核",
+      "banned": "停用",
+      "rejected": "已拒绝"
+    },
+    "tooltipDelete": "删除"
+  },
+  "toolbar": {
+    "role": "角色",
+    "search": "搜索...",
+    "menu": {
+      "print": "打印",
+      "import": "导入",
+      "export": "导出"
+    }
+  },
+  "filters": {
+    "status": "状态：",
+    "role": "角色：",
+    "keyword": "关键词："
+  },
+  "row": {
+    "quickEdit": "快速编辑",
+    "confirmDeleteContent": "确认删除吗？"
+  },
+  "form": {
+    "allowedFiles": "允许 *.jpeg, *.jpg, *.png, *.gif",
+    "maxSizePrefix": "最大文件大小",
+    "banned": "封禁",
+    "disableAccount": "禁用该账户",
+    "emailVerified": "邮箱已验证",
+    "emailVerifiedHint": "关闭后将自动向用户发送验证邮件",
+    "deleteUser": "删除用户",
+    "fullName": "姓名",
+    "email": "邮箱地址",
+    "phone": "手机号",
+    "country": "国家",
+    "chooseCountry": "请选择国家",
+    "state": "省/州",
+    "city": "城市",
+    "address": "地址",
+    "zipCode": "邮编",
+    "company": "公司",
+    "customer": "客户",
+    "chooseCustomer": "请选择客户",
+    "role": "角色",
+    "customerRole": "客户角色",
+    "employee": "员工",
+    "admin": "管理员",
+    "createUser": "创建用户",
+    "saveChanges": "保存更改"
+  },
+  "quickEdit": {
+    "title": "快速更新",
+    "waitingConfirm": "账户等待确认中",
+    "status": "状态",
+    "update": "更新"
+  },
+  "cards": {
+    "heading": "用户卡片",
+    "cards": "卡片",
+    "newUser": "新建用户"
+  },
+  "createView": {
+    "heading": "创建新账户",
+    "newUser": "新账户"
+  },
+  "editView": {
+    "heading": "编辑账户"
+  },
+  "profile": {
+    "heading": "资料",
+    "tabs": {
+      "profile": "资料",
+      "followers": "关注者",
+      "friends": "好友",
+      "gallery": "相册"
+    },
+    "followers": {
+      "heading": "关注者",
+      "follow": "关注",
+      "followed": "已关注"
+    },
+    "friends": {
+      "heading": "好友",
+      "search": "搜索好友..."
+    },
+    "gallery": {
+      "heading": "相册"
+    },
+    "home": {
+      "follower": "粉丝",
+      "following": "关注中",
+      "about": "关于",
+      "liveAt": "居住于",
+      "studiedAt": "毕业于",
+      "social": "社交",
+      "sharePlaceholder": "分享你的想法...",
+      "imageVideo": "图片/视频",
+      "streaming": "直播",
+      "post": "发布"
+    },
+    "post": {
+      "commentPlaceholder": "写下评论..."
+    }
+  },
+  "accountLayout": {
+    "heading": "账户",
+    "tabs": {
+      "general": "基础信息",
+      "billing": "账单",
+      "notifications": "通知",
+      "socialLinks": "社交链接",
+      "security": "安全",
+      "chatHistory": "聊天记录"
+    }
+  },
+  "accountGeneral": {
+    "publicProfile": "公开资料",
+    "name": "姓名",
+    "about": "简介"
+  },
+  "accountNotifications": {
+    "sections": {
+      "activity": "活动",
+      "application": "应用"
+    },
+    "caption": "通知设置",
+    "items": {
+      "activity_comments": "有人评论我的文章时邮件通知",
+      "activity_answers": "有人回复我的表单时邮件通知",
+      "activity_follows": "有人关注我时邮件通知",
+      "application_news": "新闻与公告",
+      "application_product": "每周产品更新",
+      "application_blog": "每周博客摘要"
+    }
+  },
+  "accountBilling": {
+    "planTitle": "套餐",
+    "current": "当前",
+    "free": "免费",
+    "month": "/月",
+    "plan": "套餐",
+    "billingName": "账单姓名",
+    "billingAddress": "账单地址",
+    "billingPhone": "账单手机号",
+    "paymentMethod": "支付方式",
+    "cancelPlan": "取消套餐",
+    "upgradePlan": "升级套餐",
+    "newAddress": "新建",
+    "paymentTitle": "支付方式",
+    "newCard": "新卡",
+    "addNewCard": "新增卡片",
+    "add": "添加",
+    "addressBook": "地址簿",
+    "address": "地址",
+    "setPrimary": "设为默认",
+    "invoiceHistory": "发票历史",
+    "showMore": "显示更多",
+    "showLess": "收起"
+  },
+  "accountSecurity": {
+    "oldPassword": "旧密码",
+    "newPassword": "新密码",
+    "confirmNewPassword": "确认新密码",
+    "passwordHint": "密码长度至少 6 位"
+  },
+  "customerManage": {
+    "heading": "企业管理",
+    "newCustomer": "新建企业",
+    "name": "企业名称",
+    "code": "企业编码",
+    "status": "状态",
+    "active": "启用",
+    "disabled": "停用",
+    "actions": "操作",
+    "edit": "编辑企业",
+    "create": "创建企业",
+    "update": "保存修改",
+    "authorize": "授权",
+    "authorizeAgentTitle": "企业 Agent 授权",
+    "saveAuthorization": "保存授权",
+    "searchAgent": "搜索 Agent...",
+    "noAgents": "暂无可授权 Agent",
+    "deleteConfirm": "确认删除该企业吗？（若已有用户绑定将删除失败）",
+    "pending": "待审核",
+    "banned": "停用",
+    "rejected": "已拒绝",
+    "uploadAvatar": "上传头像",
+    "nameRequired": "企业名称必填",
+    "industry": "行业",
+    "contactName": "联系人",
+    "contactPhone": "联系电话",
+    "contactEmail": "联系邮箱",
+    "website": "官网",
+    "taxNumber": "税号",
+    "creditCode": "统一社会信用代码",
+    "address": "地址",
+    "remark": "备注",
+    "agentAccess": "授权 Agent",
+    "validFrom": "生效日期",
+    "validTo": "到期日期",
+    "notFound": "未找到该企业"
+  },
+  "customerAccount": {
+    "voice": "语音电话",
+    "domain": "域名配置",
+    "voiceTitle": "VoiceLife 语音电话参数",
+    "voiceDesc": "配置企业的 VoiceLife 参数，仅做存储，不做外部连通性校验。",
+    "voiceEnabled": "启用 VoiceLife",
+    "voiceConfigJson": "VoiceLife 参数(JSON)",
+    "domainTitle": "企业 AI 访问域名",
+    "domainDesc": "配置该企业访问 AI 系统的域名，仅做存储。",
+    "primaryDomain": "主域名",
+    "backupDomain": "备用域名"
+  },
+  "monitorManage": {
+    "heading": "AI 使用监控",
+    "companyUsage": "企业使用",
+    "companyUsageList": "企业使用列表",
+    "companyUsageDetail": "企业使用详情",
+    "employeeUsageDetail": "员工 AI 使用详情",
+    "companyEmployeeUsage": "企业员工使用",
+    "recentSessions": "最近会话",
+    "chatRecords": "聊天记录（真实明细）",
+    "returnList": "返回列表",
+    "returnCompanyList": "返回企业列表",
+    "generateMockData": "生成模拟数据",
+    "generating": "生成中...",
+    "generateSuccess": "模拟数据已生成: sessions={{sessions}}, messages={{messages}}, events={{events}}",
+    "generateFailed": "生成模拟数据失败",
+    "range": "时间范围",
+    "companySearch": "企业搜索",
+    "companySearchPlaceholder": "输入企业名称",
+    "downloadSelected": "下载选中",
+    "detail": "详情",
+    "chatHistory": "聊天记录",
+    "loadingOverview": "正在加载监控数据...",
+    "loadingCompany": "正在加载企业监控数据...",
+    "loadingUser": "正在加载员工监控数据...",
+    "stats": {
+      "eventCount": "请求次数",
+      "activeCustomers": "活跃企业",
+      "activeUsers": "活跃员工",
+      "activeAgents": "活跃Agent",
+      "sessionCount": "会话数",
+      "session": "会话",
+      "totalTokens": "Token 消耗",
+      "tokens": "Tokens",
+      "totalCost": "总成本",
+      "cost": "成本",
+      "avgLatency": "平均延迟(ms)",
+      "errorCount": "异常次数"
+    },
+    "table": {
+      "company": "企业",
+      "employee": "员工",
+      "status": "状态",
+      "events": "请求",
+      "activeUsers": "活跃员工",
+      "sessions": "会话",
+      "tokens": "Tokens",
+      "cost": "成本",
+      "avgLatency": "平均延迟",
+      "avgLatencyMs": "平均延迟(ms)",
+      "errors": "异常",
+      "role": "角色",
+      "agent": "Agent",
+      "messageCount": "消息数",
+      "lastMessageAt": "最后更新时间",
+      "lastActiveAt": "最后活跃",
+      "time": "时间",
+      "session": "会话",
+      "content": "内容",
+      "durationMs": "耗时(ms)",
+      "inputTokens": "输入Tokens",
+      "outputTokens": "输出Tokens",
+      "inputOutputTokens": "输入/输出 Tokens"
+    },
+    "status": {
+      "active": "启用",
+      "pending": "待审核",
+      "banned": "停用",
+      "rejected": "已拒绝",
+      "success": "成功",
+      "failed": "失败"
+    }
+  },
+  "homeDashboard": {
+    "heading": "业务驾驶舱",
+    "home": "Home",
+    "dayUnit": "天",
+    "range7": "最近 7 天",
+    "range30": "最近 30 天",
+    "range90": "最近 90 天",
+    "refreshing": "刷新中...",
+    "refreshMockData": "刷新模拟数据",
+    "enterMonitorCenter": "进入监控中心",
+    "refreshSuccess": "业务数据已刷新",
+    "refreshFailed": "生成模拟数据失败",
+    "widgets": {
+      "requests": "AI 请求总量",
+      "tokens": "Token 消耗",
+      "errors": "异常请求"
+    },
+    "trend": {
+      "requestAxis": "请求数",
+      "tokenAxis": "Tokens",
+      "requestUnit": "次",
+      "tokenUnit": "tokens",
+      "activeUsersUnit": "人"
+    },
+    "cards": {
+      "requestTokenTrend": "请求与 Tokens 趋势",
+      "coreTraffic": "核心流量",
+      "activeUserTrend": "活跃员工趋势",
+      "companyActivity": "企业活跃度",
+      "keyKpi": "关键经营指标",
+      "totalCost": "总成本",
+      "avgLatency": "平均延迟",
+      "activeCompanyUser": "活跃企业 / 员工",
+      "companyUsageDetail": "企业使用详情",
+      "companyUsageSubheader": "支持下钻企业与员工",
+      "viewAllCompanyMonitor": "查看全部企业监控",
+      "activeUserTop": "活跃员工 Top",
+      "highFreqUsers": "高频 AI 使用者",
+      "alerts": "告警与提醒",
+      "alertSubheader": "优先处理高风险",
+      "handleNow": "去处理",
+      "systemStatus": "系统状态",
+      "systemStatusSubheader": "实时概览",
+      "updatedAt": "更新时间",
+      "dataWindow": "数据窗口",
+      "serviceStatus": "服务状态",
+      "today": "今日日期"
+    },
+    "table": {
+      "company": "企业",
+      "requests": "请求",
+      "activeUsers": "活跃员工",
+      "tokens": "Tokens",
+      "cost": "成本",
+      "errors": "异常",
+      "lastActive": "最后活跃"
+    },
+    "alerts": {
+      "highErrorTitle": "{{name}} 异常请求偏高",
+      "highErrorDesc": "{{count}} 次异常请求，建议排查 Agent 配置与配额。",
+      "expiringTitle": "{{name}} 授权即将到期",
+      "expiringDesc": "剩余 {{days}} 天，到期日 {{date}}。",
+      "noRiskTitle": "当前无高优先级风险",
+      "noRiskDesc": "系统运行稳定，可重点关注增长和活跃。",
+      "level": {
+        "high": "高",
+        "medium": "中",
+        "low": "低"
+      }
+    },
+    "incident": {
+      "title": "事件与工单概览",
+      "subheader": "AI 处理闭环状态",
+      "total": "事件总数",
+      "aiResolved": "AI 直接解决",
+      "escalated": "升级到工单",
+      "ticketCreated": "工单创建",
+      "ticketResolved": "工单已关闭",
+      "typeDist": "事件类型分布",
+      "handlingDist": "处理情况分布",
+      "ticketDist": "工单状态分布",
+      "type": {
+        "network": "网络故障",
+        "account": "账号权限",
+        "endpoint": "终端设备",
+        "application": "系统应用",
+        "security": "安全告警",
+        "other": "其他"
+      },
+      "handling": {
+        "resolved_by_ai": "AI 已解决",
+        "escalated_to_ticket": "升级工单",
+        "awaiting_user": "等待用户",
+        "closed_no_response": "无响应关闭",
+        "failed": "处理失败"
+      },
+      "ticket": {
+        "open": "待处理",
+        "in_progress": "处理中",
+        "pending": "挂起",
+        "resolved": "已解决",
+        "closed": "已关闭"
+      }
+    },
+    "report": {
+      "successAndLatency": "成功率与P95延迟趋势",
+      "successAndLatencySubheader": "按天观测服务质量",
+      "successRate": "成功率",
+      "p95Latency": "P95延迟",
+      "tokenBreakdown": "Token 输入输出占比",
+      "tokenBreakdownSubheader": "附错误码 Top 分布",
+      "inputTokens": "输入Tokens",
+      "outputTokens": "输出Tokens",
+      "agentEfficiency": "Agent 效率榜",
+      "agentEfficiencySubheader": "请求量、成功率、单次成本",
+      "customerUtilization": "企业Agent利用率",
+      "customerUtilizationSubheader": "授权数量 vs 实际使用数量",
+      "successRateShort": "成功率",
+      "avgCostShort": "单次成本",
+      "requestsShort": "请求"
+    },
+    "sd": {
+      "title": "SD KPI",
+      "subheader": "服务台效率与质量指标",
+      "avgResponse": "平均响应时间",
+      "targetResponse": "目标 < 5秒",
+      "avgResolution": "平均解决时长",
+      "manual": "人工",
+      "robotGain": "机器人相对人工提效",
+      "targetGain": "目标 > 50%",
+      "deflection": "自助解决率",
+      "targetDeflection": "目标 30% -> 50% -> 60-70%",
+      "escalation": "转人工率",
+      "targetEscalation": "目标 < 50% -> < 30%",
+      "abandon": "中途放弃率",
+      "targetAbandon": "越低越好",
+      "concurrent": "同时服务会话数",
+      "capacity": "承载能力指标",
+      "csat": "用户满意度（CSAT）",
+      "targetCsat": "目标 ≥ 85%",
+      "csatVotes": "满意度投票",
+      "feedback": "基于用户反馈计算",
+      "consultationVolume": "按时段咨询量",
+      "consultationVolumeSub": "支持按小时/周/月/季度分析",
+      "hourly": "每小时",
+      "weekly": "按周",
+      "monthly": "按月",
+      "quarterly": "按季度",
+      "issueCategoryTitle": "问题类别分析",
+      "issueCategorySub": "已解决 / 未解决 / 闲聊 / 攻击 / 积极探索",
+      "issueCategory": {
+        "resolved": "问题已妥善解决",
+        "unresolved": "问题未解决",
+        "chitchat": "只是闲聊",
+        "attack": "攻击性内容",
+        "exploration": "积极探索"
+      }
+    },
+    "qa": {
+      "title": "QA 抽样 KPI",
+      "subheader": "每周抽检 5-10% 的质量指标",
+      "sampleRate": "抽样比例",
+      "records": "样本",
+      "intentAccuracy": "意图识别准确率",
+      "targetIntent": "目标 ≥ 90%",
+      "knowledgeHit": "知识库命中率",
+      "targetKnowledge": "目标 ≥ 80%",
+      "repeatConsult": "用户重复咨询率",
+      "repeatDesc": "同一问题 >= 3 次",
+      "ticketStandard": "工单创建标准率",
+      "ticketDesc": "信息完整且必填项正确",
+      "incorrectAnswer": "错答率",
+      "targetIncorrect": "目标 < 3%",
+      "compliance": "回答合规性通过率",
+      "complianceDesc": "回答符合策略规范"
+    },
+    "loading": "正在加载业务报表数据..."
+  }
+}

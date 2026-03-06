@@ -42,7 +42,7 @@ export function Header({
                   className="hover:opacity-80 transition-opacity"
                 >
                 <h1 className="text-xl font-bold text-slate-900 dark:text-white">
-                  AI 资讯聚合
+                  AI Intel Studio
                 </h1>
                 </button>
                 <div className="flex items-center bg-slate-100 dark:bg-slate-800 rounded-full p-0.5">

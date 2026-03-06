@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 AI News Aggregator
+# 🤖 AI Intel Studio
 
 **实时追踪 AI 领域最前沿动态，聚合全球顶级 AI 资讯源**
 

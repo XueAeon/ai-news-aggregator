@@ -1,0 +1,52 @@
+{
+  "demo": {
+    "lang": "Chinese",
+    "description": "您的下一个项目的起点基于 MUI。简单的定制可帮助您更快、更好地构建应用程序。"
+  },
+  "settings": {
+    "buttonAria": "设置按钮",
+    "title": "设置",
+    "resetAll": "重置全部",
+    "close": "关闭",
+    "options": {
+      "darkMode": "深色模式",
+      "contrast": "对比度",
+      "rtl": "从右到左",
+      "compact": "紧凑布局",
+      "compactTip": "仅仪表盘可用，且分辨率需大于 1600px（xl）"
+    },
+    "blocks": {
+      "presets": "预设",
+      "nav": "导航",
+      "dashboardOnly": "仅仪表盘",
+      "layout": "布局",
+      "color": "颜色",
+      "font": "字体",
+      "family": "字族",
+      "size": "字号"
+    },
+    "navColor": {
+      "integrate": "融合",
+      "apparent": "突出"
+    }
+  },
+  "notifications": {
+    "buttonAria": "通知按钮",
+    "title": "通知",
+    "markAllAsRead": "全部标记为已读",
+    "viewAll": "查看全部",
+    "tabs": {
+      "all": "全部",
+      "unread": "未读",
+      "archived": "已归档"
+    },
+    "actions": {
+      "accept": "接受",
+      "decline": "拒绝",
+      "reply": "回复",
+      "download": "下载",
+      "pay": "支付",
+      "feedbackText": "的反馈，欢迎提问或留下感谢。"
+    }
+  }
+}

@@ -78,7 +78,7 @@ export async function uploadImageToGithub(file: File, config: GithubImageConfig)
       Accept: 'application/vnd.github+json',
     },
     body: JSON.stringify({
-      message: `Upload by ai-news-web`,
+      message: `Upload by ai-intel-studio-web`,
       content,
       branch,
     }),

@@ -1,0 +1,52 @@
+{
+  "demo": {
+    "lang": "日本語",
+    "description": "次のプロジェクトの出発点は MUI ベースです。簡単なカスタマイズで、より速く、より良く開発できます。"
+  },
+  "settings": {
+    "buttonAria": "設定ボタン",
+    "title": "設定",
+    "resetAll": "すべてリセット",
+    "close": "閉じる",
+    "options": {
+      "darkMode": "ダークモード",
+      "contrast": "コントラスト",
+      "rtl": "右から左",
+      "compact": "コンパクト",
+      "compactTip": "ダッシュボードのみ対応。解像度 1600px（xl）以上で利用可能です。"
+    },
+    "blocks": {
+      "presets": "プリセット",
+      "nav": "ナビ",
+      "dashboardOnly": "ダッシュボードのみ",
+      "layout": "レイアウト",
+      "color": "カラー",
+      "font": "フォント",
+      "family": "ファミリー",
+      "size": "サイズ"
+    },
+    "navColor": {
+      "integrate": "統合",
+      "apparent": "強調"
+    }
+  },
+  "notifications": {
+    "buttonAria": "通知ボタン",
+    "title": "通知",
+    "markAllAsRead": "すべて既読にする",
+    "viewAll": "すべて表示",
+    "tabs": {
+      "all": "すべて",
+      "unread": "未読",
+      "archived": "アーカイブ"
+    },
+    "actions": {
+      "accept": "承認",
+      "decline": "辞退",
+      "reply": "返信",
+      "download": "ダウンロード",
+      "pay": "支払う",
+      "feedbackText": "からのフィードバックです。質問したり感謝のメモを残したりできます。"
+    }
+  }
+}

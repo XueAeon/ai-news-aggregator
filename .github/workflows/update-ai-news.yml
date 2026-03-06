@@ -1,4 +1,4 @@
-name: Update AI News Snapshot
+name: AI Intel Studio - Update Data Snapshot
 
 on:
   workflow_dispatch:
@@ -64,20 +64,16 @@ jobs:
       - name: Generate OPML JSON
         run: npx tsx src/generate-opml-json.ts
 
-      - name: Build web
+      - name: Sync latest data to ai-intel-studio/public/data
+        run: ./scripts/sync-vite-public-data.sh full
+
+      - name: Build ai-intel-studio
         env:
           GITHUB_PAGES: true
         run: |
-          cd web
-          pnpm install
-          pnpm run build
-          mkdir -p dist/data
-          mkdir -p dist/data/ai-output-md
-          cp ../data/collected/latest-24h.json dist/data/latest-24h.json
-          cp ../data/collected/latest-7d.json dist/data/latest-7d.json
-          cp ../data/collected/source-status.json dist/data/source-status.json
-          cp ../data/collected/opml-feeds.json dist/data/opml-feeds.json 2>/dev/null || true
-          cp ../data/ai-output-md/ai-analysis-24h.md dist/data/ai-output-md/ai-analysis-24h.md 2>/dev/null || true
+          cd ai-intel-studio
+          npm ci
+          npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -85,7 +81,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./web/dist
+          path: ./ai-intel-studio/dist
 
   deploy:
     environment:

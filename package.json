@@ -1,7 +1,7 @@
 {
-  "name": "ai-news-aggregator",
+  "name": "ai-intel-studio",
   "version": "1.0.0",
-  "description": "AI News Aggregator - Aggregate updates from multiple AI news sites",
+  "description": "AI Intel Studio - Aggregate updates from multiple AI intelligence sources",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {

@@ -1,0 +1,13 @@
+{
+  "home": "ホーム",
+  "subheader": {
+    "main": "メイン",
+    "management": "管理"
+  },
+  "md2wechat": {
+    "title": "WeChat レイアウト"
+  },
+  "collectorSummary": {
+    "title": "収集サマリー"
+  }
+}
