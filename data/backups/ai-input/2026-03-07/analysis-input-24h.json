@@ -1,44 +1,36 @@
 {
-  "generated_at": "2026-03-06T16:04:25.094Z",
-  "generated_at_local": "2026-03-07T00:04:25.094+08:00",
-  "source_generated_at": "2026-03-06T15:43:14.899Z",
-  "source_generated_at_local": "2026-03-06T23:43:14.899+08:00",
+  "generated_at": "2026-03-06T23:23:56.442Z",
+  "generated_at_local": "2026-03-07T07:23:56.442+08:00",
+  "source_generated_at": "2026-03-06T22:28:38.612Z",
+  "source_generated_at_local": "2026-03-07T06:28:38.612+08:00",
   "window_hours": 24,
   "compression": {
     "algorithm_version": "v1.0",
-    "input_items": 578,
-    "clustered_events": 570,
+    "input_items": 833,
+    "clustered_events": 823,
     "output_events": 80,
     "max_events": 80,
     "per_site_cap": 28
   },
   "site_distribution": [
     {
-      "site_id": "techurls",
-      "count": 28
-    },
-    {
       "site_id": "hackernews",
       "count": 28
     },
     {
-      "site_id": "buzzing",
-      "count": 6
+      "site_id": "techurls",
+      "count": 28
     },
     {
-      "site_id": "aibase",
-      "count": 6
+      "site_id": "buzzing",
+      "count": 13
     },
     {
       "site_id": "tophub",
-      "count": 4
+      "count": 5
     },
     {
-      "site_id": "newsnow",
-      "count": 4
-    },
-    {
-      "site_id": "iris",
+      "site_id": "officialai",
       "count": 2
     },
     {
@@ -46,7 +38,15 @@
       "count": 1
     },
     {
-      "site_id": "officialai",
+      "site_id": "newsnow",
+      "count": 1
+    },
+    {
+      "site_id": "iris",
+      "count": 1
+    },
+    {
+      "site_id": "aibase",
       "count": 1
     }
   ],
@@ -57,7 +57,7 @@
       "title_zh": "AI日报：小米发布Agent产品Xiaomi miclaw；OpenAI 发布 GPT-5.4系列；微软宣布必应视频全面接入Sora2模型",
       "title_bilingual": "AI日报：小米发布Agent产品Xiaomi miclaw；OpenAI 发布 GPT-5.4系列；微软宣布必应视频全面接入Sora2模型",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "aibasedaily",
       "site_name": "AIbase Daily",
       "source": "AI日报",
@@ -70,8 +70,426 @@
         "source_weight": 1.15,
         "keyword_hits": 5,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 4.867
+        "recency_score": 0.65,
+        "total_score": 4.5
+      }
+    },
+    {
+      "event_id": "show hn: tri·tfm lens – 5-axis quality evaluation for chatgpt/gemini responses",
+      "title": "Show HN: Tri·TFM Lens – 5-axis quality evaluation for ChatGPT/Gemini responses",
+      "title_zh": "Show HN: Tri·TFM 镜头——ChatGPT/Gemini 响应的五轴质量评估",
+      "title_bilingual": "Show HN: Tri·TFM 镜头——ChatGPT/Gemini 响应的五轴质量评估 / Show HN: Tri·TFM Lens – 5-axis quality evaluation for ChatGPT/Gemini responses",
+      "published_at": "2026-03-06T19:17:38Z",
+      "age_hours": 4.11,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=47279727",
+      "related_count": 1,
+      "related_urls": [
+        "https://news.ycombinator.com/item?id=47279727"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 5,
+        "cross_source_count": 1,
+        "recency_score": 0.829,
+        "total_score": 4.445
+      }
+    },
+    {
+      "event_id": "eval awareness in claude opus 4.6's browsecomp performance",
+      "title": "Eval awareness in Claude Opus 4.6's BrowseComp performance",
+      "title_zh": "Claude Opus 4.6 的 BrowseComp 性能中的评估意识",
+      "title_bilingual": "Claude Opus 4.6 的 BrowseComp 性能中的评估意识 / Eval awareness in Claude Opus 4.6's BrowseComp performance",
+      "published_at": "2026-03-06T20:55:46Z",
+      "age_hours": 2.47,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.anthropic.com/engineering/eval-awareness-browsecomp"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 4,
+        "cross_source_count": 1,
+        "recency_score": 0.897,
+        "total_score": 4.277
+      }
+    },
+    {
+      "event_id": "hardening firefox with anthropic's red team",
+      "title": "Hardening Firefox with Anthropic's Red Team",
+      "title_zh": "通过Anthropic红队强化Firefox安全性",
+      "title_bilingual": "通过Anthropic红队强化Firefox安全性 / Hardening Firefox with Anthropic's Red Team",
+      "published_at": "2026-03-06T15:00:27.173Z",
+      "age_hours": 8.39,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Hacker News",
+      "url": "https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team",
+      "related_count": 3,
+      "related_urls": [
+        "https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team",
+        "https://news.ycombinator.com/item?id=47273854",
+        "https://www.anthropic.com/news/mozilla-firefox-security"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 2,
+        "cross_source_count": 3,
+        "recency_score": 0.65,
+        "total_score": 4.19
+      }
+    },
+    {
+      "event_id": "claude code: should not encourage shell command substitution $()",
+      "title": "Claude Code: Should not encourage shell command substitution $()",
+      "title_zh": "Claude Code：不应鼓励 shell 命令替换 $()",
+      "title_bilingual": "Claude Code：不应鼓励 shell 命令替换 $() / Claude Code: Should not encourage shell command substitution $()",
+      "published_at": "2026-03-06T17:27:41Z",
+      "age_hours": 5.94,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://github.com/anthropics/claude-code/issues/31373",
+      "related_count": 1,
+      "related_urls": [
+        "https://github.com/anthropics/claude-code/issues/31373"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 4,
+        "cross_source_count": 1,
+        "recency_score": 0.753,
+        "total_score": 4.103
+      }
+    },
+    {
+      "event_id": "aigate – an os-level sandbox for ai coding agents (claude, cursor)",
+      "title": "Aigate – An OS-level sandbox for AI coding agents (Claude, Cursor)",
+      "title_zh": "Aigate – 用于 AI 编码代理的操作系统级沙箱（Claude、Cursor）",
+      "title_bilingual": "Aigate – 用于 AI 编码代理的操作系统级沙箱（Claude、Cursor） / Aigate – An OS-level sandbox for AI coding agents (Claude, Cursor)",
+      "published_at": "2026-03-06T21:43:19Z",
+      "age_hours": 1.68,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://github.com/AxeForging/aigate",
+      "related_count": 1,
+      "related_urls": [
+        "https://github.com/AxeForging/aigate"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.93,
+        "total_score": 4.066
+      }
+    },
+    {
+      "event_id": "how cursor is evolving through its composer coding models built on chinese open models, as coding agents like claude code threaten to make code editors obsolete (forbes)",
+      "title": "How Cursor is evolving through its Composer coding models built on Chinese open models, as coding agents like Claude Code threaten to make code editors obsolete (Forbes)",
+      "title_zh": "随着 Claude Code 等编码代理威胁要淘汰代码编辑器，Cursor 如何通过其基于中国开放模型的 Composer 编码模型不断发展（福布斯）",
+      "title_bilingual": "随着 Claude Code 等编码代理威胁要淘汰代码编辑器，Cursor 如何通过其基于中国开放模型的 Composer 编码模型不断发展（福布斯） / How Cursor is evolving through its Composer coding models built on Chinese open models, as coding agents like Claude Code threaten to make code editors obsolete (Forbes)",
+      "published_at": "2026-03-06T22:28:38.612Z",
+      "age_hours": 0.92,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Techmeme",
+      "url": "http://www.techmeme.com/260306/p25",
+      "related_count": 1,
+      "related_urls": [
+        "http://www.techmeme.com/260306/p25"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.962,
+        "total_score": 4.014
+      }
+    },
+    {
+      "event_id": "anthropic launches claude marketplace, letting companies buy third-party software using some of their committed annual spending on anthropic's services (shirin ghaffary/bloomberg)",
+      "title": "Anthropic launches Claude Marketplace, letting companies buy third-party software using some of their committed annual spending on Anthropic's services (Shirin Ghaffary/Bloomberg)",
+      "title_zh": "Anthropic 推出了 Claude Marketplace，让公司可以使用 Anthropic 服务上承诺的年度支出来购买第三方软件（Shirin Ghaffary/彭博社）",
+      "title_bilingual": "Anthropic 推出了 Claude Marketplace，让公司可以使用 Anthropic 服务上承诺的年度支出来购买第三方软件（Shirin Ghaffary/彭博社） / Anthropic launches Claude Marketplace, letting companies buy third-party software using some of their committed annual spending on Anthropic's services (Shirin Ghaffary/Bloomberg)",
+      "published_at": "2026-03-06T22:28:38.612Z",
+      "age_hours": 0.92,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Techmeme",
+      "url": "http://www.techmeme.com/260306/p21",
+      "related_count": 1,
+      "related_urls": [
+        "http://www.techmeme.com/260306/p21"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.962,
+        "total_score": 4.014
+      }
+    },
+    {
+      "event_id": "most of my coding is now agentic",
+      "title": "Most of My Coding Is Now Agentic",
+      "title_zh": "我的大部分编码现在都是代理式的",
+      "title_bilingual": "我的大部分编码现在都是代理式的 / Most of My Coding Is Now Agentic",
+      "published_at": "2026-03-06T20:37:41Z",
+      "age_hours": 2.77,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://www.justinmath.com/most-of-my-coding-is-now-agentic",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.justinmath.com/most-of-my-coding-is-now-agentic"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.885,
+        "total_score": 4.011
+      }
+    },
+    {
+      "event_id": "show hn: contexa – git-inspired context management for llm agents",
+      "title": "Show HN: Contexa – Git-inspired context management for LLM agents",
+      "title_zh": "Show HN: Contexa——受Git启发的LLM代理上下文管理方案",
+      "title_bilingual": "Show HN: Contexa——受Git启发的LLM代理上下文管理方案 / Show HN: Contexa – Git-inspired context management for LLM agents",
+      "published_at": "2026-03-06T20:27:10Z",
+      "age_hours": 2.95,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://github.com/swadhinbiswas/contexa",
+      "related_count": 1,
+      "related_urls": [
+        "https://github.com/swadhinbiswas/contexa"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.877,
+        "total_score": 4.003
+      }
+    },
+    {
+      "event_id": "anthropic, please make a new slack",
+      "title": "Anthropic, Please Make a New Slack",
+      "title_zh": "人类，请做一个新的松弛",
+      "title_bilingual": "人类，请做一个新的松弛 / Anthropic, Please Make a New Slack",
+      "published_at": "2026-03-06T22:28:41.500Z",
+      "age_hours": 0.92,
+      "site_id": "newsnow",
+      "site_name": "NewsNow",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47280200",
+      "related_count": 2,
+      "related_urls": [
+        "https://news.ycombinator.com/item?id=47280200",
+        "https://www.fivetran.com/blog/anthropic-please-make-a-new-slack"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 2,
+        "cross_source_count": 2,
+        "recency_score": 0.962,
+        "total_score": 3.984
+      }
+    },
+    {
+      "event_id": "show hn: claude-replay – a video-like player for claude code sessions",
+      "title": "Show HN: Claude-replay – A video-like player for Claude Code sessions",
+      "title_zh": "Show HN: Claude-replay – 专为Claude代码会话设计的视频式播放器",
+      "title_bilingual": "Show HN: Claude-replay – 专为Claude代码会话设计的视频式播放器 / Show HN: Claude-replay – A video-like player for Claude Code sessions",
+      "published_at": "2026-03-06T18:45:29.488Z",
+      "age_hours": 4.64,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Hacker News",
+      "url": "https://github.com/es617/claude-replay",
+      "related_count": 2,
+      "related_urls": [
+        "https://github.com/es617/claude-replay",
+        "https://news.ycombinator.com/item?id=47276604"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 2,
+        "cross_source_count": 2,
+        "recency_score": 0.807,
+        "total_score": 3.978
+      }
+    },
+    {
+      "event_id": "the agent hacker era: first ai spy campaign thwarted and anthropic's $50b bet [video]",
+      "title": "The Agent Hacker Era: First AI Spy Campaign Thwarted and Anthropic's $50B Bet [video]",
+      "title_zh": "代理黑客时代：首个人工智能间谍活动受挫，Anthropic 的 500 亿美元赌注 [视频]",
+      "title_bilingual": "代理黑客时代：首个人工智能间谍活动受挫，Anthropic 的 500 亿美元赌注 [视频] / The Agent Hacker Era: First AI Spy Campaign Thwarted and Anthropic's $50B Bet [video]",
+      "published_at": "2026-03-06T19:50:20Z",
+      "age_hours": 3.56,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://www.youtube.com/watch?v=pyV8-BVPoa8",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.youtube.com/watch?v=pyV8-BVPoa8"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.852,
+        "total_score": 3.972
+      }
+    },
+    {
+      "event_id": "anthropic’s claude found 22 vulnerabilities in firefox over two weeks",
+      "title": "Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks",
+      "title_zh": "Anthropic 的 Claude 在两周内发现 Firefox 中的 22 个漏洞",
+      "title_bilingual": "Anthropic 的 Claude 在两周内发现 Firefox 中的 22 个漏洞 / Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks",
+      "published_at": "2026-03-06T20:31:36.010Z",
+      "age_hours": 2.87,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks",
+      "related_count": 1,
+      "related_urls": [
+        "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.88,
+        "total_score": 3.916
+      }
+    },
+    {
+      "event_id": "openai rolls out codex security, an ai agent that evolved from its research project aardvark to automate vulnerability discovery, validation, and remediation (sam sabin/axios)",
+      "title": "OpenAI rolls out Codex Security, an AI agent that evolved from its research project Aardvark to automate vulnerability discovery, validation, and remediation (Sam Sabin/Axios)",
+      "title_zh": "OpenAI 推出 Codex Security，这是一款从其研究项目 Aardvark 发展而来的 AI 代理，用于自动发现、验证和修复漏洞（Sam Sabin/Axios）",
+      "title_bilingual": "OpenAI 推出 Codex Security，这是一款从其研究项目 Aardvark 发展而来的 AI 代理，用于自动发现、验证和修复漏洞（Sam Sabin/Axios） / OpenAI rolls out Codex Security, an AI agent that evolved from its research project Aardvark to automate vulnerability discovery, validation, and remediation (Sam Sabin/Axios)",
+      "published_at": "2026-03-06T20:31:36.010Z",
+      "age_hours": 2.87,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Techmeme",
+      "url": "http://www.techmeme.com/260306/p18",
+      "related_count": 1,
+      "related_urls": [
+        "http://www.techmeme.com/260306/p18"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.88,
+        "total_score": 3.916
+      }
+    },
+    {
+      "event_id": "‘the biggest losers in all of this are everyday people and civilians in conflict zones’: openai is filling the gap left by anthropic — but almost left in the same loopholes for mass domestic surveillance",
+      "title": "‘The biggest losers in all of this are everyday people and civilians in conflict zones’: OpenAI is filling the gap left by Anthropic — but almost left in the same loopholes for mass domestic surveillance",
+      "title_zh": "“这一切中最大的输家是冲突地区的普通人和平民”：OpenAI 正在填补 Anthropic 留下的空白，但在大规模国内监控方面几乎留下了同样的漏洞",
+      "title_bilingual": "“这一切中最大的输家是冲突地区的普通人和平民”：OpenAI 正在填补 Anthropic 留下的空白，但在大规模国内监控方面几乎留下了同样的漏洞 / ‘The biggest losers in all of this are everyday people and civilians in conflict zones’: OpenAI is filling the gap left by Anthropic — but almost left in the same loopholes for mass domestic surveillance",
+      "published_at": "2026-03-06T20:31:36.010Z",
+      "age_hours": 2.87,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechRadar",
+      "url": "https://www.techradar.com/pro/security/the-biggest-losers-in-all-of-this-are-everyday-people-and-civilians-in-conflict-zones-openai-is-filling-the-gap-left-by-anthropic-but-almost-left-in-the-same-loopholes-for-mass-domestic-surveillance",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.techradar.com/pro/security/the-biggest-losers-in-all-of-this-are-everyday-people-and-civilians-in-conflict-zones-openai-is-filling-the-gap-left-by-anthropic-but-almost-left-in-the-same-loopholes-for-mass-domestic-surveillance"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.88,
+        "total_score": 3.916
+      }
+    },
+    {
+      "event_id": "microsoft, google, amazon say anthropic claude remains available to non-defense customers",
+      "title": "Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers",
+      "title_zh": "微软、谷歌和亚马逊表示 Anthropic Claude 仍可供非国防客户使用",
+      "title_bilingual": "微软、谷歌和亚马逊表示 Anthropic Claude 仍可供非国防客户使用 / Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers",
+      "published_at": "2026-03-06T20:31:36.010Z",
+      "age_hours": 2.87,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department",
+      "related_count": 1,
+      "related_urls": [
+        "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.88,
+        "total_score": 3.916
+      }
+    },
+    {
+      "event_id": "google opens the door to openclaw and other ai agents with new release",
+      "title": "Google opens the door to OpenClaw and other AI agents with new release",
+      "title_zh": "谷歌发布新版本，为 OpenClaw 和其他人工智能代理打开大门",
+      "title_bilingual": "谷歌发布新版本，为 OpenClaw 和其他人工智能代理打开大门 / Google opens the door to OpenClaw and other AI agents with new release",
+      "published_at": "2026-03-06T20:31:36.010Z",
+      "age_hours": 2.87,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Mashable",
+      "url": "https://mashable.com/article/google-workspace-cli-openclaw-ai-agentic-assistants",
+      "related_count": 1,
+      "related_urls": [
+        "https://mashable.com/article/google-workspace-cli-openclaw-ai-agentic-assistants"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.88,
+        "total_score": 3.916
+      }
+    },
+    {
+      "event_id": "reposage – understand any codebase in minutes using claude or local ollama",
+      "title": "RepoSage – Understand any codebase in minutes using Claude or local Ollama",
+      "title_zh": "RepoSage – 使用 Claude 或本地 Ollama 在几分钟内了解任何代码库",
+      "title_bilingual": "RepoSage – 使用 Claude 或本地 Ollama 在几分钟内了解任何代码库 / RepoSage – Understand any codebase in minutes using Claude or local Ollama",
+      "published_at": "2026-03-06T18:42:57Z",
+      "age_hours": 4.68,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://github.com/Saichethanreddynayini808/RepoSage",
+      "related_count": 1,
+      "related_urls": [
+        "https://github.com/Saichethanreddynayini808/RepoSage"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.805,
+        "total_score": 3.916
       }
     },
     {
@@ -80,7 +498,7 @@
       "title_zh": "OpenAI 的 GPT-5.4 创下专业基准新纪录",
       "title_bilingual": "OpenAI 的 GPT-5.4 创下专业基准新纪录 / OpenAI’s GPT-5.4 sets new records on professional benchmarks",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "The Next Web",
@@ -93,8 +511,8 @@
         "source_weight": 0.95,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 4.257
+        "recency_score": 0.65,
+        "total_score": 3.89
       }
     },
     {
@@ -103,7 +521,7 @@
       "title_zh": "这 5 个提示确实表明，尽管 OpenAI 怎么说，ChatGPT 5.3 仍然有很多“令人畏惧”的地方",
       "title_bilingual": "这 5 个提示确实表明，尽管 OpenAI 怎么说，ChatGPT 5.3 仍然有很多“令人畏惧”的地方 / These 5 prompts really showed how ChatGPT 5.3 still has plenty of ‘cringe’, despite what OpenAI says",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "TechRadar",
@@ -116,32 +534,401 @@
         "source_weight": 0.95,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 4.257
+        "recency_score": 0.65,
+        "total_score": 3.89
       }
     },
     {
-      "event_id": "hardening firefox with anthropic's red team",
-      "title": "Hardening Firefox with Anthropic's Red Team",
-      "title_zh": "通过Anthropic红队强化Firefox安全性",
-      "title_bilingual": "通过Anthropic红队强化Firefox安全性 / Hardening Firefox with Anthropic's Red Team",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "event_id": "how descript enables multilingual video dubbing at scale",
+      "title": "How Descript enables multilingual video dubbing at scale",
+      "title_zh": "Descript 如何实现大规模多语言视频配音",
+      "title_bilingual": "Descript 如何实现大规模多语言视频配音 / How Descript enables multilingual video dubbing at scale",
+      "published_at": "2026-03-06T10:00:00Z",
+      "age_hours": 13.4,
+      "site_id": "officialai",
+      "site_name": "Official AI Sources",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/descript",
+      "related_count": 1,
+      "related_urls": [
+        "https://openai.com/index/descript"
+      ],
+      "signals": {
+        "source_weight": 1.35,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.442,
+        "total_score": 3.86
+      }
+    },
+    {
+      "event_id": "show hn: speclint – os spec linter for ai coding agents",
+      "title": "Show HN: Speclint – OS spec linter for AI coding agents",
+      "title_zh": "Show HN：Speclint – 用于 AI 编码代理的操作系统规范 linter",
+      "title_bilingual": "Show HN：Speclint – 用于 AI 编码代理的操作系统规范 linter / Show HN: Speclint – OS spec linter for AI coding agents",
+      "published_at": "2026-03-06T22:25:31Z",
+      "age_hours": 0.97,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://github.com/speclint-ai/speclint",
+      "related_count": 1,
+      "related_urls": [
+        "https://github.com/speclint-ai/speclint"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.959,
+        "total_score": 3.851
+      }
+    },
+    {
+      "event_id": "qwen3.5-35b – 16gb gpu – 100t/s with 120k context and vision enabled",
+      "title": "Qwen3.5-35B – 16GB GPU – 100T/s with 120K context AND vision enabled",
+      "title_zh": "Qwen3.5-35B – 16GB GPU – 100T/s，启用 120K 上下文和视觉",
+      "title_bilingual": "Qwen3.5-35B – 16GB GPU – 100T/s，启用 120K 上下文和视觉 / Qwen3.5-35B – 16GB GPU – 100T/s with 120K context AND vision enabled",
+      "published_at": "2026-03-06T22:23:45Z",
+      "age_hours": 1,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://github.com/willbnu/Qwen-3.5-16G-Vram-Local",
+      "related_count": 1,
+      "related_urls": [
+        "https://github.com/willbnu/Qwen-3.5-16G-Vram-Local"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.958,
+        "total_score": 3.85
+      }
+    },
+    {
+      "event_id": "agentnanny – run claude code with varying degrees of control",
+      "title": "Agentnanny – Run Claude Code with varying degrees of control",
+      "title_zh": "Agentnanny – 以不同程度的控制运行 Claude 代码",
+      "title_bilingual": "Agentnanny – 以不同程度的控制运行 Claude 代码 / Agentnanny – Run Claude Code with varying degrees of control",
+      "published_at": "2026-03-06T17:11:58Z",
+      "age_hours": 6.2,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://github.com/syd-ppt/agentnanny",
+      "related_count": 1,
+      "related_urls": [
+        "https://github.com/syd-ppt/agentnanny"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.742,
+        "total_score": 3.84
+      }
+    },
+    {
+      "event_id": "show hn: platespinner – a kanban board that orchestrates ai coding agents",
+      "title": "Show HN: PlateSpinner – A Kanban board that orchestrates AI coding agents",
+      "title_zh": "Show HN: PlateSpinner——协调AI编码代理的看板系统",
+      "title_bilingual": "Show HN: PlateSpinner——协调AI编码代理的看板系统 / Show HN: PlateSpinner – A Kanban board that orchestrates AI coding agents",
+      "published_at": "2026-03-06T21:57:55Z",
+      "age_hours": 1.43,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://github.com/moridinamael/platespinner",
+      "related_count": 1,
+      "related_urls": [
+        "https://github.com/moridinamael/platespinner"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.94,
+        "total_score": 3.828
+      }
+    },
+    {
+      "event_id": "openai says it is delaying the launch of chatgpt adult mode, originally planned for q1, to focus on higher priorities, like gains in intelligence (alex heath/sources)",
+      "title": "OpenAI says it is delaying the launch of ChatGPT Adult Mode, originally planned for Q1, to focus on higher priorities, like gains in intelligence (Alex Heath/Sources)",
+      "title_zh": "OpenAI 表示将推迟原计划于第一季度推出的 ChatGPT 成人模式，以专注于更高的优先事项，例如智力提升（Alex Heath/Sources）",
+      "title_bilingual": "OpenAI 表示将推迟原计划于第一季度推出的 ChatGPT 成人模式，以专注于更高的优先事项，例如智力提升（Alex Heath/Sources） / OpenAI says it is delaying the launch of ChatGPT Adult Mode, originally planned for Q1, to focus on higher priorities, like gains in intelligence (Alex Heath/Sources)",
+      "published_at": "2026-03-06T18:45:29.488Z",
+      "age_hours": 4.64,
       "site_id": "techurls",
       "site_name": "TechURLs",
-      "source": "Hacker News",
-      "url": "https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team",
-      "related_count": 2,
+      "source": "Techmeme",
+      "url": "http://www.techmeme.com/260306/p12",
+      "related_count": 1,
       "related_urls": [
-        "https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team",
-        "https://news.ycombinator.com/item?id=47273854"
+        "http://www.techmeme.com/260306/p12"
       ],
       "signals": {
         "source_weight": 0.95,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.807,
+        "total_score": 3.828
+      }
+    },
+    {
+      "event_id": "reverse engineering claude's cve-2026-2796 exploit",
+      "title": "Reverse engineering Claude's CVE-2026-2796 exploit",
+      "title_zh": "对 Claude 的 CVE-2026-2796 漏洞进行逆向工程",
+      "title_bilingual": "对 Claude 的 CVE-2026-2796 漏洞进行逆向工程 / Reverse engineering Claude's CVE-2026-2796 exploit",
+      "published_at": "2026-03-06T16:58:02Z",
+      "age_hours": 6.43,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://red.anthropic.com/2026/exploit",
+      "related_count": 1,
+      "related_urls": [
+        "https://red.anthropic.com/2026/exploit"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.732,
+        "total_score": 3.828
+      }
+    },
+    {
+      "event_id": "show hn: auto-co – 14 ai agents that run a startup autonomously (open source)",
+      "title": "Show HN: Auto-Co – 14 AI agents that run a startup autonomously (open source)",
+      "title_zh": "Show HN: Auto-Co——14个人工智能代理自主运营初创公司（开源项目）",
+      "title_bilingual": "Show HN: Auto-Co——14个人工智能代理自主运营初创公司（开源项目） / Show HN: Auto-Co – 14 AI agents that run a startup autonomously (open source)",
+      "published_at": "2026-03-06T21:48:28Z",
+      "age_hours": 1.59,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://github.com/NikitaDmitrieff/auto-co-meta",
+      "related_count": 1,
+      "related_urls": [
+        "https://github.com/NikitaDmitrieff/auto-co-meta"
+      ],
+      "signals": {
+        "source_weight": 1,
         "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.934,
+        "total_score": 3.82
+      }
+    },
+    {
+      "event_id": "show hn: nerds – entity-centered long-term memory for llm agents",
+      "title": "Show HN: NERDs – Entity-centered long-term memory for LLM agents",
+      "title_zh": "Show HN: NERDs——面向大型语言模型代理的实体中心长期记忆系统",
+      "title_bilingual": "Show HN: NERDs——面向大型语言模型代理的实体中心长期记忆系统 / Show HN: NERDs – Entity-centered long-term memory for LLM agents",
+      "published_at": "2026-03-06T16:48:14Z",
+      "age_hours": 6.6,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://nerdviewer.com/",
+      "related_count": 1,
+      "related_urls": [
+        "https://nerdviewer.com/"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.725,
+        "total_score": 3.82
+      }
+    },
+    {
+      "event_id": "research shows models know answers before finishing chain-of-thought reasoning",
+      "title": "Research Shows Models Know Answers Before Finishing Chain-of-Thought Reasoning",
+      "title_zh": "研究表明模型在完成思维链推理之前就知道答案",
+      "title_bilingual": "研究表明模型在完成思维链推理之前就知道答案 / Research Shows Models Know Answers Before Finishing Chain-of-Thought Reasoning",
+      "published_at": "2026-03-06T21:43:56Z",
+      "age_hours": 1.67,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://www.simplenews.ai/news/research-shows-models-already-know-answers-before-finishing-chain-of-thought-reasoning-kmmd",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.simplenews.ai/news/research-shows-models-already-know-answers-before-finishing-chain-of-thought-reasoning-kmmd"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.931,
+        "total_score": 3.817
+      }
+    },
+    {
+      "event_id": "open-source llm router with thompson sampling and energy-aware routing",
+      "title": "Open-source LLM router with Thompson Sampling and energy-aware routing",
+      "title_zh": "具有 Thompson 采样和能源感知路由功能的开源 LLM 路由器",
+      "title_bilingual": "具有 Thompson 采样和能源感知路由功能的开源 LLM 路由器 / Open-source LLM router with Thompson Sampling and energy-aware routing",
+      "published_at": "2026-03-06T21:43:46Z",
+      "age_hours": 1.67,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://github.com/beee003/astrai-router",
+      "related_count": 1,
+      "related_urls": [
+        "https://github.com/beee003/astrai-router"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.93,
+        "total_score": 3.817
+      }
+    },
+    {
+      "event_id": "iran war provides a large-scale test for ai-assisted warfare",
+      "title": "Iran War Provides a Large-Scale Test For AI-Assisted Warfare",
+      "title_zh": "伊朗战争为人工智能辅助战争提供大规模考验",
+      "title_bilingual": "伊朗战争为人工智能辅助战争提供大规模考验 / Iran War Provides a Large-Scale Test For AI-Assisted Warfare",
+      "published_at": "2026-03-06T20:31:36.010Z",
+      "age_hours": 2.87,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Slashdot",
+      "url": "https://tech.slashdot.org/story/26/03/06/1629255/iran-war-provides-a-large-scale-test-for-ai-assisted-warfare",
+      "related_count": 2,
+      "related_urls": [
+        "https://tech.slashdot.org/story/26/03/06/1629255/iran-war-provides-a-large-scale-test-for-ai-assisted-warfare",
+        "https://www.bloomberg.com/news/newsletters/2026-03-05/iran-war-provides-a-large-scale-test-for-ai-assisted-warfare"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 1,
         "cross_source_count": 2,
-        "recency_score": 0.956,
-        "total_score": 4.157
+        "recency_score": 0.88,
+        "total_score": 3.816
+      }
+    },
+    {
+      "event_id": "a tool that removes censorship from open-weight llms",
+      "title": "A tool that removes censorship from open-weight LLMs",
+      "title_zh": "一种消除开放式法学硕士审查制度的工具",
+      "title_bilingual": "一种消除开放式法学硕士审查制度的工具 / A tool that removes censorship from open-weight LLMs",
+      "published_at": "2026-03-06T20:31:36.010Z",
+      "age_hours": 2.87,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Hacker News",
+      "url": "https://github.com/elder-plinius/OBLITERATUS",
+      "related_count": 2,
+      "related_urls": [
+        "https://github.com/elder-plinius/OBLITERATUS",
+        "https://news.ycombinator.com/item?id=47275291"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 1,
+        "cross_source_count": 2,
+        "recency_score": 0.88,
+        "total_score": 3.816
+      }
+    },
+    {
+      "event_id": "running production ai systems at scale (godaddy and aws case study)",
+      "title": "Running production AI systems at scale (GoDaddy and AWS case study)",
+      "title_zh": "大规模运行生产人工智能系统（GoDaddy 和 AWS 案例研究）",
+      "title_bilingual": "大规模运行生产人工智能系统（GoDaddy 和 AWS 案例研究） / Running production AI systems at scale (GoDaddy and AWS case study)",
+      "published_at": "2026-03-06T16:41:04Z",
+      "age_hours": 6.71,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://aws.amazon.com/partners/success/godaddy-agenticai",
+      "related_count": 1,
+      "related_urls": [
+        "https://aws.amazon.com/partners/success/godaddy-agenticai"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.72,
+        "total_score": 3.814
+      }
+    },
+    {
+      "event_id": "担心人工智能会取代你?看看anthropic发布的这份图表,了解哪些职业面临最大风险。 - business insider",
+      "title": "担心人工智能会取代你？看看Anthropic发布的这份图表，了解哪些职业面临最大风险。 - Business Insider",
+      "title_zh": "担心人工智能会取代你？看看Anthropic发布的这份图表，了解哪些职业面临最大风险。 - Business Insider",
+      "title_bilingual": "担心人工智能会取代你？看看Anthropic发布的这份图表，了解哪些职业面临最大风险。 - Business Insider",
+      "published_at": "2026-03-06T21:48:30.347Z",
+      "age_hours": 1.59,
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeEpNYjV2X2x1a002M0l4RUl3TFBFbV9STzdEVGNQc25Qc3NNVU9XMWZNYVB0OENiV3BweFQ2TlRIbFJ5a2JxRjkzZ1dxcThMbDVTWXFCMzhCaGF6TFFpbkxJTWh1TmlhWUM5WjlVcHdWdERNSnhNZVlZZ1gwa01JenJMRVJMMllucUtXVWo2bGRfMXVDbGY2RW9ieWEtWmRq?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "related_count": 1,
+      "related_urls": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeEpNYjV2X2x1a002M0l4RUl3TFBFbV9STzdEVGNQc25Qc3NNVU9XMWZNYVB0OENiV3BweFQ2TlRIbFJ5a2JxRjkzZ1dxcThMbDVTWXFCMzhCaGF6TFFpbkxJTWh1TmlhWUM5WjlVcHdWdERNSnhNZVlZZ1gwa01JenJMRVJMMllucUtXVWo2bGRfMXVDbGY2RW9ieWEtWmRq?oc=5&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.934,
+        "total_score": 3.8
+      }
+    },
+    {
+      "event_id": "runtime observability and policy enforcement for ai coding agents",
+      "title": "Runtime observability and policy enforcement for AI coding agents",
+      "title_zh": "AI 编码代理的运行时可观察性和策略执行",
+      "title_bilingual": "AI 编码代理的运行时可观察性和策略执行 / Runtime observability and policy enforcement for AI coding agents",
+      "published_at": "2026-03-06T21:13:39Z",
+      "age_hours": 2.17,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://www.oculisecurity.com/",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.oculisecurity.com/"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.91,
+        "total_score": 3.791
+      }
+    },
+    {
+      "event_id": "project operational autonomy: our agent-to-agent-future",
+      "title": "Project Operational Autonomy: our agent-to-agent-future",
+      "title_zh": "项目运营自主权：我们的代理对代理的未来",
+      "title_bilingual": "项目运营自主权：我们的代理对代理的未来 / Project Operational Autonomy: our agent-to-agent-future",
+      "published_at": "2026-03-06T21:12:22Z",
+      "age_hours": 2.19,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://pebblebed.com/blog/operational-autonomy",
+      "related_count": 1,
+      "related_urls": [
+        "https://pebblebed.com/blog/operational-autonomy"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.909,
+        "total_score": 3.79
       }
     },
     {
@@ -150,7 +937,7 @@
       "title_zh": "VS Code 集成 claude-code 教程：告别海外限制，使用国内大模型",
       "title_bilingual": "VS Code 集成 claude-code 教程：告别海外限制，使用国内大模型",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "tophub",
       "site_name": "TopHub",
       "source": "掘金 · 人工智能本周最热",
@@ -163,8 +950,123 @@
         "source_weight": 0.75,
         "keyword_hits": 5,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 4.147
+        "recency_score": 0.65,
+        "total_score": 3.78
+      }
+    },
+    {
+      "event_id": "oracle and openai drop texas data center expansion plan",
+      "title": "Oracle and OpenAI drop Texas data center expansion plan",
+      "title_zh": "Oracle 和 OpenAI 放弃德克萨斯州数据中心扩建计划",
+      "title_bilingual": "Oracle 和 OpenAI 放弃德克萨斯州数据中心扩建计划 / Oracle and OpenAI drop Texas data center expansion plan",
+      "published_at": "2026-03-06T20:56:58Z",
+      "age_hours": 2.45,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://www.reuters.com/business/oracle-openai-end-plans-expand-texas-data-center-site-bloomberg-news-reports-2026-03-06",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.reuters.com/business/oracle-openai-end-plans-expand-texas-data-center-site-bloomberg-news-reports-2026-03-06"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.898,
+        "total_score": 3.778
+      }
+    },
+    {
+      "event_id": "python 'chardet' package replaced with llm-generated clone, re-licensed",
+      "title": "Python 'Chardet' Package Replaced with LLM-Generated Clone, Re-Licensed",
+      "title_zh": "Python“Chardet”包替换为 LLM 生成的克隆，并重新许可",
+      "title_bilingual": "Python“Chardet”包替换为 LLM 生成的克隆，并重新许可 / Python 'Chardet' Package Replaced with LLM-Generated Clone, Re-Licensed",
+      "published_at": "2026-03-06T20:49:28Z",
+      "age_hours": 2.57,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://developers.slashdot.org/story/26/03/06/1614252/python-chardet-package-replaced-with-llm-generated-clone-re-licensed",
+      "related_count": 1,
+      "related_urls": [
+        "https://developers.slashdot.org/story/26/03/06/1614252/python-chardet-package-replaced-with-llm-generated-clone-re-licensed"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.893,
+        "total_score": 3.771
+      }
+    },
+    {
+      "event_id": "anthropic challenges department of war designation as ai dispute escalates",
+      "title": "Anthropic challenges Department of War designation as AI dispute escalates",
+      "title_zh": "随着人工智能争议升级，人类挑战战争部的指定",
+      "title_bilingual": "随着人工智能争议升级，人类挑战战争部的指定 / Anthropic challenges Department of War designation as AI dispute escalates",
+      "published_at": "2026-03-06T22:28:38.612Z",
+      "age_hours": 0.92,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Mashable",
+      "url": "https://mashable.com/article/anthropic-supply-chain-risk-ceo-statement",
+      "related_count": 1,
+      "related_urls": [
+        "https://mashable.com/article/anthropic-supply-chain-risk-ceo-statement"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.962,
+        "total_score": 3.764
+      }
+    },
+    {
+      "event_id": "sources: oracle and openai abandoned plans to expand a stargate texas data center amid financing disputes; meta considers leasing the planned expansion site (bloomberg)",
+      "title": "Sources: Oracle and OpenAI abandoned plans to expand a Stargate Texas data center amid financing disputes; Meta considers leasing the planned expansion site (Bloomberg)",
+      "title_zh": "资料来源：由于融资纠纷，甲骨文和 OpenAI 放弃了扩建德克萨斯州 Stargate 数据中心的计划； Meta 考虑租赁计划中的扩张场地（彭博社）",
+      "title_bilingual": "资料来源：由于融资纠纷，甲骨文和 OpenAI 放弃了扩建德克萨斯州 Stargate 数据中心的计划； Meta 考虑租赁计划中的扩张场地（彭博社） / Sources: Oracle and OpenAI abandoned plans to expand a Stargate Texas data center amid financing disputes; Meta considers leasing the planned expansion site (Bloomberg)",
+      "published_at": "2026-03-06T22:28:38.612Z",
+      "age_hours": 0.92,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Techmeme",
+      "url": "http://www.techmeme.com/260306/p23",
+      "related_count": 1,
+      "related_urls": [
+        "http://www.techmeme.com/260306/p23"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.962,
+        "total_score": 3.764
+      }
+    },
+    {
+      "event_id": "show hn: graph-oriented generation – beating rag for codebases by 89%",
+      "title": "Show HN: Graph-Oriented Generation – Beating RAG for Codebases by 89%",
+      "title_zh": "Show HN: 图导向生成——在代码库领域以89%的优势超越RAG",
+      "title_bilingual": "Show HN: 图导向生成——在代码库领域以89%的优势超越RAG / Show HN: Graph-Oriented Generation – Beating RAG for Codebases by 89%",
+      "published_at": "2026-03-06T20:39:48Z",
+      "age_hours": 2.74,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://github.com/dchisholm125/graph-oriented-generation",
+      "related_count": 1,
+      "related_urls": [
+        "https://github.com/dchisholm125/graph-oriented-generation"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.886,
+        "total_score": 3.763
       }
     },
     {
@@ -173,7 +1075,7 @@
       "title_zh": "Anthropic 的 AI 攻击了 Firefox 浏览器。发现了很多错误",
       "title_bilingual": "Anthropic 的 AI 攻击了 Firefox 浏览器。发现了很多错误 / Anthropic's AI Hacked the Firefox Browser. It Found a Lot of Bugs",
       "published_at": "2026-03-06T15:35:42Z",
-      "age_hours": 0.48,
+      "age_hours": 7.8,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -186,8 +1088,100 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.98,
-        "total_score": 4.126
+        "recency_score": 0.675,
+        "total_score": 3.76
+      }
+    },
+    {
+      "event_id": "3w for in-browser ai: webllm and wasm and webworkers",
+      "title": "3W for In-Browser AI: WebLLM and WASM and WebWorkers",
+      "title_zh": "浏览器内 AI 的 3W：WebLLM、WASM 和 WebWorkers",
+      "title_bilingual": "浏览器内 AI 的 3W：WebLLM、WASM 和 WebWorkers / 3W for In-Browser AI: WebLLM and WASM and WebWorkers",
+      "published_at": "2026-03-06T20:33:04Z",
+      "age_hours": 2.85,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://blog.mozilla.ai/3w-for-in-browser-ai-webllm-wasm-webworkers",
+      "related_count": 1,
+      "related_urls": [
+        "https://blog.mozilla.ai/3w-for-in-browser-ai-webllm-wasm-webworkers"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.881,
+        "total_score": 3.758
+      }
+    },
+    {
+      "event_id": "[分享创造] 面向多 agent 的代码生成工作台,支持 claude code、codex cli、opencode、gemini cli 等,支持并行 worktree 开发、mcp 与 skills 管理,以及 git/文件/终端一体等",
+      "title": "[分享创造] 面向多 Agent 的代码生成工作台，支持 Claude Code、Codex CLI、OpenCode、Gemini CLI 等，支持并行 worktree 开发、MCP 与 Skills 管理，以及 Git/文件/终端一体等",
+      "title_zh": "[分享创造] 面向多 Agent 的代码生成工作台，支持 Claude Code、Codex CLI、OpenCode、Gemini CLI 等，支持并行 worktree 开发、MCP 与 Skills 管理，以及 Git/文件/终端一体等",
+      "title_bilingual": "[分享创造] 面向多 Agent 的代码生成工作台，支持 Claude Code、Codex CLI、OpenCode、Gemini CLI 等，支持并行 worktree 开发、MCP 与 Skills 管理，以及 Git/文件/终端一体等",
+      "published_at": "2026-03-06T15:54:21Z",
+      "age_hours": 7.49,
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "source": "V2EX (创意工作者社区)",
+      "url": "https://www.v2ex.com/t/1196436",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.v2ex.com/t/1196436"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 4,
+        "cross_source_count": 1,
+        "recency_score": 0.688,
+        "total_score": 3.755
+      }
+    },
+    {
+      "event_id": "show hn: hydra – real-time ops dashboard for developers running ai agents",
+      "title": "Show HN: Hydra – Real-time ops dashboard for developers running AI agents",
+      "title_zh": "Show HN: Hydra——面向运行AI代理的开发者的实时操作仪表盘",
+      "title_bilingual": "Show HN: Hydra——面向运行AI代理的开发者的实时操作仪表盘 / Show HN: Hydra – Real-time ops dashboard for developers running AI agents",
+      "published_at": "2026-03-06T20:22:56Z",
+      "age_hours": 3.02,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://github.com/kunalnano/hydra",
+      "related_count": 1,
+      "related_urls": [
+        "https://github.com/kunalnano/hydra"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.874,
+        "total_score": 3.749
+      }
+    },
+    {
+      "event_id": "oracle and openai end plans to expand flagship data center",
+      "title": "Oracle and OpenAI End Plans to Expand Flagship Data Center",
+      "title_zh": "Oracle 和 OpenAI 结束扩建旗舰数据中心的计划",
+      "title_bilingual": "Oracle 和 OpenAI 结束扩建旗舰数据中心的计划 / Oracle and OpenAI End Plans to Expand Flagship Data Center",
+      "published_at": "2026-03-06T20:14:53Z",
+      "age_hours": 3.15,
+      "site_id": "hackernews",
+      "site_name": "Hacker News",
+      "source": "Hacker News",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/oracle-and-openai-end-plans-to-expand-flagship-data-center",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.bloomberg.com/news/articles/2026-03-06/oracle-and-openai-end-plans-to-expand-flagship-data-center"
+      ],
+      "signals": {
+        "source_weight": 1,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.869,
+        "total_score": 3.742
       }
     },
     {
@@ -196,7 +1190,7 @@
       "title_zh": "美国法学硕士时代的第一次战争揭露了人工智能联盟的神话",
       "title_bilingual": "美国法学硕士时代的第一次战争揭露了人工智能联盟的神话 / America's First War in Age of LLMs Exposes Myth of AI Alignment",
       "published_at": "2026-03-06T15:09:11Z",
-      "age_hours": 0.92,
+      "age_hours": 8.25,
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "source": "Hacker News",
@@ -209,8 +1203,31 @@
         "source_weight": 1,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.962,
-        "total_score": 4.104
+        "recency_score": 0.656,
+        "total_score": 3.738
+      }
+    },
+    {
+      "event_id": "openai开发双向语音模型:被打断也能秒回 让通话更自然顺畅",
+      "title": "OpenAI开发双向语音模型：被打断也能秒回 让通话更自然顺畅",
+      "title_zh": "OpenAI开发双向语音模型：被打断也能秒回 让通话更自然顺畅",
+      "title_bilingual": "OpenAI开发双向语音模型：被打断也能秒回 让通话更自然顺畅",
+      "published_at": "2026-03-06T18:45:29.488Z",
+      "age_hours": 4.64,
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "Readhub · AI",
+      "url": "https://news.mydrivers.com/1/1107/1107608.htm",
+      "related_count": 1,
+      "related_urls": [
+        "https://news.mydrivers.com/1/1107/1107608.htm"
+      ],
+      "signals": {
+        "source_weight": 0.75,
+        "keyword_hits": 4,
+        "cross_source_count": 1,
+        "recency_score": 0.807,
+        "total_score": 3.718
       }
     },
     {
@@ -219,7 +1236,7 @@
       "title_zh": "代理式人工智能正迅猛崛起，而SoundHound AI的定位可能比你想象的更具优势",
       "title_bilingual": "代理式人工智能正迅猛崛起，而SoundHound AI的定位可能比你想象的更具优势",
       "published_at": "2026-03-06T15:09:43.430Z",
-      "age_hours": 0.91,
+      "age_hours": 8.24,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "finance.yahoo.com",
@@ -232,8 +1249,8 @@
         "source_weight": 0.85,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.962,
-        "total_score": 4.084
+        "recency_score": 0.657,
+        "total_score": 3.718
       }
     },
     {
@@ -242,7 +1259,7 @@
       "title_zh": "Balyasny Asset Management 如何构建用于投资的人工智能研究引擎",
       "title_bilingual": "Balyasny Asset Management 如何构建用于投资的人工智能研究引擎 / How Balyasny Asset Management built an AI research engine for investing",
       "published_at": "2026-03-06T07:00:00Z",
-      "age_hours": 9.07,
+      "age_hours": 16.4,
       "site_id": "officialai",
       "site_name": "Official AI Sources",
       "source": "OpenAI",
@@ -255,8 +1272,146 @@
         "source_weight": 1.35,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.622,
-        "total_score": 4.076
+        "recency_score": 0.317,
+        "total_score": 3.71
+      }
+    },
+    {
+      "event_id": "anthropic公司刚刚绘制出人工智能可能取代的职业图谱。一场针对白领阶层的\"大衰退\"绝对有可能发生。 - fortune",
+      "title": "Anthropic公司刚刚绘制出人工智能可能取代的职业图谱。一场针对白领阶层的\"大衰退\"绝对有可能发生。 - Fortune",
+      "title_zh": "Anthropic公司刚刚绘制出人工智能可能取代的职业图谱。一场针对白领阶层的\"大衰退\"绝对有可能发生。 - Fortune",
+      "title_bilingual": "Anthropic公司刚刚绘制出人工智能可能取代的职业图谱。一场针对白领阶层的\"大衰退\"绝对有可能发生。 - Fortune",
+      "published_at": "2026-03-06T19:56:34.575Z",
+      "age_hours": 3.46,
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaXFkOTEzY1VlWmlaVVI0VDc5ZExiYTVQUzJEUE9XS1FNeHVoeWp0ZEc5Qkh5ZFdCeHd3dXQtTXJLYnNVNDFYVkF6Y2JoQ1lhNGkzQlNBaU9yVkN6UVh0MDhFR2M5a1BhNG9BdVNpbjJmMHJCNzNldDlwbGFHLU14X21nZjVQaDhVT3U4WEM0ZlIxdE5DMWxZZ0pENHhjQTlpc2FNLTFYeWVyNTZncVJFU2N3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "related_count": 1,
+      "related_urls": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaXFkOTEzY1VlWmlaVVI0VDc5ZExiYTVQUzJEUE9XS1FNeHVoeWp0ZEc5Qkh5ZFdCeHd3dXQtTXJLYnNVNDFYVkF6Y2JoQ1lhNGkzQlNBaU9yVkN6UVh0MDhFR2M5a1BhNG9BdVNpbjJmMHJCNzNldDlwbGFHLU14X21nZjVQaDhVT3U4WEM0ZlIxdE5DMWxZZ0pENHhjQTlpc2FNLTFYeWVyNTZncVJFU2N3?oc=5&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.856,
+        "total_score": 3.707
+      }
+    },
+    {
+      "event_id": "show hn: tri·tfm 镜头——chatgpt/gemini 响应的五轴质量评估",
+      "title": "Show HN: Tri·TFM 镜头——ChatGPT/Gemini 响应的五轴质量评估",
+      "title_zh": "Show HN: Tri·TFM 镜头——ChatGPT/Gemini 响应的五轴质量评估",
+      "title_bilingual": "Show HN: Tri·TFM 镜头——ChatGPT/Gemini 响应的五轴质量评估",
+      "published_at": "2026-03-06T19:24:57.195Z",
+      "age_hours": 3.98,
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "news.ycombinator.com",
+      "url": "https://news.ycombinator.com/item?id=47279727",
+      "related_count": 1,
+      "related_urls": [
+        "https://news.ycombinator.com/item?id=47279727"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.834,
+        "total_score": 3.681
+      }
+    },
+    {
+      "event_id": "google joins microsoft in saying it will keep working with anthropic on non-defense projects after the dod designated the startup a supply chain risk (jennifer elias/cnbc)",
+      "title": "Google joins Microsoft in saying it will keep working with Anthropic on non-defense projects after the DOD designated the startup a supply chain risk (Jennifer Elias/CNBC)",
+      "title_zh": "在国防部指定 Anthropic 为供应链风险后，谷歌与微软一起表示将继续与 Anthropic 在非国防项目上合作（Jennifer Elias/CNBC）",
+      "title_bilingual": "在国防部指定 Anthropic 为供应链风险后，谷歌与微软一起表示将继续与 Anthropic 在非国防项目上合作（Jennifer Elias/CNBC） / Google joins Microsoft in saying it will keep working with Anthropic on non-defense projects after the DOD designated the startup a supply chain risk (Jennifer Elias/CNBC)",
+      "published_at": "2026-03-06T20:31:36.010Z",
+      "age_hours": 2.87,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Techmeme",
+      "url": "http://www.techmeme.com/260306/p17",
+      "related_count": 1,
+      "related_urls": [
+        "http://www.techmeme.com/260306/p17"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.88,
+        "total_score": 3.666
+      }
+    },
+    {
+      "event_id": "claude code wiped our production database with a terraform command",
+      "title": "Claude Code wiped our production database with a Terraform command",
+      "title_zh": "克劳德·科德用一条Terraform命令清空了我们的生产数据库",
+      "title_bilingual": "克劳德·科德用一条Terraform命令清空了我们的生产数据库 / Claude Code wiped our production database with a Terraform command",
+      "published_at": "2026-03-06T20:31:36.010Z",
+      "age_hours": 2.87,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Hacker News",
+      "url": "https://twitter.com/Al_Grigor/status/2029889772181934425",
+      "related_count": 1,
+      "related_urls": [
+        "https://twitter.com/Al_Grigor/status/2029889772181934425"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.88,
+        "total_score": 3.666
+      }
+    },
+    {
+      "event_id": "an interview with pentagon ai head emil michael about anthropic leaking to the media to win anti-trump users, dealing with amodei and his \"politburo\", and more (pirate wires)",
+      "title": "An interview with Pentagon AI head Emil Michael about Anthropic leaking to the media to win anti-Trump users, dealing with Amodei and his \"politburo\", and more (Pirate Wires)",
+      "title_zh": "五角大楼人工智能负责人埃米尔·迈克尔接受采访，内容涉及 Anthropic 向媒体泄露信息以赢得反特朗普用户、与阿莫迪和他的“政治局”打交道等 (Pirate Wires)",
+      "title_bilingual": "五角大楼人工智能负责人埃米尔·迈克尔接受采访，内容涉及 Anthropic 向媒体泄露信息以赢得反特朗普用户、与阿莫迪和他的“政治局”打交道等 (Pirate Wires) / An interview with Pentagon AI head Emil Michael about Anthropic leaking to the media to win anti-Trump users, dealing with Amodei and his \"politburo\", and more (Pirate Wires)",
+      "published_at": "2026-03-06T20:31:36.010Z",
+      "age_hours": 2.87,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Techmeme",
+      "url": "http://www.techmeme.com/260306/p19",
+      "related_count": 1,
+      "related_urls": [
+        "http://www.techmeme.com/260306/p19"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.88,
+        "total_score": 3.666
+      }
+    },
+    {
+      "event_id": "anthropic’s pentagon deal is a cautionary tale for startups chasing federal contracts",
+      "title": "Anthropic’s Pentagon deal is a cautionary tale for startups chasing federal contracts",
+      "title_zh": "Anthropic 与五角大楼的交易对于追逐联邦合同的初创公司来说是一个警示故事",
+      "title_bilingual": "Anthropic 与五角大楼的交易对于追逐联邦合同的初创公司来说是一个警示故事 / Anthropic’s Pentagon deal is a cautionary tale for startups chasing federal contracts",
+      "published_at": "2026-03-06T20:31:36.010Z",
+      "age_hours": 2.87,
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/anthropics-pentagon-deal-is-a-cautionary-tale-for-startups-chasing-federal-contracts",
+      "related_count": 1,
+      "related_urls": [
+        "https://techcrunch.com/video/anthropics-pentagon-deal-is-a-cautionary-tale-for-startups-chasing-federal-contracts"
+      ],
+      "signals": {
+        "source_weight": 0.95,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.88,
+        "total_score": 3.666
       }
     },
     {
@@ -265,7 +1420,7 @@
       "title_zh": "​极速迭代：GitHub Copilot 仅用数小时即完成 GPT-5.4 接入",
       "title_bilingual": "​极速迭代：GitHub Copilot 仅用数小时即完成 GPT-5.4 接入",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "aibase",
       "site_name": "AIbase",
       "source": "AIbase",
@@ -278,77 +1433,31 @@
         "source_weight": 1.1,
         "keyword_hits": 2,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 4.027
+        "recency_score": 0.65,
+        "total_score": 3.66
       }
     },
     {
-      "event_id": "agentic credential management",
-      "title": "Agentic Credential Management",
-      "title_zh": "代理凭证管理",
-      "title_bilingual": "代理凭证管理 / Agentic Credential Management",
-      "published_at": "2026-03-06T13:34:41Z",
-      "age_hours": 2.5,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://www.akeyless.io/blog/giving-ai-agents-a-digital-identity",
+      "event_id": "预测市场风靡一时,但这只人工智能股票才是更佳投资选择",
+      "title": "预测市场风靡一时，但这只人工智能股票才是更佳投资选择",
+      "title_zh": "预测市场风靡一时，但这只人工智能股票才是更佳投资选择",
+      "title_bilingual": "预测市场风靡一时，但这只人工智能股票才是更佳投资选择",
+      "published_at": "2026-03-06T18:37:17.081Z",
+      "age_hours": 4.78,
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/news/prediction-markets-rage-ai-stock-083900691.html",
       "related_count": 1,
       "related_urls": [
-        "https://www.akeyless.io/blog/giving-ai-agents-a-digital-identity"
+        "https://finance.yahoo.com/news/prediction-markets-rage-ai-stock-083900691.html"
       ],
       "signals": {
-        "source_weight": 1,
+        "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.896,
-        "total_score": 4.025
-      }
-    },
-    {
-      "event_id": "my customers are not human. they're agents. here what they see",
-      "title": "My Customers are not Human. They're Agents. Here what they see",
-      "title_zh": "我的顾客不是人类。他们是特工。这是他们所看到的",
-      "title_bilingual": "我的顾客不是人类。他们是特工。这是他们所看到的 / My Customers are not Human. They're Agents. Here what they see",
-      "published_at": "2026-03-06T13:17:51Z",
-      "age_hours": 2.78,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://agoragentic.com/demo.html",
-      "related_count": 1,
-      "related_urls": [
-        "https://agoragentic.com/demo.html"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.884,
-        "total_score": 4.011
-      }
-    },
-    {
-      "event_id": "hacker used anthropic's claude to steal mexican data trove",
-      "title": "Hacker Used Anthropic's Claude to Steal Mexican Data Trove",
-      "title_zh": "黑客利用 Anthropic 的 Claude 窃取墨西哥数据宝库",
-      "title_bilingual": "黑客利用 Anthropic 的 Claude 窃取墨西哥数据宝库 / Hacker Used Anthropic's Claude to Steal Mexican Data Trove",
-      "published_at": "2026-03-06T13:15:54Z",
-      "age_hours": 2.81,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/hacker-used-anthropic-s-claude-to-steal-sensitive-mexican-data",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.bloomberg.com/news/articles/2026-02-25/hacker-used-anthropic-s-claude-to-steal-sensitive-mexican-data"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.883,
-        "total_score": 4.01
+        "recency_score": 0.801,
+        "total_score": 3.641
       }
     },
     {
@@ -357,7 +1466,7 @@
       "title_zh": "美国可能如何在伊朗使用人工智能",
       "title_bilingual": "美国可能如何在伊朗使用人工智能 / How the US might be using AI in Iran",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Recode",
@@ -370,8 +1479,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 4.007
+        "recency_score": 0.65,
+        "total_score": 3.64
       }
     },
     {
@@ -380,7 +1489,7 @@
       "title_zh": "每天有超过一百万用户注册 Claude——Anthropic 猛烈抨击其“不合法”的美国政府禁令",
       "title_bilingual": "每天有超过一百万用户注册 Claude——Anthropic 猛烈抨击其“不合法”的美国政府禁令 / More than a million users a day are signing up for Claude — as Anthropic hits out at its 'legally unsound' US government ban",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "TechRadar",
@@ -393,8 +1502,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 4.007
+        "recency_score": 0.65,
+        "total_score": 3.64
       }
     },
     {
@@ -403,7 +1512,7 @@
       "title_zh": "黄仁勋表示 Nvidia 正在退出 OpenAI 和 Anthropic",
       "title_bilingual": "黄仁勋表示 Nvidia 正在退出 OpenAI 和 Anthropic / Jensen Huang Says Nvidia Is Pulling Back From OpenAI and Anthropic",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Slashdot",
@@ -416,8 +1525,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 4.007
+        "recency_score": 0.65,
+        "total_score": 3.64
       }
     },
     {
@@ -426,7 +1535,7 @@
       "title_zh": "OpenAI 发布新的 ChatGPT 模型，用于在 Excel 和 Google Sheets 中工作",
       "title_bilingual": "OpenAI 发布新的 ChatGPT 模型，用于在 Excel 和 Google Sheets 中工作 / OpenAI Releases New ChatGPT Model For Working In Excel and Google Sheets",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Slashdot",
@@ -439,8 +1548,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 4.007
+        "recency_score": 0.65,
+        "total_score": 3.64
       }
     },
     {
@@ -449,7 +1558,7 @@
       "title_zh": "AI行业的内战",
       "title_bilingual": "AI行业的内战 / The AI industry’s civil war",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Recode",
@@ -462,8 +1571,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 4.007
+        "recency_score": 0.65,
+        "total_score": 3.64
       }
     },
     {
@@ -472,7 +1581,7 @@
       "title_zh": "Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 称 OpenAI 围绕军事协议的信息是“彻头彻尾的谎言”",
       "title_bilingual": "Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 称 OpenAI 围绕军事协议的信息是“彻头彻尾的谎言” / Anthropic CEO Dario Amodei Calls OpenAI's Messaging Around Military Deal 'Straight Up Lies'",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Slashdot",
@@ -485,8 +1594,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 4.007
+        "recency_score": 0.65,
+        "total_score": 3.64
       }
     },
     {
@@ -495,7 +1604,7 @@
       "title_zh": "图表显示克劳德在应用下载量竞赛中取代ChatGPT",
       "title_bilingual": "图表显示克劳德在应用下载量竞赛中取代ChatGPT / Chart shows Claude's dethroning of ChatGPT in app downloads race",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Business Insider",
@@ -508,8 +1617,8 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 4.007
+        "recency_score": 0.65,
+        "total_score": 3.64
       }
     },
     {
@@ -518,7 +1627,7 @@
       "title_zh": "OpenAI推出GPT-5.4，具备更强的知识处理能力",
       "title_bilingual": "OpenAI推出GPT-5.4，具备更强的知识处理能力 / OpenAI introduces GPT-5.4 with more knowledge work capability",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "Ars Technica",
@@ -531,78 +1640,123 @@
         "source_weight": 0.95,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 4.007
+        "recency_score": 0.65,
+        "total_score": 3.64
       }
     },
     {
-      "event_id": "show hn: claude code for ipad – agentic ai coding tool with file ops, git, shell",
-      "title": "Show HN: Claude Code for iPad – Agentic AI coding tool with file ops, Git, shell",
-      "title_zh": "Show HN：适用于 iPad 的 Claude Code – 具有文件操作、Git、shell 的 Agentic AI 编码工具",
-      "title_bilingual": "Show HN：适用于 iPad 的 Claude Code – 具有文件操作、Git、shell 的 Agentic AI 编码工具 / Show HN: Claude Code for iPad – Agentic AI coding tool with file ops, Git, shell",
-      "published_at": "2026-03-06T08:00:47Z",
-      "age_hours": 8.06,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://news.ycombinator.com/item?id=47272260",
+      "event_id": "show hn: mychatarchive – 通过mcp将完整的chatgpt聊天记录导入claude",
+      "title": "Show HN: MyChatArchive – 通过MCP将完整的ChatGPT聊天记录导入Claude",
+      "title_zh": "Show HN: MyChatArchive – 通过MCP将完整的ChatGPT聊天记录导入Claude",
+      "title_bilingual": "Show HN: MyChatArchive – 通过MCP将完整的ChatGPT聊天记录导入Claude",
+      "published_at": "2026-03-06T18:21:17.524Z",
+      "age_hours": 5.04,
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "github.com",
+      "url": "https://github.com/1ch1n/mychatarchive",
       "related_count": 1,
       "related_urls": [
-        "https://news.ycombinator.com/item?id=47272260"
+        "https://github.com/1ch1n/mychatarchive"
       ],
       "signals": {
-        "source_weight": 1,
-        "keyword_hits": 4,
+        "source_weight": 0.85,
+        "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.664,
-        "total_score": 3.997
+        "recency_score": 0.79,
+        "total_score": 3.628
       }
     },
     {
-      "event_id": "gpt-5.4",
-      "title": "GPT-5.4",
-      "title_zh": null,
-      "title_bilingual": "GPT-5.4",
-      "published_at": "2026-03-06T14:50:33.570Z",
-      "age_hours": 1.23,
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "source": "hackernews",
-      "url": "https://news.ycombinator.com/item?id=47265045",
-      "related_count": 2,
+      "event_id": "openai发布ai代理安全工具供研究预览",
+      "title": "OpenAI发布AI代理安全工具供研究预览",
+      "title_zh": "OpenAI发布AI代理安全工具供研究预览",
+      "title_bilingual": "OpenAI发布AI代理安全工具供研究预览",
+      "published_at": "2026-03-06T18:06:17.831Z",
+      "age_hours": 5.29,
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/openai-releases-ai-agent-security-tool-for-research-preview",
+      "related_count": 1,
       "related_urls": [
-        "https://news.ycombinator.com/item?id=47265045",
-        "https://openai.com/index/introducing-gpt-5-4"
+        "https://www.bloomberg.com/news/articles/2026-03-06/openai-releases-ai-agent-security-tool-for-research-preview"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.779,
+        "total_score": 3.615
+      }
+    },
+    {
+      "event_id": "anthropic,请创建一个新的slack频道",
+      "title": "Anthropic，请创建一个新的Slack频道",
+      "title_zh": "Anthropic，请创建一个新的Slack频道",
+      "title_bilingual": "Anthropic，请创建一个新的Slack频道",
+      "published_at": "2026-03-06T22:20:35.707Z",
+      "age_hours": 1.06,
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.fivetran.com",
+      "url": "https://www.fivetran.com/blog/anthropic-please-make-a-new-slack",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.fivetran.com/blog/anthropic-please-make-a-new-slack"
       ],
       "signals": {
         "source_weight": 0.85,
         "keyword_hits": 2,
-        "cross_source_count": 2,
-        "recency_score": 0.949,
-        "total_score": 3.968
+        "cross_source_count": 1,
+        "recency_score": 0.956,
+        "total_score": 3.577
       }
     },
     {
-      "event_id": "show hn: metateam: run many claude/codex/gemini cli instances in one terminal ui",
-      "title": "Show HN: Metateam: run many Claude/Codex/Gemini CLI instances in one terminal UI",
-      "title_zh": "Show HN：Metateam：在一个终端 UI 中运行多个 Claude/Codex/Gemini CLI 实例",
-      "title_bilingual": "Show HN：Metateam：在一个终端 UI 中运行多个 Claude/Codex/Gemini CLI 实例 / Show HN: Metateam: run many Claude/Codex/Gemini CLI instances in one terminal UI",
-      "published_at": "2026-03-06T12:24:15Z",
-      "age_hours": 3.67,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://www.metateam.ai/",
+      "event_id": "人工智能代理对人类构成难以估量的风险。我们必须采取行动阻止这样的未来 大卫·克鲁格",
+      "title": "人工智能代理对人类构成难以估量的风险。我们必须采取行动阻止这样的未来 大卫·克鲁格",
+      "title_zh": "人工智能代理对人类构成难以估量的风险。我们必须采取行动阻止这样的未来 大卫·克鲁格",
+      "title_bilingual": "人工智能代理对人类构成难以估量的风险。我们必须采取行动阻止这样的未来 大卫·克鲁格",
+      "published_at": "2026-03-06T17:17:05.141Z",
+      "age_hours": 6.11,
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/commentisfree/2026/mar/06/moltbook-risk-ai-agents-artificial-life",
       "related_count": 1,
       "related_urls": [
-        "https://www.metateam.ai/"
+        "https://www.theguardian.com/commentisfree/2026/mar/06/moltbook-risk-ai-agents-artificial-life"
       ],
       "signals": {
-        "source_weight": 1,
+        "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.847,
-        "total_score": 3.967
+        "recency_score": 0.745,
+        "total_score": 3.574
+      }
+    },
+    {
+      "event_id": "微软称朝鲜特工利用人工智能诱骗西方企业雇佣他们",
+      "title": "微软称朝鲜特工利用人工智能诱骗西方企业雇佣他们",
+      "title_zh": "微软称朝鲜特工利用人工智能诱骗西方企业雇佣他们",
+      "title_bilingual": "微软称朝鲜特工利用人工智能诱骗西方企业雇佣他们",
+      "published_at": "2026-03-06T17:17:05.134Z",
+      "age_hours": 6.11,
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/business/2026/mar/06/north-korean-agents-using-ai-to-trick-western-firms-into-hiring-them-microsoft-says",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.theguardian.com/business/2026/mar/06/north-korean-agents-using-ai-to-trick-western-firms-into-hiring-them-microsoft-says"
+      ],
+      "signals": {
+        "source_weight": 0.85,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.745,
+        "total_score": 3.574
       }
     },
     {
@@ -611,7 +1765,7 @@
       "title_zh": "GPT‑5.4 - OpenAI最高效的模型：更少令牌，更清晰的表达",
       "title_bilingual": "GPT‑5.4 - OpenAI最高效的模型：更少令牌，更清晰的表达",
       "published_at": "2026-03-06T12:13:04.213Z",
-      "age_hours": 3.86,
+      "age_hours": 11.18,
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "www.producthunt.com",
@@ -624,31 +1778,77 @@
         "source_weight": 0.85,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.839,
-        "total_score": 3.937
+        "recency_score": 0.534,
+        "total_score": 3.571
       }
     },
     {
-      "event_id": "business software survives the agentic era",
-      "title": "Business Software Survives the Agentic Era",
-      "title_zh": "商业软件在代理时代幸存下来",
-      "title_bilingual": "商业软件在代理时代幸存下来 / Business Software Survives the Agentic Era",
-      "published_at": "2026-03-06T11:42:26Z",
-      "age_hours": 4.37,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://inmydata.ai/blog/the-incumbents-dilemma",
+      "event_id": "show hn: 一款搭载无人机视频传输功能的人工智能数字夜视系统",
+      "title": "Show HN: 一款搭载无人机视频传输功能的人工智能数字夜视系统",
+      "title_zh": "Show HN: 一款搭载无人机视频传输功能的人工智能数字夜视系统",
+      "title_bilingual": "Show HN: 一款搭载无人机视频传输功能的人工智能数字夜视系统",
+      "published_at": "2026-03-06T22:04:32.241Z",
+      "age_hours": 1.32,
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.indiegogo.com",
+      "url": "https://www.indiegogo.com/en/projects/atx-system/atx-shadow-x1-professional-ai-night-vision",
       "related_count": 1,
       "related_urls": [
-        "https://inmydata.ai/blog/the-incumbents-dilemma"
+        "https://www.indiegogo.com/en/projects/atx-system/atx-shadow-x1-professional-ai-night-vision"
       ],
       "signals": {
-        "source_weight": 1,
+        "source_weight": 0.85,
+        "keyword_hits": 2,
+        "cross_source_count": 1,
+        "recency_score": 0.945,
+        "total_score": 3.564
+      }
+    },
+    {
+      "event_id": "担心人工智能会取代你?看看anthropic发布的这份图表,了解哪些职业面临最大风险",
+      "title": "担心人工智能会取代你？看看Anthropic发布的这份图表，了解哪些职业面临最大风险。",
+      "title_zh": "担心人工智能会取代你？看看Anthropic发布的这份图表，了解哪些职业面临最大风险。",
+      "title_bilingual": "担心人工智能会取代你？看看Anthropic发布的这份图表，了解哪些职业面临最大风险。",
+      "published_at": "2026-03-06T17:01:10.571Z",
+      "age_hours": 6.38,
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.businessinsider.com",
+      "url": "https://www.businessinsider.com/anthropic-is-tracking-the-jobs-most-exposed-to-ai-disruption-2026-3",
+      "related_count": 1,
+      "related_urls": [
+        "https://www.businessinsider.com/anthropic-is-tracking-the-jobs-most-exposed-to-ai-disruption-2026-3"
+      ],
+      "signals": {
+        "source_weight": 0.85,
         "keyword_hits": 3,
         "cross_source_count": 1,
-        "recency_score": 0.818,
-        "total_score": 3.932
+        "recency_score": 0.734,
+        "total_score": 3.561
+      }
+    },
+    {
+      "event_id": "anthropic推出效仿亚马逊模式的人工智能软件商城",
+      "title": "Anthropic推出效仿亚马逊模式的人工智能软件商城",
+      "title_zh": "Anthropic推出效仿亚马逊模式的人工智能软件商城",
+      "title_bilingual": "Anthropic推出效仿亚马逊模式的人工智能软件商城",
+      "published_at": "2026-03-06T20:31:36.010Z",
+      "age_hours": 2.87,
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "Readhub · AI",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqawxx8832485.shtml",
+      "related_count": 1,
+      "related_urls": [
+        "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqawxx8832485.shtml"
+      ],
+      "signals": {
+        "source_weight": 0.75,
+        "keyword_hits": 3,
+        "cross_source_count": 1,
+        "recency_score": 0.88,
+        "total_score": 3.556
       }
     },
     {
@@ -657,7 +1857,7 @@
       "title_zh": "OpenAI深夜祭出GPT-5.4，暴击Claude，原生操控电脑，打工人悬了",
       "title_bilingual": "OpenAI深夜祭出GPT-5.4，暴击Claude，原生操控电脑，打工人悬了",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "tophub",
       "site_name": "TopHub",
       "source": "36氪 · 24小时热榜",
@@ -670,8 +1870,8 @@
         "source_weight": 0.75,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.897
+        "recency_score": 0.65,
+        "total_score": 3.53
       }
     },
     {
@@ -680,7 +1880,7 @@
       "title_zh": "GPT-5.4发布：OpenAI首个大一统模型，简直是龙虾原生",
       "title_bilingual": "GPT-5.4发布：OpenAI首个大一统模型，简直是龙虾原生",
       "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
+      "age_hours": 8.39,
       "site_id": "tophub",
       "site_name": "TopHub",
       "source": "量子位 · 每日最新",
@@ -693,1207 +1893,8 @@
         "source_weight": 0.75,
         "keyword_hits": 4,
         "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.897
-      }
-    },
-    {
-      "event_id": "local llms on m1 macbook and iphone: qwen 9b surprised me",
-      "title": "Local LLMs on M1 MacBook and iPhone: Qwen 9B Surprised Me",
-      "title_zh": "M1 MacBook 和 iPhone 上的本地法学硕士：Qwen 9B 让我感到惊讶",
-      "title_bilingual": "M1 MacBook 和 iPhone 上的本地法学硕士：Qwen 9B 让我感到惊讶 / Local LLMs on M1 MacBook and iPhone: Qwen 9B Surprised Me",
-      "published_at": "2026-03-06T10:59:05Z",
-      "age_hours": 5.09,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://thoughts.jock.pl/p/local-llm-macbook-iphone-qwen-experiment",
-      "related_count": 1,
-      "related_urls": [
-        "https://thoughts.jock.pl/p/local-llm-macbook-iphone-qwen-experiment"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.788,
-        "total_score": 3.896
-      }
-    },
-    {
-      "event_id": "show hn: evalcraft – cassette-based testing for ai agents (pytest, $0/run)",
-      "title": "Show HN: Evalcraft – cassette-based testing for AI agents (pytest, $0/run)",
-      "title_zh": "Show HN：Evalcraft – 基于磁带的 AI 代理测试（pytest，0 美元/运行）",
-      "title_bilingual": "Show HN：Evalcraft – 基于磁带的 AI 代理测试（pytest，0 美元/运行） / Show HN: Evalcraft – cassette-based testing for AI agents (pytest, $0/run)",
-      "published_at": "2026-03-06T10:52:47Z",
-      "age_hours": 5.19,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://github.com/beyhangl/evalcraft",
-      "related_count": 1,
-      "related_urls": [
-        "https://github.com/beyhangl/evalcraft"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.784,
-        "total_score": 3.89
-      }
-    },
-    {
-      "event_id": "anthropic: labor market impacts of ai [pdf]",
-      "title": "Anthropic: Labor market impacts of AI [pdf]",
-      "title_zh": "人择：人工智能对劳动力市场的影响 [pdf]",
-      "title_bilingual": "人择：人工智能对劳动力市场的影响 [pdf] / Anthropic: Labor market impacts of AI [pdf]",
-      "published_at": "2026-03-06T15:37:06Z",
-      "age_hours": 0.46,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://cdn.sanity.io/files/4zrzovbb/website/dc7bcd0224644fce97cecb7f9e68dcd8434b35f1.pdf",
-      "related_count": 1,
-      "related_urls": [
-        "https://cdn.sanity.io/files/4zrzovbb/website/dc7bcd0224644fce97cecb7f9e68dcd8434b35f1.pdf"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.981,
-        "total_score": 3.877
-      }
-    },
-    {
-      "event_id": "red.anthropic.com",
-      "title": "Red.anthropic.com",
-      "title_zh": null,
-      "title_bilingual": "Red.anthropic.com",
-      "published_at": "2026-03-06T15:35:42Z",
-      "age_hours": 0.48,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://red.anthropic.com/",
-      "related_count": 1,
-      "related_urls": [
-        "https://red.anthropic.com/"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.98,
-        "total_score": 3.876
-      }
-    },
-    {
-      "event_id": "softbank eyes up to $40b loan to fund openai investment",
-      "title": "SoftBank eyes up to $40B loan to fund OpenAI investment",
-      "title_zh": "软银计划提供高达 400 亿美元的贷款来资助 OpenAI 投资",
-      "title_bilingual": "软银计划提供高达 400 亿美元的贷款来资助 OpenAI 投资 / SoftBank eyes up to $40B loan to fund OpenAI investment",
-      "published_at": "2026-03-06T15:29:49Z",
-      "age_hours": 0.58,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://www.reuters.com/business/media-telecom/softbank-seeks-up-40-billion-loan-finance-openai-investment-bloomberg-news-2026-03-06",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.reuters.com/business/media-telecom/softbank-seeks-up-40-billion-loan-finance-openai-investment-bloomberg-news-2026-03-06"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.976,
-        "total_score": 3.871
-      }
-    },
-    {
-      "event_id": "oauth is broken for ai agents",
-      "title": "OAuth Is Broken for AI Agents",
-      "title_zh": "AI 代理的 OAuth 被破坏",
-      "title_bilingual": "AI 代理的 OAuth 被破坏 / OAuth Is Broken for AI Agents",
-      "published_at": "2026-03-06T15:19:28Z",
-      "age_hours": 0.75,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://levine.tech/blog/oauth-is-broken",
-      "related_count": 1,
-      "related_urls": [
-        "https://levine.tech/blog/oauth-is-broken"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.969,
-        "total_score": 3.863
-      }
-    },
-    {
-      "event_id": "show hn: agentlore – searchable team log for ai coding agent sessions",
-      "title": "Show HN: Agentlore – searchable team log for AI coding agent sessions",
-      "title_zh": "Show HN: Agentlore——可搜索的团队日志，用于记录AI编码代理会话",
-      "title_bilingual": "Show HN: Agentlore——可搜索的团队日志，用于记录AI编码代理会话 / Show HN: Agentlore – searchable team log for AI coding agent sessions",
-      "published_at": "2026-03-06T15:19:26Z",
-      "age_hours": 0.75,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://github.com/clkao/agentlore",
-      "related_count": 1,
-      "related_urls": [
-        "https://github.com/clkao/agentlore"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.969,
-        "total_score": 3.863
-      }
-    },
-    {
-      "event_id": "8-phase ai agent pipeline from problem description to production release",
-      "title": "8-phase AI agent pipeline from problem description to production release",
-      "title_zh": "从问题描述到生产发布的 8 阶段 AI 代理流程",
-      "title_bilingual": "从问题描述到生产发布的 8 阶段 AI 代理流程 / 8-phase AI agent pipeline from problem description to production release",
-      "published_at": "2026-03-06T15:18:44Z",
-      "age_hours": 0.76,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://friendly-maamoul-bf2dd5.netlify.app/",
-      "related_count": 1,
-      "related_urls": [
-        "https://friendly-maamoul-bf2dd5.netlify.app/"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.968,
-        "total_score": 3.862
-      }
-    },
-    {
-      "event_id": "show hn: corral – an open-source orchestration layer for ai coding agents",
-      "title": "Show HN: Corral – An open-source orchestration layer for AI coding agents",
-      "title_zh": "Show HN: Corral——面向AI编码代理的开源编排层",
-      "title_bilingual": "Show HN: Corral——面向AI编码代理的开源编排层 / Show HN: Corral – An open-source orchestration layer for AI coding agents",
-      "published_at": "2026-03-06T15:17:44Z",
-      "age_hours": 0.78,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://github.com/cdknorow/corral",
-      "related_count": 1,
-      "related_urls": [
-        "https://github.com/cdknorow/corral"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.968,
-        "total_score": 3.861
-      }
-    },
-    {
-      "event_id": "show hn: agent toolbox – 13 utility tools as one mcp server and rest api",
-      "title": "Show HN: Agent Toolbox – 13 utility tools as one MCP server and REST API",
-      "title_zh": "Show HN: 代理工具箱——集13种实用工具于一身的MCP服务器及REST API",
-      "title_bilingual": "Show HN: 代理工具箱——集13种实用工具于一身的MCP服务器及REST API / Show HN: Agent Toolbox – 13 utility tools as one MCP server and REST API",
-      "published_at": "2026-03-06T15:12:37Z",
-      "age_hours": 0.86,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://github.com/Vincentwei1021/agent-toolbox",
-      "related_count": 1,
-      "related_urls": [
-        "https://github.com/Vincentwei1021/agent-toolbox"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.964,
-        "total_score": 3.857
-      }
-    },
-    {
-      "event_id": "show hn: deterministic browser control for ai agents (~90% on mind2web)",
-      "title": "Show HN: Deterministic browser control for AI agents (~90% on Mind2Web)",
-      "title_zh": "Show HN: 面向人工智能代理的确定性浏览器控制（在Mind2Web平台上约90%的成功率）",
-      "title_bilingual": "Show HN: 面向人工智能代理的确定性浏览器控制（在Mind2Web平台上约90%的成功率） / Show HN: Deterministic browser control for AI agents (~90% on Mind2Web)",
-      "published_at": "2026-03-06T15:12:06Z",
-      "age_hours": 0.87,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://github.com/theredsix/agent-browser-protocol",
-      "related_count": 1,
-      "related_urls": [
-        "https://github.com/theredsix/agent-browser-protocol"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.964,
-        "total_score": 3.856
-      }
-    },
-    {
-      "event_id": "show hn: squawk – detect and stop behavioral anti-patterns in ai coding agents",
-      "title": "Show HN: Squawk – Detect and stop behavioral anti-patterns in AI coding agents",
-      "title_zh": "Show HN: Squawk——检测并阻止人工智能编码代理中的行为反模式",
-      "title_bilingual": "Show HN: Squawk——检测并阻止人工智能编码代理中的行为反模式 / Show HN: Squawk – Detect and stop behavioral anti-patterns in AI coding agents",
-      "published_at": "2026-03-06T15:02:37Z",
-      "age_hours": 1.03,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://github.com/Jack-Lin-DS-AI/squawk",
-      "related_count": 1,
-      "related_urls": [
-        "https://github.com/Jack-Lin-DS-AI/squawk"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.957,
-        "total_score": 3.848
-      }
-    },
-    {
-      "event_id": "motion ai kit – ai animation tools for claude, cursor",
-      "title": "Motion AI Kit – AI Animation Tools for Claude, Cursor",
-      "title_zh": "Motion AI Kit – Claude、光标的 AI 动画工具",
-      "title_bilingual": "Motion AI Kit – Claude、光标的 AI 动画工具 / Motion AI Kit – AI Animation Tools for Claude, Cursor",
-      "published_at": "2026-03-06T15:01:42Z",
-      "age_hours": 1.05,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://motion.dev/docs/ai-kit",
-      "related_count": 1,
-      "related_urls": [
-        "https://motion.dev/docs/ai-kit"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.848
-      }
-    },
-    {
-      "event_id": "show hn: 面向人工智能代理的确定性浏览器控制(在mind2web平台上约90%的成功率)",
-      "title": "Show HN: 面向人工智能代理的确定性浏览器控制（在Mind2Web平台上约90%的成功率）",
-      "title_zh": "Show HN: 面向人工智能代理的确定性浏览器控制（在Mind2Web平台上约90%的成功率）",
-      "title_bilingual": "Show HN: 面向人工智能代理的确定性浏览器控制（在Mind2Web平台上约90%的成功率）",
-      "published_at": "2026-03-06T15:25:04.225Z",
-      "age_hours": 0.66,
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "github.com",
-      "url": "https://github.com/theredsix/agent-browser-protocol",
-      "related_count": 1,
-      "related_urls": [
-        "https://github.com/theredsix/agent-browser-protocol"
-      ],
-      "signals": {
-        "source_weight": 0.85,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.973,
-        "total_score": 3.847
-      }
-    },
-    {
-      "event_id": "why the pentagon wants to destroy anthropic",
-      "title": "Why The Pentagon Wants to Destroy Anthropic",
-      "title_zh": "为什么五角大楼想要摧毁人类",
-      "title_bilingual": "为什么五角大楼想要摧毁人类 / Why The Pentagon Wants to Destroy Anthropic",
-      "published_at": "2026-03-06T14:58:43Z",
-      "age_hours": 1.1,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://www.nytimes.com/2026/03/06/opinion/ezra-klein-podcast-dean-ball.html",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.nytimes.com/2026/03/06/opinion/ezra-klein-podcast-dean-ball.html"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.954,
-        "total_score": 3.845
-      }
-    },
-    {
-      "event_id": "what if ai alignment is a skill, not a state",
-      "title": "What if AI alignment is a skill, not a state?",
-      "title_zh": "如果人工智能对齐是一种技能，而不是一种状态怎么办？",
-      "title_bilingual": "如果人工智能对齐是一种技能，而不是一种状态怎么办？ / What if AI alignment is a skill, not a state?",
-      "published_at": "2026-03-06T14:50:56Z",
-      "age_hours": 1.22,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://12gramsofcarbon.com/p/what-if-ai-alignment-is-a-skill-not",
-      "related_count": 1,
-      "related_urls": [
-        "https://12gramsofcarbon.com/p/what-if-ai-alignment-is-a-skill-not"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.949,
-        "total_score": 3.839
-      }
-    },
-    {
-      "event_id": "pentagon designates anthropic a supply chain risk",
-      "title": "Pentagon designates Anthropic a supply chain risk",
-      "title_zh": "五角大楼将 Anthropic 列为供应链风险",
-      "title_bilingual": "五角大楼将 Anthropic 列为供应链风险 / Pentagon designates Anthropic a supply chain risk",
-      "published_at": "2026-03-06T14:50:25Z",
-      "age_hours": 1.23,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://www.semafor.com/article/03/06/2026/pentagon-designates-anthropic-a-supply-chain-risk",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.semafor.com/article/03/06/2026/pentagon-designates-anthropic-a-supply-chain-risk"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.949,
-        "total_score": 3.838
-      }
-    },
-    {
-      "event_id": "ruby on rails homepage updated for \"the agentic age\"",
-      "title": "Ruby on Rails homepage updated for \"the agentic age\"",
-      "title_zh": "Ruby on Rails 主页更新为“代理时代”",
-      "title_bilingual": "Ruby on Rails 主页更新为“代理时代” / Ruby on Rails homepage updated for \"the agentic age\"",
-      "published_at": "2026-03-06T09:48:29Z",
-      "age_hours": 6.27,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://rubyonrails.org/",
-      "related_count": 1,
-      "related_urls": [
-        "https://rubyonrails.org/"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.739,
-        "total_score": 3.837
-      }
-    },
-    {
-      "event_id": "anthropic推出人工智能岗位消亡检测器 - axios",
-      "title": "Anthropic推出人工智能岗位消亡检测器 - Axios",
-      "title_zh": "Anthropic推出人工智能岗位消亡检测器 - Axios",
-      "title_bilingual": "Anthropic推出人工智能岗位消亡检测器 - Axios",
-      "published_at": "2026-03-06T15:09:41.095Z",
-      "age_hours": 0.91,
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53TVNlLWtsVTJEN2dEZ1JOSklpWktZbElfa08tWWlhbFhrc3B6MEhIZi1hQnh0TlBzQnFXMGk5LTZXOTQyYlRZM1daYWREeml0dllZSmJYLUVicU03dEMyYlZlSUl3eFh2?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "related_count": 1,
-      "related_urls": [
-        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53TVNlLWtsVTJEN2dEZ1JOSklpWktZbElfa08tWWlhbFhrc3B6MEhIZi1hQnh0TlBzQnFXMGk5LTZXOTQyYlRZM1daYWREeml0dllZSmJYLUVicU03dEMyYlZlSUl3eFh2?oc=5&hl=en-US&gl=US&ceid=US%3Aen"
-      ],
-      "signals": {
-        "source_weight": 0.85,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.962,
-        "total_score": 3.834
-      }
-    },
-    {
-      "event_id": "阿里巴巴挖角谷歌deepmind研究科学家,加速推进qwen人工智能项目",
-      "title": "阿里巴巴挖角谷歌DeepMind研究科学家，加速推进Qwen人工智能项目",
-      "title_zh": "阿里巴巴挖角谷歌DeepMind研究科学家，加速推进Qwen人工智能项目",
-      "title_bilingual": "阿里巴巴挖角谷歌DeepMind研究科学家，加速推进Qwen人工智能项目",
-      "published_at": "2026-03-06T14:53:22.400Z",
-      "age_hours": 1.18,
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "finance.yahoo.com",
-      "url": "https://finance.yahoo.com/news/alibaba-poaches-google-deepmind-research-143114188.html",
-      "related_count": 1,
-      "related_urls": [
-        "https://finance.yahoo.com/news/alibaba-poaches-google-deepmind-research-143114188.html"
-      ],
-      "signals": {
-        "source_weight": 0.85,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.951,
-        "total_score": 3.821
-      }
-    },
-    {
-      "event_id": "a tool that removes censorship from any open-weight llm with a single click",
-      "title": "A tool that REMOVES censorship from ANY open-weight LLM with a single click",
-      "title_zh": "只需单击一下即可消除任何开放式法学硕士的审查制度的工具",
-      "title_bilingual": "只需单击一下即可消除任何开放式法学硕士的审查制度的工具 / A tool that REMOVES censorship from ANY open-weight LLM with a single click",
-      "published_at": "2026-03-06T14:27:55Z",
-      "age_hours": 1.61,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://github.com/elder-plinius/OBLITERATUS",
-      "related_count": 1,
-      "related_urls": [
-        "https://github.com/elder-plinius/OBLITERATUS"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.933,
-        "total_score": 3.82
-      }
-    },
-    {
-      "event_id": "show hn: let ai agents run real user interviews",
-      "title": "Show HN: Let AI agents run real user interviews",
-      "title_zh": "Show HN: 让人工智能代理执行真实用户访谈",
-      "title_bilingual": "Show HN: 让人工智能代理执行真实用户访谈 / Show HN: Let AI agents run real user interviews",
-      "published_at": "2026-03-06T14:25:30Z",
-      "age_hours": 1.65,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://github.com/junetic/usercall-mcp",
-      "related_count": 1,
-      "related_urls": [
-        "https://github.com/junetic/usercall-mcp"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.931,
-        "total_score": 3.818
-      }
-    },
-    {
-      "event_id": "微软(msft)决心继续深化与openai的合作关系",
-      "title": "微软（MSFT）决心继续深化与OpenAI的合作关系",
-      "title_zh": "微软（MSFT）决心继续深化与OpenAI的合作关系",
-      "title_bilingual": "微软（MSFT）决心继续深化与OpenAI的合作关系",
-      "published_at": "2026-03-06T14:37:09.783Z",
-      "age_hours": 1.45,
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "finance.yahoo.com",
-      "url": "https://finance.yahoo.com/news/microsoft-msft-determined-keep-leveraging-072754419.html",
-      "related_count": 1,
-      "related_urls": [
-        "https://finance.yahoo.com/news/microsoft-msft-determined-keep-leveraging-072754419.html"
-      ],
-      "signals": {
-        "source_weight": 0.85,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.939,
-        "total_score": 3.807
-      }
-    },
-    {
-      "event_id": "ai agents can move money. lobstar proved they can loose it. science can help",
-      "title": "AI Agents Can Move Money. Lobstar Proved They Can Loose It. Science Can Help",
-      "title_zh": "人工智能代理可以转移资金。 Lobstar 证明他们可以摆脱它。科学可以提供帮助",
-      "title_bilingual": "人工智能代理可以转移资金。 Lobstar 证明他们可以摆脱它。科学可以提供帮助 / AI Agents Can Move Money. Lobstar Proved They Can Loose It. Science Can Help",
-      "published_at": "2026-03-06T14:04:03Z",
-      "age_hours": 2.01,
-      "site_id": "hackernews",
-      "site_name": "Hacker News",
-      "source": "Hacker News",
-      "url": "https://blog.icme.io/ai-agents-can-move-money-lobstar-wilde-proved-they-can-lose-it-too",
-      "related_count": 1,
-      "related_urls": [
-        "https://blog.icme.io/ai-agents-can-move-money-lobstar-wilde-proved-they-can-lose-it-too"
-      ],
-      "signals": {
-        "source_weight": 1,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.916,
-        "total_score": 3.8
-      }
-    },
-    {
-      "event_id": "听出来的“真实感”?apple music 新增 ai 标签:封面、作词、编曲全透明,是辅助还是生成一目了然",
-      "title": "听出来的“真实感”？Apple Music 新增 AI 标签：封面、作词、编曲全透明，是辅助还是生成一目了然",
-      "title_zh": "听出来的“真实感”？Apple Music 新增 AI 标签：封面、作词、编曲全透明，是辅助还是生成一目了然",
-      "title_bilingual": "听出来的“真实感”？Apple Music 新增 AI 标签：封面、作词、编曲全透明，是辅助还是生成一目了然",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "source": "AIbase",
-      "url": "https://news.aibase.com/zh/news/26002",
-      "related_count": 1,
-      "related_urls": [
-        "https://news.aibase.com/zh/news/26002"
-      ],
-      "signals": {
-        "source_weight": 1.1,
-        "keyword_hits": 1,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.777
-      }
-    },
-    {
-      "event_id": "千问宣布持续投入“ai办事”:春节期间已完成2亿笔真实订单",
-      "title": "千问宣布持续投入“AI办事”:春节期间已完成2亿笔真实订单",
-      "title_zh": "千问宣布持续投入“AI办事”:春节期间已完成2亿笔真实订单",
-      "title_bilingual": "千问宣布持续投入“AI办事”:春节期间已完成2亿笔真实订单",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "source": "AIbase",
-      "url": "https://news.aibase.com/zh/news/26006",
-      "related_count": 1,
-      "related_urls": [
-        "https://news.aibase.com/zh/news/26006"
-      ],
-      "signals": {
-        "source_weight": 1.1,
-        "keyword_hits": 1,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.777
-      }
-    },
-    {
-      "event_id": "ai 音乐“马斯克”时刻:suno v5与 lyria3联手炸场!全链路智能生产开启,打工人的创意魂稳了",
-      "title": "AI 音乐“马斯克”时刻:Suno v5与 Lyria3联手炸场!全链路智能生产开启，打工人的创意魂稳了?",
-      "title_zh": "AI 音乐“马斯克”时刻:Suno v5与 Lyria3联手炸场!全链路智能生产开启，打工人的创意魂稳了?",
-      "title_bilingual": "AI 音乐“马斯克”时刻:Suno v5与 Lyria3联手炸场!全链路智能生产开启，打工人的创意魂稳了?",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "source": "AIbase",
-      "url": "https://news.aibase.com/zh/news/26004",
-      "related_count": 1,
-      "related_urls": [
-        "https://news.aibase.com/zh/news/26004"
-      ],
-      "signals": {
-        "source_weight": 1.1,
-        "keyword_hits": 1,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.777
-      }
-    },
-    {
-      "event_id": "马云定调 ai 时代胜负手:不在“芯片”在“心跳”,阿里核心高管罕见齐聚云谷谈教育",
-      "title": "马云定调 AI 时代胜负手：不在“芯片”在“心跳”，阿里核心高管罕见齐聚云谷谈教育",
-      "title_zh": "马云定调 AI 时代胜负手：不在“芯片”在“心跳”，阿里核心高管罕见齐聚云谷谈教育",
-      "title_bilingual": "马云定调 AI 时代胜负手：不在“芯片”在“心跳”，阿里核心高管罕见齐聚云谷谈教育",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "source": "AIbase",
-      "url": "https://news.aibase.com/zh/news/26007",
-      "related_count": 1,
-      "related_urls": [
-        "https://news.aibase.com/zh/news/26007"
-      ],
-      "signals": {
-        "source_weight": 1.1,
-        "keyword_hits": 1,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.777
-      }
-    },
-    {
-      "event_id": "​ai 将胜任 80% 岗位!硅谷大佬预言:未来人类无需为生存而工作",
-      "title": "​AI 将胜任 80% 岗位！硅谷大佬预言：未来人类无需为生存而工作",
-      "title_zh": "​AI 将胜任 80% 岗位！硅谷大佬预言：未来人类无需为生存而工作",
-      "title_bilingual": "​AI 将胜任 80% 岗位！硅谷大佬预言：未来人类无需为生存而工作",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "source": "AIbase",
-      "url": "https://news.aibase.com/zh/news/26001",
-      "related_count": 1,
-      "related_urls": [
-        "https://news.aibase.com/zh/news/26001"
-      ],
-      "signals": {
-        "source_weight": 1.1,
-        "keyword_hits": 1,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.777
-      }
-    },
-    {
-      "event_id": "mozilla says claude opus 4.6 found 100+ bugs in firefox in two weeks in january, 14 of them high-severity, more than the bugs typically reported in two months (robert mcmillan/wall street journal)",
-      "title": "Mozilla says Claude Opus 4.6 found 100+ bugs in Firefox in two weeks in January, 14 of them high-severity, more than the bugs typically reported in two months (Robert McMillan/Wall Street Journal)",
-      "title_zh": "Mozilla 表示，Claude Opus 4.6 在 1 月份的两周内在 Firefox 中发现了 100 多个错误，其中 14 个严重程度较高，比通常两个月内报告的错误还要多（Robert McMillan/华尔街日报）",
-      "title_bilingual": "Mozilla 表示，Claude Opus 4.6 在 1 月份的两周内在 Firefox 中发现了 100 多个错误，其中 14 个严重程度较高，比通常两个月内报告的错误还要多（Robert McMillan/华尔街日报） / Mozilla says Claude Opus 4.6 found 100+ bugs in Firefox in two weeks in January, 14 of them high-severity, more than the bugs typically reported in two months (Robert McMillan/Wall Street Journal)",
-      "published_at": "2026-03-06T15:11:27.373Z",
-      "age_hours": 0.88,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Techmeme",
-      "url": "http://www.techmeme.com/260306/p9",
-      "related_count": 1,
-      "related_urls": [
-        "http://www.techmeme.com/260306/p9"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.963,
-        "total_score": 3.766
-      }
-    },
-    {
-      "event_id": "the pentagon officially notifies anthropic that it is a ‘supply chain risk’",
-      "title": "The Pentagon Officially Notifies Anthropic That It Is a ‘Supply Chain Risk’",
-      "title_zh": "五角大楼正式通知 Anthropic 这是一个“供应链风险”",
-      "title_bilingual": "五角大楼正式通知 Anthropic 这是一个“供应链风险” / The Pentagon Officially Notifies Anthropic That It Is a ‘Supply Chain Risk’",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/03/05/technology/anthropic-supply-chain-risk-defense-department.html",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.nytimes.com/2026/03/05/technology/anthropic-supply-chain-risk-defense-department.html"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "anthropic to challenge dod’s supply chain label in court",
-      "title": "Anthropic to challenge DOD’s supply chain label in court",
-      "title_zh": "Anthropic 将在法庭上挑战国防部的供应链标签",
-      "title_bilingual": "Anthropic 将在法庭上挑战国防部的供应链标签 / Anthropic to challenge DOD’s supply chain label in court",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court",
-      "related_count": 1,
-      "related_urls": [
-        "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "dario amodei says anthropic has been \"having productive conversations\" with the dod and apologizes for a leaked memo that criticized trump and sam altman (anthropic)",
-      "title": "Dario Amodei says Anthropic has been \"having productive conversations\" with the DOD and apologizes for a leaked memo that criticized Trump and Sam Altman (Anthropic)",
-      "title_zh": "达里奥·阿莫代 (Dario Amodei) 表示，Anthropic 一直在与国防部“进行富有成效的对话”，并为批评特朗普和萨姆·奥尔特曼 (Sam Altman) 的一份泄露的备忘录道歉。",
-      "title_bilingual": "达里奥·阿莫代 (Dario Amodei) 表示，Anthropic 一直在与国防部“进行富有成效的对话”，并为批评特朗普和萨姆·奥尔特曼 (Sam Altman) 的一份泄露的备忘录道歉。 / Dario Amodei says Anthropic has been \"having productive conversations\" with the DOD and apologizes for a leaked memo that criticized Trump and Sam Altman (Anthropic)",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Techmeme",
-      "url": "http://www.techmeme.com/260305/p59",
-      "related_count": 1,
-      "related_urls": [
-        "http://www.techmeme.com/260305/p59"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "openai had banned military use. the pentagon tested its models through microsoft anyway",
-      "title": "OpenAI Had Banned Military Use. The Pentagon Tested Its Models Through Microsoft Anyway",
-      "title_zh": "OpenAI 已禁止军事用途。五角大楼无论如何都通过微软测试了其模型",
-      "title_bilingual": "OpenAI 已禁止军事用途。五角大楼无论如何都通过微软测试了其模型 / OpenAI Had Banned Military Use. The Pentagon Tested Its Models Through Microsoft Anyway",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/openai-defense-department-ban-military-use-microsoft",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.wired.com/story/openai-defense-department-ban-military-use-microsoft"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "teen boys are using chatgpt as their wingman. what could go wrong",
-      "title": "Teen boys are using ChatGPT as their wingman. What could go wrong?",
-      "title_zh": "十几岁的男孩正在使用 ChatGPT 作为他们的僚机。可能会出什么问题？",
-      "title_bilingual": "十几岁的男孩正在使用 ChatGPT 作为他们的僚机。可能会出什么问题？ / Teen boys are using ChatGPT as their wingman. What could go wrong?",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Recode",
-      "url": "https://www.vox.com/technology/481444/ai-chatgpt-teen-boys-teenagers-dating-relationships",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.vox.com/technology/481444/ai-chatgpt-teen-boys-teenagers-dating-relationships"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "'ai is far from reaching its theoretical capability': anthropic launches new tool to warn us when jobs might lost to ai",
-      "title": "'AI is far from reaching its theoretical capability': Anthropic launches new tool to warn us when jobs might lost to AI",
-      "title_zh": "“人工智能远未达到其理论能力”：Anthropic 推出新工具，在工作可能因人工智能而流失时向我们发出警告",
-      "title_bilingual": "“人工智能远未达到其理论能力”：Anthropic 推出新工具，在工作可能因人工智能而流失时向我们发出警告 / 'AI is far from reaching its theoretical capability': Anthropic launches new tool to warn us when jobs might lost to AI",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/ai-is-far-from-reaching-its-theoretical-capability-anthropic-launches-new-tool-to-warn-us-when-jobs-might-lost-to-ai",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.techradar.com/pro/ai-is-far-from-reaching-its-theoretical-capability-anthropic-launches-new-tool-to-warn-us-when-jobs-might-lost-to-ai"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "apple's m5 max chip achieves a new record in first benchmark result",
-      "title": "Apple's M5 Max Chip Achieves a New Record in First Benchmark Result",
-      "title_zh": "苹果 M5 Max 芯片在首次基准测试中创下新纪录",
-      "title_bilingual": "苹果 M5 Max 芯片在首次基准测试中创下新纪录 / Apple's M5 Max Chip Achieves a New Record in First Benchmark Result",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Mac Rumors",
-      "url": "https://www.macrumors.com/2026/03/05/m5-max-geekbench-benchmarks",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.macrumors.com/2026/03/05/m5-max-geekbench-benchmarks"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "pentagon formally designates anthropic a supply-chain risk",
-      "title": "Pentagon Formally Designates Anthropic a Supply-Chain Risk",
-      "title_zh": "五角大楼正式将 Anthropic 指定为供应链风险",
-      "title_bilingual": "五角大楼正式将 Anthropic 指定为供应链风险 / Pentagon Formally Designates Anthropic a Supply-Chain Risk",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Slashdot",
-      "url": "https://slashdot.org/story/26/03/05/2233247/pentagon-formally-designates-anthropic-a-supply-chain-risk",
-      "related_count": 1,
-      "related_urls": [
-        "https://slashdot.org/story/26/03/05/2233247/pentagon-formally-designates-anthropic-a-supply-chain-risk"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "aws launches a new ai agent platform specifically for health care",
-      "title": "AWS launches a new AI agent platform specifically for health care",
-      "title_zh": "AWS推出专门针对医疗保健的新AI代理平台",
-      "title_bilingual": "AWS推出专门针对医疗保健的新AI代理平台 / AWS launches a new AI agent platform specifically for health care",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platform-health-care-providers",
-      "related_count": 1,
-      "related_urls": [
-        "https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platform-health-care-providers"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "dealflowagent raises $750,000 to automate small business m&a",
-      "title": "DealFlowAgent raises $750,000 to automate small business M&A",
-      "title_zh": "DealFlowAgent 筹集 750,000 美元以实现小企业并购自动化",
-      "title_bilingual": "DealFlowAgent 筹集 750,000 美元以实现小企业并购自动化 / DealFlowAgent raises $750,000 to automate small business M&A",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/dealflowagent-ai-sme-ma-long-journey-ventures",
-      "related_count": 1,
-      "related_urls": [
-        "https://thenextweb.com/news/dealflowagent-ai-sme-ma-long-journey-ventures"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "sources: openai employees claim the dod tested microsoft's azure version of openai models before openai lifted its blanket ban on military use in january 2024 (maxwell zeff/wired)",
-      "title": "Sources: OpenAI employees claim the DOD tested Microsoft's Azure version of OpenAI models before OpenAI lifted its blanket ban on military use in January 2024 (Maxwell Zeff/Wired)",
-      "title_zh": "资料来源：OpenAI 员工声称，在 OpenAI 于 2024 年 1 月解除全面军事用途禁令之前，国防部测试了微软的 Azure 版本的 OpenAI 模型（Maxwell Zeff/Wired）",
-      "title_bilingual": "资料来源：OpenAI 员工声称，在 OpenAI 于 2024 年 1 月解除全面军事用途禁令之前，国防部测试了微软的 Azure 版本的 OpenAI 模型（Maxwell Zeff/Wired） / Sources: OpenAI employees claim the DOD tested Microsoft's Azure version of OpenAI models before OpenAI lifted its blanket ban on military use in January 2024 (Maxwell Zeff/Wired)",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Techmeme",
-      "url": "http://www.techmeme.com/260305/p62",
-      "related_count": 1,
-      "related_urls": [
-        "http://www.techmeme.com/260305/p62"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "diligencesquared uses ai, voice agents to make m&a research affordable",
-      "title": "DiligenceSquared uses AI, voice agents to make M&A research affordable",
-      "title_zh": "DiligenceSquared 使用人工智能、语音代理让并购研究变得经济实惠",
-      "title_bilingual": "DiligenceSquared 使用人工智能、语音代理让并购研究变得经济实惠 / DiligenceSquared uses AI, voice agents to make M&A research affordable",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable",
-      "related_count": 1,
-      "related_urls": [
-        "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "anthropic labelled a supply chain risk by pentagon",
-      "title": "Anthropic labelled a supply chain risk by Pentagon",
-      "title_zh": "人类主义组织誓言就风险认定起诉五角大楼",
-      "title_bilingual": "人类主义组织誓言就风险认定起诉五角大楼 / Anthropic labelled a supply chain risk by Pentagon",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "BBC News",
-      "url": "https://www.bbc.com/news/articles/cn5g3z3xe65o?at_medium=RSS&at_campaign=rss",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.bbc.com/news/articles/cn5g3z3xe65o?at_medium=RSS&at_campaign=rss"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "ai tools can unmask anonymous accounts",
-      "title": "AI tools can unmask anonymous accounts",
-      "title_zh": "人工智能工具可以揭露匿名帐户",
-      "title_bilingual": "人工智能工具可以揭露匿名帐户 / AI tools can unmask anonymous accounts",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/889395/ai-agents-unmask-anonymous-online-accounts",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/889395/ai-agents-unmask-anonymous-online-accounts"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "anthropic makes last-ditch effort to salvage deal with pentagon after blowup",
-      "title": "Anthropic makes last-ditch effort to salvage deal with Pentagon after blowup",
-      "title_zh": "爆炸后，人类为挽救与五角大楼的交易做出了最后的努力",
-      "title_bilingual": "爆炸后，人类为挽救与五角大楼的交易做出了最后的努力 / Anthropic makes last-ditch effort to salvage deal with Pentagon after blowup",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/889782/anthropic-pentagon-discussions-ai-deal",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/889782/anthropic-pentagon-discussions-ai-deal"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "microsoft plans to keep anthropic's tools embedded in client products, after its lawyers determine the dod's designation doesn't apply to non-defense projects (jordan novet/cnbc)",
-      "title": "Microsoft plans to keep Anthropic's tools embedded in client products, after its lawyers determine the DOD's designation doesn't apply to non-defense projects (Jordan Novet/CNBC)",
-      "title_zh": "在其律师确定国防部的指定不适用于非国防项目后，微软计划将 Anthropic 的工具嵌入到客户端产品中（Jordan Novet/CNBC）",
-      "title_bilingual": "在其律师确定国防部的指定不适用于非国防项目后，微软计划将 Anthropic 的工具嵌入到客户端产品中（Jordan Novet/CNBC） / Microsoft plans to keep Anthropic's tools embedded in client products, after its lawyers determine the DOD's designation doesn't apply to non-defense projects (Jordan Novet/CNBC)",
-      "published_at": "2026-03-06T15:00:27.173Z",
-      "age_hours": 1.07,
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Techmeme",
-      "url": "http://www.techmeme.com/260306/p5",
-      "related_count": 1,
-      "related_urls": [
-        "http://www.techmeme.com/260306/p5"
-      ],
-      "signals": {
-        "source_weight": 0.95,
-        "keyword_hits": 2,
-        "cross_source_count": 1,
-        "recency_score": 0.956,
-        "total_score": 3.757
-      }
-    },
-    {
-      "event_id": "[问与答] 有没有 openclaw 调用本地 ollama 大模型的",
-      "title": "[问与答] 有没有 openclaw 调用本地 ollama 大模型的",
-      "title_zh": "[问与答] 有没有 openclaw 调用本地 ollama 大模型的",
-      "title_bilingual": "[问与答] 有没有 openclaw 调用本地 ollama 大模型的",
-      "published_at": "2026-03-06T12:55:11Z",
-      "age_hours": 3.15,
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "source": "V2EX (创意工作者社区)",
-      "url": "https://www.v2ex.com/t/1196414",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.v2ex.com/t/1196414"
-      ],
-      "signals": {
-        "source_weight": 0.85,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.869,
-        "total_score": 3.722
-      }
-    },
-    {
-      "event_id": "a standard protocol to handle and discard low-effort, ai-generated pull requests",
-      "title": "A standard protocol to handle and discard low-effort, AI-Generated pull requests",
-      "title_zh": "用于处理和丢弃省力的 AI 生成的拉取请求的标准协议",
-      "title_bilingual": "用于处理和丢弃省力的 AI 生成的拉取请求的标准协议 / A standard protocol to handle and discard low-effort, AI-Generated pull requests",
-      "published_at": "2026-03-06T14:50:33.570Z",
-      "age_hours": 1.23,
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "source": "hackernews",
-      "url": "https://news.ycombinator.com/item?id=47267947",
-      "related_count": 2,
-      "related_urls": [
-        "https://news.ycombinator.com/item?id=47267947",
-        "https://406.fail/"
-      ],
-      "signals": {
-        "source_weight": 0.85,
-        "keyword_hits": 1,
-        "cross_source_count": 2,
-        "recency_score": 0.949,
-        "total_score": 3.718
-      }
-    },
-    {
-      "event_id": "labor market impacts of ai: a new measure and early evidence",
-      "title": "Labor market impacts of AI: A new measure and early evidence",
-      "title_zh": "人工智能对劳动力市场的影响：新措施和早期证据",
-      "title_bilingual": "人工智能对劳动力市场的影响：新措施和早期证据 / Labor market impacts of AI: A new measure and early evidence",
-      "published_at": "2026-03-06T14:50:33.570Z",
-      "age_hours": 1.23,
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "source": "hackernews",
-      "url": "https://news.ycombinator.com/item?id=47268391",
-      "related_count": 2,
-      "related_urls": [
-        "https://news.ycombinator.com/item?id=47268391",
-        "https://www.anthropic.com/research/labor-market-impacts"
-      ],
-      "signals": {
-        "source_weight": 0.85,
-        "keyword_hits": 1,
-        "cross_source_count": 2,
-        "recency_score": 0.949,
-        "total_score": 3.718
-      }
-    },
-    {
-      "event_id": "ai and the ship of theseus",
-      "title": "AI and the Ship of Theseus",
-      "title_zh": "人工智能和忒修斯之船",
-      "title_bilingual": "人工智能和忒修斯之船 / AI and the Ship of Theseus",
-      "published_at": "2026-03-06T14:50:33.570Z",
-      "age_hours": 1.23,
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "source": "hackernews",
-      "url": "https://news.ycombinator.com/item?id=47263048",
-      "related_count": 2,
-      "related_urls": [
-        "https://news.ycombinator.com/item?id=47263048",
-        "https://lucumr.pocoo.org/2026/3/5/theseus"
-      ],
-      "signals": {
-        "source_weight": 0.85,
-        "keyword_hits": 1,
-        "cross_source_count": 2,
-        "recency_score": 0.949,
-        "total_score": 3.718
-      }
-    },
-    {
-      "event_id": "[openai] gpt-5.4 thinking 依然过不了洗车测试",
-      "title": "[OpenAI] GPT-5.4 Thinking 依然过不了洗车测试",
-      "title_zh": "[OpenAI] GPT-5.4 Thinking 依然过不了洗车测试",
-      "title_bilingual": "[OpenAI] GPT-5.4 Thinking 依然过不了洗车测试",
-      "published_at": "2026-03-06T12:32:34Z",
-      "age_hours": 3.53,
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "source": "V2EX (创意工作者社区)",
-      "url": "https://www.v2ex.com/t/1196407",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.v2ex.com/t/1196407"
-      ],
-      "signals": {
-        "source_weight": 0.85,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.853,
-        "total_score": 3.703
-      }
-    },
-    {
-      "event_id": "gpt‐5.3 instant in chatgpt",
-      "title": "GPT‑5.3 Instant in ChatGPT",
-      "title_zh": "ChatGPT 中的 GPT‑5.3 即时功能",
-      "title_bilingual": "ChatGPT 中的 GPT‑5.3 即时功能 / GPT‑5.3 Instant in ChatGPT",
-      "published_at": "2026-03-06T15:29:23.234Z",
-      "age_hours": 0.58,
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "Product Hunt · 今日新产品",
-      "url": "https://www.producthunt.com/products/openai",
-      "related_count": 1,
-      "related_urls": [
-        "https://www.producthunt.com/products/openai"
-      ],
-      "signals": {
-        "source_weight": 0.75,
-        "keyword_hits": 3,
-        "cross_source_count": 1,
-        "recency_score": 0.976,
-        "total_score": 3.671
+        "recency_score": 0.65,
+        "total_score": 3.53
       }
     }
   ]
