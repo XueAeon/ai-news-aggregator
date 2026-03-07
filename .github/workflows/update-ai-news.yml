@@ -112,7 +112,11 @@ jobs:
             git config user.name "github-actions-bot"
             git config user.email "41898282+github-actions-bot@users.noreply.github.com"
             git commit -m "chore: update ai news snapshot"
-            git push
+            git pull --rebase origin main || { git rebase --abort; exit 1; }
+            git push origin HEAD:main || {
+              git pull --rebase origin main
+              git push origin HEAD:main
+            }
           fi
 
       - name: Generate OPML JSON
